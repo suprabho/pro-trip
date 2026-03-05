@@ -20,18 +20,21 @@ const emojiBgMap: Record<number, string> = {
   1: "bg-[#fde8e2]",
   2: "bg-[#e2eafe]",
   3: "bg-[#e2f5ec]",
+  4: "bg-[#e8e8f0]",
 };
 
 const activeBorderMap: Record<number, string> = {
   1: "border-l-day1",
   2: "border-l-day2",
   3: "border-l-day3",
+  4: "border-l-[#666]",
 };
 
 const dayLabelColorMap: Record<number, string> = {
   1: "text-day1",
   2: "text-day2",
   3: "text-day3",
+  4: "text-[#666]",
 };
 
 export function Sidebar({ activeDay, activeStop, onStopClick, onTodoClick }: SidebarProps) {
@@ -49,7 +52,8 @@ export function Sidebar({ activeDay, activeStop, onStopClick, onTodoClick }: Sid
           subtitle: DAYS[activeDay].subtitle,
         };
 
-  const days = activeDay === "all" ? [1, 2, 3] : [activeDay];
+  const allDayNums = Object.keys(DAYS).map(Number).sort((a, b) => a - b);
+  const days = activeDay === "all" ? allDayNums : [activeDay];
 
   return (
     <aside className="w-full md:w-[380px] shrink-0 bg-paper border-b md:border-b-0 md:border-r border-line flex flex-col overflow-hidden h-[46vh] md:h-auto">
@@ -91,9 +95,21 @@ export function Sidebar({ activeDay, activeStop, onStopClick, onTodoClick }: Sid
                     <p className="font-serif text-[17px] font-semibold leading-tight mb-0.5">
                       {DAYS[dayNum].airport!.name}
                     </p>
-                    <span className="inline-block mt-0.5 bg-warm rounded-full px-2.5 py-0.5 text-[10.5px] text-muted-foreground">
-                      {DAYS[dayNum].airport!.code}
-                    </span>
+                    <div className="flex flex-wrap gap-1.5 mt-1">
+                      <span className="inline-block bg-warm rounded-full px-2.5 py-0.5 text-[10.5px] text-muted-foreground">
+                        {DAYS[dayNum].airport!.code}
+                      </span>
+                      {DAYS[dayNum].airport!.flightNumber && (
+                        <span className="inline-block bg-[#e8e8f0] rounded-full px-2.5 py-0.5 text-[10.5px] font-medium text-[#444]">
+                          {DAYS[dayNum].airport!.flightNumber}
+                        </span>
+                      )}
+                    </div>
+                    {(DAYS[dayNum].airport!.date || DAYS[dayNum].airport!.time) && (
+                      <p className="text-[11.5px] text-muted-foreground mt-1">
+                        {DAYS[dayNum].airport!.date}{DAYS[dayNum].airport!.date && DAYS[dayNum].airport!.time ? " · " : ""}{DAYS[dayNum].airport!.time}
+                      </p>
+                    )}
                   </div>
                 </div>
               )}

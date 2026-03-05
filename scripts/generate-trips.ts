@@ -33,6 +33,9 @@ interface Airport {
   code: string;
   lat: number;
   lng: number;
+  date?: string;
+  time?: string;
+  flightNumber?: string;
 }
 
 interface DayData {
@@ -164,9 +167,14 @@ function parseTrip(filePath: string): Trip {
           break;
         }
         case "airport": {
-          const [name, code, coords] = comment.value.split("|").map((s) => s.trim());
+          const parts = comment.value.split("|").map((s) => s.trim());
+          const [name, code, coords] = parts;
           const [lat, lng] = coords.split(",").map((s) => parseFloat(s.trim()));
-          day.airport = { name, code, lat, lng };
+          const airport: Airport = { name, code, lat, lng };
+          if (parts[3]) airport.date = parts[3];
+          if (parts[4]) airport.time = parts[4];
+          if (parts[5]) airport.flightNumber = parts[5];
+          day.airport = airport;
           break;
         }
       }
@@ -270,6 +278,9 @@ export interface Airport {
   code: string;
   lat: number;
   lng: number;
+  date?: string;
+  time?: string;
+  flightNumber?: string;
 }
 
 export interface DayData {

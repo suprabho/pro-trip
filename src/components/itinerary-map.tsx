@@ -193,9 +193,21 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
               <p className="font-serif text-[17px] font-bold leading-tight text-[#111]">
                 {d.airport.name}
               </p>
-              <span className="inline-block mt-1 text-[10.5px] text-[#888] bg-[#f0f0f8] rounded-xl px-2.5 py-0.5">
-                {d.airport.code}
-              </span>
+              <div className="flex flex-wrap gap-1 mt-1">
+                <span className="inline-block text-[10.5px] text-[#888] bg-[#f0f0f8] rounded-xl px-2.5 py-0.5">
+                  {d.airport.code}
+                </span>
+                {d.airport.flightNumber && (
+                  <span className="inline-block text-[10.5px] font-medium text-[#555] bg-[#e8e8f0] rounded-xl px-2.5 py-0.5">
+                    {d.airport.flightNumber}
+                  </span>
+                )}
+              </div>
+              {(d.airport.date || d.airport.time) && (
+                <p className="mt-1 text-[11px] text-[#888]">
+                  {d.airport.date}{d.airport.date && d.airport.time ? " · " : ""}{d.airport.time}
+                </p>
+              )}
             </div>
           </Popup>
         </Marker>
@@ -205,7 +217,8 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
 }
 
 export function ItineraryMap({ activeDay, focusedStop }: ItineraryMapProps) {
-  const days = activeDay === "all" ? [1, 2, 3] : [activeDay as number];
+  const allDayNums = Object.keys(DAYS).map(Number).sort((a, b) => a - b);
+  const days = activeDay === "all" ? allDayNums : [activeDay as number];
 
   return (
     <MapContainer
