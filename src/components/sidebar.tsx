@@ -62,7 +62,7 @@ export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
           {headerInfo.subtitle}
         </p>
       </div>
-      <ScrollArea className="flex-1">
+      <ScrollArea className="flex-1 overflow-hidden">
         <div className="py-1.5 pb-5">
           {days.map((dayNum) => (
             <div key={dayNum}>
@@ -78,6 +78,7 @@ export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
                   </p>
                 </div>
               )}
+              <div className="flex flex-row">
               {DAYS[dayNum].airport && (
                 <div className="flex gap-3 px-[22px] py-2.5 border-l-[3px] border-l-transparent">
                   <div className="w-8 h-8 rounded-full flex items-center justify-center text-[15px] shrink-0 mt-0.5 bg-[#e8e8f0]">
@@ -111,7 +112,9 @@ export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
                   </div>
                 </div>
               )}
-              <div className="h-px bg-line mx-[22px] my-1" />
+              </div>
+              <div className="flex flex-col flex-1 overflow-y-scroll h-px bg-line mx-[22px] my-1" />
+              <div className="flex flex-col flex-1">
               {DAYS[dayNum].stops.map((stop, i) => (
                 <div
                   key={`${dayNum}-${i}`}
@@ -149,6 +152,8 @@ export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
                   </div>
                 </div>
               ))}
+              </div>
+              
             </div>
           ))}
         </div>

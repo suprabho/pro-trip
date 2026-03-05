@@ -3,7 +3,9 @@
 import { useState, useCallback } from "react";
 import dynamic from "next/dynamic";
 import { TopBar } from "@/components/top-bar";
+import type { DayValue } from "@/components/top-bar";
 import { Sidebar } from "@/components/sidebar";
+import { getTripById } from "@/lib/generated-trips";
 import type { Stop } from "@/lib/generated-trips";
 
 const ItineraryMap = dynamic(
@@ -17,7 +19,7 @@ const ItineraryMap = dynamic(
   }
 );
 
-type DayValue = 1 | 2 | 3 | "all";
+const trip = getTripById("new-york")!;
 
 export default function NewYorkTrip() {
   const [activeDay, setActiveDay] = useState<DayValue>(1);
@@ -37,7 +39,7 @@ export default function NewYorkTrip() {
 
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-paper text-ink font-sans">
-      <TopBar activeDay={activeDay} onDayChange={handleDayChange} />
+      <TopBar trip={trip} activeDay={activeDay} onDayChange={handleDayChange} />
       <div className="flex-1 flex flex-col md:flex-row overflow-hidden">
         <Sidebar
           activeDay={activeDay}
