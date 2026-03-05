@@ -113,6 +113,7 @@ Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick v
 ### 7:00 PM | 🌃 | Back to Manhattan — Evening in NoHo
 Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village.
 > Tip: Walk back over the bridge at dusk for the reverse skyline view
+<!-- location: 40.7261, -73.9923 -->
 
 ## Day 3: West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
