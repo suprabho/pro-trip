@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { TopBar } from "@/components/top-bar";
 import type { DayValue } from "@/components/top-bar";
 import { Sidebar } from "@/components/sidebar";
+import { TodoDialog } from "@/components/todo-dialog";
 import { getTripById } from "@/lib/generated-trips";
 import type { Stop } from "@/lib/generated-trips";
 
@@ -25,6 +26,7 @@ export default function NewYorkTrip() {
   const [activeDay, setActiveDay] = useState<DayValue>(1);
   const [activeStop, setActiveStop] = useState<string | null>(null);
   const [focusedStop, setFocusedStop] = useState<Stop | null>(null);
+  const [todoStop, setTodoStop] = useState<Stop | null>(null);
 
   const handleDayChange = useCallback((day: DayValue) => {
     setActiveDay(day);
@@ -45,11 +47,20 @@ export default function NewYorkTrip() {
           activeDay={activeDay}
           activeStop={activeStop}
           onStopClick={handleStopClick}
+          onTodoClick={setTodoStop}
         />
         <div className="flex-1 relative">
           <ItineraryMap activeDay={activeDay} focusedStop={focusedStop} />
         </div>
       </div>
+
+      {todoStop && todoStop.todos && (
+        <TodoDialog
+          open={!!todoStop}
+          onOpenChange={(open) => !open && setTodoStop(null)}
+          stop={todoStop}
+        />
+      )}
     </div>
   );
 }

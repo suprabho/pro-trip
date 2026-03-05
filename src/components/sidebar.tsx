@@ -7,12 +7,13 @@ const trip = getTripById("new-york")!;
 const DAYS = trip.days;
 import { cn } from "@/lib/utils";
 
-type DayValue = 1 | 2 | 3 | "all";
+import type { DayValue } from "@/components/top-bar";
 
 interface SidebarProps {
   activeDay: DayValue;
   activeStop: string | null;
   onStopClick: (stop: Stop, day: number) => void;
+  onTodoClick: (stop: Stop) => void;
 }
 
 const emojiBgMap: Record<number, string> = {
@@ -33,7 +34,8 @@ const dayLabelColorMap: Record<number, string> = {
   3: "text-day3",
 };
 
-export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
+export function Sidebar({ activeDay, activeStop, onStopClick, onTodoClick }: SidebarProps) {
+
   const headerInfo =
     activeDay === "all"
       ? {
@@ -149,15 +151,34 @@ export function Sidebar({ activeDay, activeStop, onStopClick }: SidebarProps) {
                         {stop.tip}
                       </span>
                     )}
+                    <div className="flex items-center gap-2 mt-1.5 flex-wrap">
+                      {stop.suggestedBy && (
+                        <span className="inline-flex items-center gap-1 bg-[#f0eaff] rounded-full px-2.5 py-0.5 text-[10.5px] text-[#6b47b8]">
+                          <span className="opacity-70">by</span> {stop.suggestedBy}
+                        </span>
+                      )}
+                      {stop.todos && stop.todos.length > 0 && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onTodoClick(stop);
+                          }}
+                          className="inline-flex items-center gap-1 bg-[#fef3e2] hover:bg-[#fde8c8] rounded-full px-2.5 py-0.5 text-[10.5px] text-[#9a6b2c] transition-colors cursor-pointer"
+                        >
+                          {stop.todos.filter((t) => t.done).length}/{stop.todos.length} todos
+                        </button>
+                      )}
+                    </div>
                   </div>
                 </div>
               ))}
               </div>
-              
+
             </div>
           ))}
         </div>
       </ScrollArea>
+
     </aside>
   );
 }

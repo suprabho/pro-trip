@@ -4,6 +4,12 @@ import * as path from "path";
 const CONTENT_DIR = path.join(__dirname, "..", "content", "trips");
 const OUTPUT_FILE = path.join(__dirname, "..", "src", "lib", "generated-trips.ts");
 
+interface Todo {
+  note: string;
+  link?: string;
+  done: boolean;
+}
+
 interface Stop {
   time: string;
   emoji: string;
@@ -12,6 +18,8 @@ interface Stop {
   tip?: string;
   lat: number;
   lng: number;
+  suggestedBy?: string;
+  todos?: Todo[];
 }
 
 interface Stay {
@@ -186,9 +194,27 @@ function parseTrip(filePath: string): Trip {
       continue;
     }
 
+    // suggestedBy comment
+    if (comment && comment.key === "suggestedBy" && currentStop) {
+      currentStop.suggestedBy = comment.value;
+      continue;
+    }
+
     // Tip line
     if (trimmed.startsWith("> Tip:") && currentStop) {
       currentStop.tip = trimmed.replace(/^> Tip:\s*/, "");
+      continue;
+    }
+
+    // Todo item: - [ ] note | link  or  - [x] note | link
+    const todoMatch = trimmed.match(/^- \[([ x])\]\s*(.+)$/);
+    if (todoMatch && currentStop) {
+      const done = todoMatch[1] === "x";
+      const parts = todoMatch[2].split("|").map((s) => s.trim());
+      const todo: Todo = { note: parts[0], done };
+      if (parts[1]) todo.link = parts[1];
+      if (!currentStop.todos) currentStop.todos = [];
+      currentStop.todos.push(todo);
       continue;
     }
 
@@ -215,6 +241,12 @@ function generate() {
   const output = `// Auto-generated from content/trips/*.md — do not edit manually
 // Run "npm run generate" to regenerate
 
+export interface Todo {
+  note: string;
+  link?: string;
+  done: boolean;
+}
+
 export interface Stop {
   time: string;
   emoji: string;
@@ -223,6 +255,8 @@ export interface Stop {
   tip?: string;
   lat: number;
   lng: number;
+  suggestedBy?: string;
+  todos?: Todo[];
 }
 
 export interface Stay {

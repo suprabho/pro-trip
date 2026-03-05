@@ -1,6 +1,12 @@
 // Auto-generated from content/trips/*.md — do not edit manually
 // Run "npm run generate" to regenerate
 
+export interface Todo {
+  note: string;
+  link?: string;
+  done: boolean;
+}
+
 export interface Stop {
   time: string;
   emoji: string;
@@ -9,6 +15,8 @@ export interface Stop {
   tip?: string;
   lat: number;
   lng: number;
+  suggestedBy?: string;
+  todos?: Todo[];
 }
 
 export interface Stay {
@@ -61,7 +69,7 @@ export const TRIPS: TripData[] = [
       "emoji": "🗽",
       "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
       "color": "#c94f2c",
-      "days": 3,
+      "days": 4,
       "stops": 16
     },
     "days": {
@@ -83,6 +91,18 @@ export const TRIPS: TripData[] = [
             "tip": "Uber from LGA ~40 min",
             "lat": 40.7261,
             "lng": -73.9923,
+            "suggestedBy": "Suprabh",
+            "todos": [
+              {
+                "note": "Confirm hotel reservation",
+                "done": false,
+                "link": "https://nownownoho.com"
+              },
+              {
+                "note": "Book Uber from LGA",
+                "done": true
+              }
+            ],
             "desc": "338 Bowery, NoHo. Drop your bags, freshen up. You're 10 mins walk from everything."
           },
           {
@@ -92,6 +112,7 @@ export const TRIPS: TripData[] = [
             "tip": "No agenda needed. Just wander.",
             "lat": 40.7336,
             "lng": -74.0027,
+            "suggestedBy": "Suprabh",
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
@@ -101,6 +122,7 @@ export const TRIPS: TripData[] = [
             "tip": "10-min walk from your hotel",
             "lat": 40.7309,
             "lng": -73.9973,
+            "suggestedBy": "Suprabh",
             "desc": "The iconic arch, the fountain, NYU students everywhere. Golden hour hits the arch beautifully."
           },
           {
@@ -110,6 +132,13 @@ export const TRIPS: TripData[] = [
             "tip": "💵 Cash only · ATM right outside",
             "lat": 40.7307,
             "lng": -74.0022,
+            "suggestedBy": "Aarav",
+            "todos": [
+              {
+                "note": "Withdraw cash from ATM before going",
+                "done": false
+              }
+            ],
             "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
           },
           {
@@ -119,6 +148,7 @@ export const TRIPS: TripData[] = [
             "tip": "Walk south from your hotel",
             "lat": 40.7163,
             "lng": -74.0086,
+            "suggestedBy": "Suprabh",
             "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy."
           }
         ],
@@ -154,6 +184,18 @@ export const TRIPS: TripData[] = [
             "tip": "🎟 Pre-book online · Closed Tuesdays",
             "lat": 40.7116,
             "lng": -74.0133,
+            "suggestedBy": "Suprabh",
+            "todos": [
+              {
+                "note": "Book museum tickets online",
+                "done": false,
+                "link": "https://www.911memorial.org/visit/museum/tickets"
+              },
+              {
+                "note": "Check if open on our travel day (closed Tuesdays)",
+                "done": false
+              }
+            ],
             "desc": "Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside."
           },
           {
@@ -163,6 +205,7 @@ export const TRIPS: TripData[] = [
             "tip": "📍 Start from City Hall Park side",
             "lat": 40.7061,
             "lng": -73.9969,
+            "suggestedBy": "Aarav",
             "desc": "From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close."
           },
           {
@@ -172,6 +215,7 @@ export const TRIPS: TripData[] = [
             "tip": "📸 Washington St for the iconic bridge shot",
             "lat": 40.703,
             "lng": -73.9956,
+            "suggestedBy": "Suprabh",
             "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view."
           },
           {
@@ -181,6 +225,7 @@ export const TRIPS: TripData[] = [
             "tip": "🌶 Ask for extra white sauce",
             "lat": 40.7618,
             "lng": -73.9794,
+            "suggestedBy": "Aarav",
             "desc": "The OG halal cart — gyro over rice with white sauce. $13 for a massive bowl."
           },
           {
@@ -190,6 +235,7 @@ export const TRIPS: TripData[] = [
             "tip": "Open until 8 PM",
             "lat": 40.748,
             "lng": -74.0048,
+            "suggestedBy": "Suprabh",
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
@@ -199,6 +245,18 @@ export const TRIPS: TripData[] = [
             "tip": "🎟 Book ahead · Sunset slot is best",
             "lat": 40.7534,
             "lng": -74.0011,
+            "suggestedBy": "Suprabh",
+            "todos": [
+              {
+                "note": "Book Edge tickets for sunset slot",
+                "done": false,
+                "link": "https://www.edgenyc.com/en/tickets"
+              },
+              {
+                "note": "Check sunset time for our travel date",
+                "done": true
+              }
+            ],
             "desc": "100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings."
           }
         ],
@@ -228,6 +286,18 @@ export const TRIPS: TripData[] = [
             "tip": "🎟 Book ferry + pedestal tickets in advance",
             "lat": 40.7014,
             "lng": -74.0154,
+            "suggestedBy": "Suprabh",
+            "todos": [
+              {
+                "note": "Book ferry + pedestal tickets",
+                "done": false,
+                "link": "https://www.statuecruises.com"
+              },
+              {
+                "note": "Check ferry schedule",
+                "done": false
+              }
+            ],
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
@@ -237,6 +307,7 @@ export const TRIPS: TripData[] = [
             "tip": "👟 Wear your most comfortable shoes",
             "lat": 40.7826,
             "lng": -73.9656,
+            "suggestedBy": "Aarav",
             "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
           },
           {
@@ -246,6 +317,18 @@ export const TRIPS: TripData[] = [
             "tip": "🗺 Grab a floor map · Closed Wednesdays",
             "lat": 40.7794,
             "lng": -73.9632,
+            "suggestedBy": "Suprabh",
+            "todos": [
+              {
+                "note": "Buy MET tickets",
+                "done": false,
+                "link": "https://www.metmuseum.org/visit/tickets"
+              },
+              {
+                "note": "Check if open on our day (closed Wednesdays)",
+                "done": false
+              }
+            ],
             "desc": "Plan 2–3 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep."
           },
           {
@@ -255,6 +338,7 @@ export const TRIPS: TripData[] = [
             "tip": "Lots of great spots nearby",
             "lat": 40.7771,
             "lng": -73.959,
+            "suggestedBy": "Suprabh",
             "desc": "Rest your feet after the MET. Great cafés on Madison Ave around 82nd–86th before heading back downtown."
           },
           {
@@ -264,6 +348,14 @@ export const TRIPS: TripData[] = [
             "tip": "📸 Great for photos · Open until 10 PM",
             "lat": 40.7397,
             "lng": -74.0029,
+            "suggestedBy": "Aarav",
+            "todos": [
+              {
+                "note": "Book tickets online",
+                "done": false,
+                "link": "https://museumofillusions.com/new-york"
+              }
+            ],
             "desc": "Fun, photo-rich hour in Chelsea — Vortex Tunnel, Ames Room, Infinity Mirrors."
           }
         ],
@@ -280,6 +372,19 @@ export const TRIPS: TripData[] = [
           "lat": 40.7769,
           "lng": -73.874
         }
+      },
+      "4": {
+        "label": "Day 4",
+        "title": "Departure",
+        "subtitle": "",
+        "color": "#666",
+        "center": [
+          0,
+          0
+        ],
+        "zoom": 12,
+        "stops": [],
+        "stays": []
       }
     }
   }

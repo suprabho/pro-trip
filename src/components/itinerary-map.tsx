@@ -12,11 +12,10 @@ import {
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { getTripById, type Stop } from "@/lib/generated-trips";
+import type { DayValue } from "@/components/top-bar";
 
 const trip = getTripById("new-york")!;
 const DAYS = trip.days;
-
-type DayValue = 1 | 2 | 3 | "all";
 
 interface ItineraryMapProps {
   activeDay: DayValue;
