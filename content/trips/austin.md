@@ -140,7 +140,7 @@ South Congress institution since 1955. Rockabilly, country, blues — the real A
 <!-- center: 30.284, -97.740 -->
 <!-- zoom: 14 -->
 <!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
-<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 11, 2026 | 6:30 PM | WN2204 -->
+<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 11, 2026 | 6:00 PM | WN2091 -->
 
 ### 9:00 AM | ☕ | Jo's Coffee — South Congress
 The original Jo's on South Congress. Good coffee, great vibes, and the famous "I love you so much" mural if you missed it yesterday.

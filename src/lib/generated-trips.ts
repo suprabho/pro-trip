@@ -433,8 +433,8 @@ export const TRIPS: TripData[] = [
           "lat": 30.1975,
           "lng": -97.6664,
           "date": "Mar 11, 2026",
-          "time": "6:30 PM",
-          "flightNumber": "WN2204"
+          "time": "6:00 PM",
+          "flightNumber": "WN2091"
         }
       }
     }
