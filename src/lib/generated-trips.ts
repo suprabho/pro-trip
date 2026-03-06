@@ -73,12 +73,12 @@ export const TRIPS: TripData[] = [
       "city": "Austin",
       "subtitle": "5 Day Itinerary",
       "emoji": "🤠",
-      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
+      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park",
       "startDate": "2026-03-08",
       "endDate": "2026-03-12",
       "color": "#e85d26",
       "days": 5,
-      "stops": 28
+      "stops": 27
     },
     "days": {
       "1": {
@@ -370,15 +370,15 @@ export const TRIPS: TripData[] = [
             "desc": "Wrap up the conference — final panels, networking, and closing remarks."
           },
           {
-            "time": "4:30 PM",
-            "emoji": "🌊",
-            "name": "Lady Bird Lake — Hike & Bike Trail",
-            "tip": "👟 Flat, paved path · 20-min walk segment is plenty · Kayak rentals available too",
-            "lat": 30.2515,
-            "lng": -97.751,
+            "time": "4:00 PM",
+            "emoji": "🌳",
+            "name": "Zilker Park & Lady Bird Lake",
+            "tip": "👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse",
+            "lat": 30.2669,
+            "lng": -97.7729,
             "suggestedBy": "Suprabho",
             "tag": "Walk",
-            "desc": "10-mile urban trail around the lake. Walk the southern section from South Congress to Lamar — beautiful at golden hour."
+            "desc": "351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water, relax on the great lawn, or rent a kayak. Barton Springs Pool is here too if it's warm enough for a dip."
           },
           {
             "time": "7:00 PM",
@@ -413,12 +413,12 @@ export const TRIPS: TripData[] = [
       },
       "4": {
         "label": "Day 4 · Explore Austin",
-        "title": "UT Campus, Museums & Capitol",
-        "subtitle": "UT Campus · Blanton Museum · Texas State Capitol · Farewell Dinner",
+        "title": "Capitol, West 6th & Farewell",
+        "subtitle": "Texas State Capitol · West 6th Street · Farewell Dinner",
         "color": "#bf5700",
         "center": [
-          30.284,
-          -97.74
+          30.27,
+          -97.748
         ],
         "zoom": 14,
         "stops": [
@@ -446,28 +446,6 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "11:30 AM",
-            "emoji": "🎓",
-            "name": "UT Austin Campus Walk",
-            "tip": "📸 Tower is the iconic shot · 5-min walk from the Capitol · Campus is open to visitors",
-            "lat": 30.2849,
-            "lng": -97.7341,
-            "suggestedBy": "Suprabho",
-            "tag": "Walk",
-            "desc": "Walk the Forty Acres — the Main Building tower, the Littlefield Fountain, South Mall. One of the most beautiful campuses in the country."
-          },
-          {
-            "time": "12:30 PM",
-            "emoji": "🎨",
-            "name": "Blanton Museum of Art",
-            "tip": "🎟 Free on Thursdays · Ellsworth Kelly building is outside the main museum · 200 E MLK Blvd",
-            "lat": 30.2808,
-            "lng": -97.737,
-            "suggestedBy": "Suprabho",
-            "tag": "Museum",
-            "desc": "UT's art museum — excellent Latin American and contemporary collections. The Ellsworth Kelly \"Austin\" chapel is a must-see."
-          },
-          {
-            "time": "2:00 PM",
             "emoji": "🍔",
             "name": "Hopdoddy Burger Bar",
             "tip": "1400 S Congress Ave · The Goodnight burger is the move",
@@ -478,7 +456,7 @@ export const TRIPS: TripData[] = [
             "desc": "South Congress burger spot with craft burgers and truffle fries. Great midday stop between exploring."
           },
           {
-            "time": "4:00 PM",
+            "time": "1:30 PM",
             "emoji": "🛍",
             "name": "2nd Street District",
             "tip": "The library rooftop has great views of Lady Bird Lake",
@@ -487,6 +465,17 @@ export const TRIPS: TripData[] = [
             "suggestedBy": "Suprabho",
             "tag": "Walk",
             "desc": "Downtown shopping and strolling. Boutiques, local shops, and the Austin Central Library (stunning modern architecture worth a peek)."
+          },
+          {
+            "time": "4:00 PM",
+            "emoji": "🍻",
+            "name": "West 6th Street",
+            "tip": "Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials 4–6 PM",
+            "lat": 30.271,
+            "lng": -97.752,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "Austin's upscale bar district — rooftop patios, craft cocktails, and a more chill vibe than Dirty Sixth. Try spots like Irene's, Handlebar, or The Dogwood for great outdoor decks."
           },
           {
             "time": "7:00 PM",

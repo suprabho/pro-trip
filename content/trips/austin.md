@@ -3,7 +3,7 @@ id: austin
 city: Austin
 subtitle: 5 Day Itinerary
 emoji: "🤠"
-highlights: SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus
+highlights: SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park
 startDate: "2026-03-08"
 endDate: "2026-03-12"
 ---
@@ -155,10 +155,10 @@ Wrap up the conference — final panels, networking, and closing remarks.
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Conference -->
 
-### 4:30 PM | 🌊 | Lady Bird Lake — Hike & Bike Trail
-10-mile urban trail around the lake. Walk the southern section from South Congress to Lamar — beautiful at golden hour.
-> Tip: 👟 Flat, paved path · 20-min walk segment is plenty · Kayak rentals available too
-<!-- location: 30.2515, -97.7510 -->
+### 4:00 PM | 🌳 | Zilker Park & Lady Bird Lake
+351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water, relax on the great lawn, or rent a kayak. Barton Springs Pool is here too if it's warm enough for a dip.
+> Tip: 👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse
+<!-- location: 30.2669, -97.7729 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
 
@@ -176,11 +176,11 @@ The cooler, less touristy side of 6th Street. Craft cocktail bars, dive bars, an
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Evening -->
 
-## Day 4: UT Campus, Museums & Capitol
+## Day 4: Capitol, West 6th & Farewell
 <!-- label: Day 4 · Explore Austin -->
-<!-- subtitle: UT Campus · Blanton Museum · Texas State Capitol · Farewell Dinner -->
+<!-- subtitle: Texas State Capitol · West 6th Street · Farewell Dinner -->
 <!-- color: #bf5700 -->
-<!-- center: 30.284, -97.740 -->
+<!-- center: 30.270, -97.748 -->
 <!-- zoom: 14 -->
 <!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 
@@ -198,33 +198,26 @@ Taller than the US Capitol. Free guided tours of the stunning pink granite build
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Landmark -->
 
-### 11:30 AM | 🎓 | UT Austin Campus Walk
-Walk the Forty Acres — the Main Building tower, the Littlefield Fountain, South Mall. One of the most beautiful campuses in the country.
-> Tip: 📸 Tower is the iconic shot · 5-min walk from the Capitol · Campus is open to visitors
-<!-- location: 30.2849, -97.7341 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Walk -->
-
-### 12:30 PM | 🎨 | Blanton Museum of Art
-UT's art museum — excellent Latin American and contemporary collections. The Ellsworth Kelly "Austin" chapel is a must-see.
-> Tip: 🎟 Free on Thursdays · Ellsworth Kelly building is outside the main museum · 200 E MLK Blvd
-<!-- location: 30.2808, -97.7370 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Museum -->
-
-### 2:00 PM | 🍔 | Hopdoddy Burger Bar
+### 11:30 AM | 🍔 | Hopdoddy Burger Bar
 South Congress burger spot with craft burgers and truffle fries. Great midday stop between exploring.
 > Tip: 1400 S Congress Ave · The Goodnight burger is the move
 <!-- location: 30.2486, -97.7497 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 4:00 PM | 🛍 | 2nd Street District
+### 1:30 PM | 🛍 | 2nd Street District
 Downtown shopping and strolling. Boutiques, local shops, and the Austin Central Library (stunning modern architecture worth a peek).
 > Tip: The library rooftop has great views of Lady Bird Lake
 <!-- location: 30.2639, -97.7476 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
+
+### 4:00 PM | 🍻 | West 6th Street
+Austin's upscale bar district — rooftop patios, craft cocktails, and a more chill vibe than Dirty Sixth. Try spots like Irene's, Handlebar, or The Dogwood for great outdoor decks.
+> Tip: Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials 4–6 PM
+<!-- location: 30.2710, -97.7520 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Evening -->
 
 ### 7:00 PM | 🥩 | Uchi — Farewell Dinner
 James Beard Award-winning Japanese farmhouse dining. One of Austin's finest restaurants — a perfect farewell dinner.
