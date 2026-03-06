@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${petit.variable} ${dmSans.variable} antialiased`}>
+      <body className={`${petit.variable} ${dmSans.variable} ${spaceMono.variable} antialiased`}>
         {children}
       </body>
     </html>
