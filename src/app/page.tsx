@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getAllTrips } from "@/lib/generated-trips";
 
@@ -7,9 +8,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-paper text-ink font-sans">
       <header className="h-[54px] bg-ink flex items-center justify-between px-5 shrink-0">
-        <h1 className="font-serif text-xl font-semibold text-paper">
-          pro<span className="text-day1 italic">trip</span>
-        </h1>
+        <Image src="/PRO-trip-logo-light.svg" alt="PRO trip" width={137} height={41} />
       </header>
 
       <div className="max-w-4xl mx-auto px-6 py-16">
@@ -18,7 +17,7 @@ export default function Dashboard() {
             Dashboard
           </p>
           <h2 className="font-serif text-5xl font-bold leading-tight">
-            Your Travel Plans
+            Promads' Travel Plans
           </h2>
           <p className="text-muted-foreground mt-3 text-sm">
             Plan, organize, and explore your upcoming trips.
@@ -43,18 +42,6 @@ export default function Dashboard() {
             </div>
           </Link>
 
-          <div className="border border-line border-dashed rounded-lg p-8 opacity-50">
-            <div className="text-3xl mb-4">✈️</div>
-            <h3 className="font-serif text-2xl font-bold">New Trip</h3>
-            <p className="text-sm text-muted-foreground mt-2">
-              Plan a new adventure from scratch.
-            </p>
-            <div className="mt-4">
-              <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
-                Coming soon
-              </span>
-            </div>
-          </div>
         </div>
 
         <div className="mt-12 border border-line rounded-lg p-6">

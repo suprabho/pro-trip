@@ -19,6 +19,7 @@ interface Stop {
   lat: number;
   lng: number;
   suggestedBy?: string;
+  tag?: string;
   todos?: Todo[];
 }
 
@@ -208,6 +209,12 @@ function parseTrip(filePath: string): Trip {
       continue;
     }
 
+    // tag comment
+    if (comment && comment.key === "tag" && currentStop) {
+      currentStop.tag = comment.value;
+      continue;
+    }
+
     // Tip line
     if (trimmed.startsWith("> Tip:") && currentStop) {
       currentStop.tip = trimmed.replace(/^> Tip:\s*/, "");
@@ -264,6 +271,7 @@ export interface Stop {
   lat: number;
   lng: number;
   suggestedBy?: string;
+  tag?: string;
   todos?: Todo[];
 }
 

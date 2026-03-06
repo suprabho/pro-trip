@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getAllTrips } from "@/lib/generated-trips";
 
@@ -6,16 +7,16 @@ const trips = getAllTrips();
 export default function TripsPage() {
   return (
     <div className="min-h-screen bg-paper text-ink font-sans">
-      <header className="h-[54px] bg-ink flex items-center px-5 shrink-0">
-        <Link href="/" className="font-serif text-xl font-semibold text-paper hover:opacity-80 transition-opacity">
-          pro<span className="text-day1 italic">trip</span>
+      <header className="h-12 bg-neutral-950 flex items-center px-5 shrink-0">
+        <Link href="/" className="hover:opacity-80 transition-opacity">
+          <Image src="/PRO-trip-logo-light.svg" alt="PRO trip" width={137} height={41} />
         </Link>
       </header>
 
       <div className="max-w-3xl mx-auto px-6 py-12">
         <div className="mb-8">
           <p className="text-[10px] tracking-[3px] uppercase text-muted-foreground mb-1">
-            Your Trips
+            Promads'
           </p>
           <h1 className="font-serif text-4xl font-bold">All Trips</h1>
         </div>
@@ -36,7 +37,7 @@ export default function TripsPage() {
                     {trip.emoji}
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-baseline gap-2">
+                    <div className="flex flex-wrap items-baseline gap-2">
                       <h2 className="font-serif text-2xl font-bold group-hover:underline">
                         {trip.city}
                       </h2>

@@ -16,6 +16,7 @@ export interface Stop {
   lat: number;
   lng: number;
   suggestedBy?: string;
+  tag?: string;
   todos?: Todo[];
 }
 
@@ -73,14 +74,14 @@ export const TRIPS: TripData[] = [
       "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 27
+      "stops": 30
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
         "title": "Downtown Initiation",
-        "subtitle": "NoHo · Greenwich Village · Eataly · Tribeca",
-        "color": "#c94f2c",
+        "subtitle": "Washington Square · West Village · Greenwich Village · Madison Square · Union Square",
+        "color": "#bc6537",
         "center": [
           40.724,
           -73.999
@@ -95,6 +96,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7261,
             "lng": -73.9923,
             "suggestedBy": "Suprabho",
+            "tag": "Arrive",
             "todos": [
               {
                 "note": "Confirm hotel reservation",
@@ -103,49 +105,31 @@ export const TRIPS: TripData[] = [
               },
               {
                 "note": "Book Uber from LGA",
-                "done": true
+                "done": false
               }
             ],
             "desc": "338 Bowery, NoHo. Drop your bags, freshen up. You're 10 mins walk from everything."
           },
           {
             "time": "4:30 PM",
-            "emoji": "🚶",
-            "name": "Greenwich Village",
-            "tip": "No agenda needed. Just wander.",
-            "lat": 40.7336,
-            "lng": -74.0027,
-            "suggestedBy": "Suprabho, Srayana",
-            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
-          },
-          {
-            "time": "5:30 PM",
-            "emoji": "🌳",
-            "name": "Washington Square Park",
+            "emoji": "⛲",
+            "name": "Washington Square Fountain",
             "tip": "10-min walk from your hotel",
             "lat": 40.7309,
             "lng": -73.9973,
             "suggestedBy": "Srayana",
-            "desc": "The iconic arch, the fountain, NYU students everywhere. Golden hour hits the arch beautifully."
+            "tag": "Park",
+            "desc": "The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the arch beautifully — worth lingering."
           },
           {
-            "time": "6:30 PM",
-            "emoji": "🎪",
-            "name": "Union Square Holiday Market",
-            "tip": "🎄 Seasonal · Open Nov–Dec only",
-            "lat": 40.7359,
-            "lng": -73.9911,
-            "suggestedBy": "Ritwik",
-            "desc": "Seasonal outdoor market with crafts, food, and gifts. 15-min walk north from Washington Sq."
-          },
-          {
-            "time": "7:00 PM",
+            "time": "5:30 PM",
             "emoji": "🍕",
             "name": "Joe's Pizza, Carmine St",
-            "tip": "💵 Cash only · ATM right outside",
+            "tip": "💵 Cash only · ATM right outside · 5-min walk from Washington Square",
             "lat": 40.7307,
             "lng": -74.0022,
             "suggestedBy": "Srayana",
+            "tag": "Food",
             "todos": [
               {
                 "note": "Withdraw cash from ATM before going",
@@ -155,24 +139,59 @@ export const TRIPS: TripData[] = [
             "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
           },
           {
-            "time": "8:00 PM",
-            "emoji": "🍝",
-            "name": "Eataly Flatiron",
-            "tip": "📍 Right next to the Flatiron Building",
-            "lat": 40.7425,
-            "lng": -73.9896,
-            "suggestedBy": "Ritwik",
-            "desc": "Italian food hall near the iconic triangular Flatiron Building. Great for dessert, gelato, or a browse after pizza."
+            "time": "6:30 PM",
+            "emoji": "🚶",
+            "name": "Greenwich Village",
+            "tip": "No agenda needed. Just wander.",
+            "lat": 40.7336,
+            "lng": -74.0027,
+            "suggestedBy": "Suprabho, Srayana",
+            "tag": "Neighbourhood",
+            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
-            "time": "9:00 PM",
+            "time": "7:30 PM",
+            "emoji": "🌿",
+            "name": "Madison Square Park",
+            "tip": "📸 Best Flatiron angle from the park's south end · 15-min walk north from Greenwich Village",
+            "lat": 40.7425,
+            "lng": -73.9878,
+            "suggestedBy": "Suprabho",
+            "tag": "Park",
+            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots at dusk. The original Shake Shack is right here if you need dessert."
+          },
+          {
+            "time": "8:00 PM",
+            "emoji": "🧱",
+            "name": "The LEGO Store — Flatiron District",
+            "tip": "🕐 Check hours before going · Less crowded than the 5th Ave Midtown store",
+            "lat": 40.7419,
+            "lng": -73.9898,
+            "suggestedBy": "Suprabho",
+            "tag": "Shopping",
+            "desc": "Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
+          },
+          {
+            "time": "8:30 PM",
+            "emoji": "🛍",
+            "name": "Union Square",
+            "tip": "10-min walk south from Madison Square Park",
+            "lat": 40.7359,
+            "lng": -73.9911,
+            "suggestedBy": "Ritwik",
+            "tag": "Evening",
+            "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and night energy. The Greenmarket runs here on select days."
+          },
+          {
+            "time": "9:30 PM",
             "emoji": "🌙",
             "name": "Tribeca at Night",
-            "tip": "Walk south from your hotel",
+            "tip": "Walk south from your hotel · 10-min from NoHo",
             "lat": 40.7163,
             "lng": -74.0086,
             "suggestedBy": "Suprabho, Srayana",
-            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy."
+            "tag": "Evening",
+            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot."
           }
         ],
         "stays": [
@@ -196,7 +215,7 @@ export const TRIPS: TripData[] = [
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
         "subtitle": "9/11 Memorial · One World · Statue of Liberty · Brooklyn Bridge · DUMBO",
-        "color": "#2c6bc9",
+        "color": "#009c62",
         "center": [
           40.706,
           -74.006
@@ -211,6 +230,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7014,
             "lng": -74.0154,
             "suggestedBy": "Suprabho, Ritwik",
+            "tag": "Icon",
             "todos": [
               {
                 "note": "Book ferry + pedestal tickets",
@@ -232,6 +252,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
+            "tag": "Memorial",
             "todos": [
               {
                 "note": "Book museum tickets online",
@@ -248,12 +269,13 @@ export const TRIPS: TripData[] = [
           {
             "time": "2:30 PM",
             "emoji": "🌐",
-            "name": "One World Observatory",
-            "tip": "🎟 Book online · Can skip if saving The Edge for Day 3",
+            "name": "One World Observatory *Optional*",
+            "tip": "⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection",
             "lat": 40.7127,
             "lng": -74.0134,
             "suggestedBy": "Ritwik",
-            "desc": "102nd floor of One World Trade Center. Panoramic views of NYC. Right next to the 9/11 Memorial."
+            "tag": "Viewpoint",
+            "desc": "102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both."
           },
           {
             "time": "4:00 PM",
@@ -262,7 +284,8 @@ export const TRIPS: TripData[] = [
             "tip": "📍 Start from City Hall Park side · 20-min walk from One World",
             "lat": 40.7061,
             "lng": -73.9969,
-            "suggestedBy": "Aarav, Srayana",
+            "suggestedBy": "Srayana",
+            "tag": "Walk",
             "desc": "From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close."
           },
           {
@@ -273,6 +296,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.703,
             "lng": -73.9956,
             "suggestedBy": "Suprabho, Srayana",
+            "tag": "Views",
             "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view."
           },
           {
@@ -283,6 +307,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.6945,
             "lng": -73.9787,
             "suggestedBy": "Ritwik",
+            "tag": "Experience",
             "desc": "Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO."
           },
           {
@@ -292,7 +317,37 @@ export const TRIPS: TripData[] = [
             "tip": "Walk back over the bridge at dusk for the reverse skyline view",
             "lat": 40.7261,
             "lng": -73.9923,
+            "tag": "Evening",
             "desc": "Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village."
+          },
+          {
+            "time": "7:30 PM",
+            "emoji": "🥪",
+            "name": "Katz's Delicatessen",
+            "tip": "5-min walk from your hotel · Split a sandwich — they're massive · Cash or card",
+            "lat": 40.7223,
+            "lng": -73.9874,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
+          },
+          {
+            "time": "9:30 PM",
+            "emoji": "🎤",
+            "name": "Comedy Cellar — Friday Night",
+            "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",
+            "lat": 40.73,
+            "lng": -74.0005,
+            "suggestedBy": "Suprabho",
+            "tag": "Entertainment",
+            "todos": [
+              {
+                "note": "Book Comedy Cellar tickets",
+                "done": false,
+                "link": "https://www.comedycellar.com"
+              }
+            ],
+            "desc": "One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast."
           }
         ],
         "stays": [
@@ -306,8 +361,8 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "West Side Midtown → Uptown Museums",
-        "subtitle": "High Line · The Edge · Halal Guys · Central Park · MET · Guggenheim · Times Square · MoMA",
-        "color": "#2ca068",
+        "subtitle": "High Line · The Edge · Grand Central · Central Park · MET · Guggenheim · Times Square · MoMA",
+        "color": "#4f85de",
         "center": [
           40.76,
           -73.982
@@ -322,6 +377,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.748,
             "lng": -74.0048,
             "suggestedBy": "Suprabho",
+            "tag": "Walk",
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
@@ -332,6 +388,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7534,
             "lng": -74.0011,
             "suggestedBy": "Suprabho, Srayana",
+            "tag": "Viewpoint",
             "todos": [
               {
                 "note": "Book Edge tickets",
@@ -343,42 +400,64 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "1:00 PM",
-            "emoji": "🥙",
-            "name": "The Halal Guys, 53rd & 6th",
-            "tip": "🌶 Ask for extra white sauce · 10-min walk from Hudson Yards",
-            "lat": 40.7618,
-            "lng": -73.9794,
-            "suggestedBy": "Aarav, Ritwik",
-            "desc": "The OG halal cart — gyro over rice with white sauce. $13 for a massive bowl."
+            "emoji": "🎭",
+            "name": "Hamilton — Broadway Matinée",
+            "tip": "🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early",
+            "lat": 40.759,
+            "lng": -73.9871,
+            "suggestedBy": "Suprabho",
+            "tag": "Entertainment",
+            "todos": [
+              {
+                "note": "Book Hamilton tickets",
+                "done": false,
+                "link": "https://hamiltonmusical.com/new-york/"
+              }
+            ],
+            "desc": "The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM."
           },
           {
-            "time": "2:00 PM",
+            "time": "4:00 PM",
             "emoji": "🛍",
             "name": "5th Avenue Shops",
-            "tip": "Window shopping is free · You're already walking uptown toward the museums",
+            "tip": "Window shopping is free · 2-min walk from the theatre",
             "lat": 40.7564,
             "lng": -73.9782,
             "suggestedBy": "Ritwik",
+            "tag": "Shopping",
             "desc": "Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown."
           },
           {
-            "time": "2:30 PM",
+            "time": "4:30 PM",
             "emoji": "🏙",
             "name": "Rockefeller Center",
             "tip": "Combine with 5th Ave — all walkable",
             "lat": 40.7587,
             "lng": -73.9787,
             "suggestedBy": "Ritwik",
+            "tag": "Landmark",
             "desc": "Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios."
           },
           {
-            "time": "3:30 PM",
+            "time": "5:00 PM",
+            "emoji": "🚂",
+            "name": "Grand Central Terminal",
+            "tip": "📍 5-min walk from Rockefeller Center · Free to enter · Look up at the celestial ceiling mural",
+            "lat": 40.7527,
+            "lng": -73.9772,
+            "suggestedBy": "Suprabho",
+            "tag": "Landmark",
+            "desc": "Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour."
+          },
+          {
+            "time": "5:30 PM",
             "emoji": "🌿",
             "name": "Central Park",
             "tip": "👟 Enter at 59th St, walk north — naturally routes you toward the museums",
             "lat": 40.7826,
             "lng": -73.9656,
-            "suggestedBy": "Aarav, Srayana, Ritwik",
+            "suggestedBy": "Srayana, Ritwik",
+            "tag": "Park",
             "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
           },
           {
@@ -389,6 +468,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7794,
             "lng": -73.9632,
             "suggestedBy": "Suprabho, Srayana",
+            "tag": "Museum",
             "todos": [
               {
                 "note": "Buy MET tickets",
@@ -410,6 +490,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.783,
             "lng": -73.959,
             "suggestedBy": "Ritwik",
+            "tag": "Museum",
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
@@ -420,6 +501,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7771,
             "lng": -73.959,
             "suggestedBy": "Suprabho",
+            "tag": "Break",
             "desc": "Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown."
           },
           {
@@ -430,6 +512,7 @@ export const TRIPS: TripData[] = [
             "lat": 40.7484,
             "lng": -73.9857,
             "suggestedBy": "Ritwik",
+            "tag": "Viewpoint",
             "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up."
           },
           {
@@ -440,34 +523,19 @@ export const TRIPS: TripData[] = [
             "lat": 40.7614,
             "lng": -73.9776,
             "suggestedBy": "Ritwik",
+            "tag": "Museum",
             "desc": "Starry Night, Warhols, Picasso. One of the world's greatest modern art collections."
           },
           {
             "time": "9:30 PM",
             "emoji": "🌃",
             "name": "Times Square at Night",
-            "tip": "Best at night for the full effect · 5-min walk from MoMA",
+            "tip": "🌙 Night only — don't bother during the day · 5-min walk from MoMA · Don't linger too long",
             "lat": 40.758,
             "lng": -73.9855,
             "suggestedBy": "Ritwik",
-            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Best experienced after dark."
-          },
-          {
-            "time": "10:30 PM",
-            "emoji": "🪄",
-            "name": "Museum of Illusions",
-            "tip": "📸 Great for photos · Open until 10 PM · Skip if energy is low after a big day",
-            "lat": 40.7397,
-            "lng": -74.0029,
-            "suggestedBy": "Aarav, Ritwik",
-            "todos": [
-              {
-                "note": "Book tickets online",
-                "done": false,
-                "link": "https://museumofillusions.com/new-york"
-              }
-            ],
-            "desc": "Fun, photo-rich hour in Chelsea — Vortex Tunnel, Ames Room, Infinity Mirrors. ## Bonus Suggestions"
+            "tag": "Evening",
+            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough. ## Bonus Suggestions"
           }
         ],
         "stays": [
@@ -482,7 +550,7 @@ export const TRIPS: TripData[] = [
         "label": "Day 4 · Departure",
         "title": "Departure",
         "subtitle": "JFK Airport",
-        "color": "#666",
+        "color": "#876cd6",
         "center": [
           40.6449,
           -73.7807

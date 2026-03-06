@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Manrope, Petit_Formal_Script } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
+const cormorant = Petit_Formal_Script({
   variable: "--font-serif",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
+  weight: ["400"],
+  style: ["normal"],
 });
 
-const dmSans = DM_Sans({
+const dmSans = Manrope({
   variable: "--font-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],

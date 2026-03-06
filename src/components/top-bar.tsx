@@ -43,7 +43,7 @@ export function TopBar({ trip, activeDay, onDayChange }: TopBarProps) {
   const subtitle = subtitleParts.join(" · ");
 
   return (
-    <header className="bg-ink flex flex-col md:flex-row items-center justify-between px-5 shrink-0 z-50">
+    <header className="bg-ink flex flex-col md:flex-row items-start justify-between px-5 shrink-0 z-50">
       <div className="flex items-center">
         <Link href="/trips" className="text-subtle hover:text-paper transition-colors mr-3 text-sm">
           &larr;

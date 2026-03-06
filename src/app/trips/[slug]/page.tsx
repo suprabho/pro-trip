@@ -1,15 +1,14 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { TopBar } from "@/components/top-bar";
 import type { DayValue } from "@/components/top-bar";
 import { Sidebar } from "@/components/sidebar";
 import { TodoDialog } from "@/components/todo-dialog";
+import { MobileBottomSheet } from "@/components/mobile-bottom-sheet";
 import { getTripById } from "@/lib/generated-trips";
 import type { Stop } from "@/lib/generated-trips";
-import { use } from "react";
 
 const ItineraryMap = dynamic(
   () =>
@@ -22,22 +21,9 @@ const ItineraryMap = dynamic(
   }
 );
 
-export default function TripPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = use(params);
-  const trip = getTripById(slug);
+const trip = getTripById("new-york")!;
 
-  if (!trip) {
-    notFound();
-  }
-
-  return <TripView trip={trip} />;
-}
-
-function TripView({ trip }: { trip: NonNullable<ReturnType<typeof getTripById>> }) {
+export default function NewYorkTrip() {
   const [activeDay, setActiveDay] = useState<DayValue>(1);
   const [activeStop, setActiveStop] = useState<string | null>(null);
   const [focusedStop, setFocusedStop] = useState<Stop | null>(null);
@@ -57,16 +43,27 @@ function TripView({ trip }: { trip: NonNullable<ReturnType<typeof getTripById>> 
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-paper text-ink font-sans">
       <TopBar trip={trip} activeDay={activeDay} onDayChange={handleDayChange} />
-      <div className="flex-1 flex flex-col md:flex-row overflow-hidden">
-        <Sidebar
-          activeDay={activeDay}
-          activeStop={activeStop}
-          onStopClick={handleStopClick}
-          onTodoClick={setTodoStop}
-        />
+      <div className="flex-1 flex flex-col md:flex-row overflow-hidden relative">
+        <div className="hidden md:flex md:w-[380px] shrink-0">
+          <Sidebar
+            activeDay={activeDay}
+            activeStop={activeStop}
+            onStopClick={handleStopClick}
+            onTodoClick={setTodoStop}
+          />
+        </div>
         <div className="flex-1 relative">
           <ItineraryMap activeDay={activeDay} focusedStop={focusedStop} />
         </div>
+        <MobileBottomSheet>
+          <Sidebar
+            activeDay={activeDay}
+            activeStop={activeStop}
+            onStopClick={handleStopClick}
+            onTodoClick={setTodoStop}
+            mobile
+          />
+        </MobileBottomSheet>
       </div>
 
       {todoStop && todoStop.todos && (

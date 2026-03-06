@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef, useCallback, useState } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -16,6 +16,26 @@ import type { DayValue } from "@/components/top-bar";
 
 const trip = getTripById("new-york")!;
 const DAYS = trip.days;
+
+/* Tag → pin color using palette values from globals.css */
+const tagColorMap: Record<string, string> = {
+  Arrive:        "#201c1a", // neutral-950
+  Food:          "#ce6c96", // pink-500
+  Park:          "#008738", // positive-700
+  Neighbourhood: "#cf5900", // accent-600
+  Walk:          "#00c9c3", // primary-600
+  Evening:       "#582553", // blue-600
+  Memorial:      "#1b63d1", // blue-600
+  Icon:          "#bb3d4f", // rose-600
+  Views:         "#bb3d4f", // rose-600
+  Viewpoint:     "#bb3d4f", // rose-600
+  Museum:        "#6854a8", // violet-600
+  Experience:    "#6854a8", // violet-600
+  Entertainment: "#6854a8", // violet-600
+  Shopping:      "#ee848a", // accent-500
+  Landmark:      "#1b63d1", // blue-600
+  Break:         "#cf5900", // accent-500
+};
 
 interface ItineraryMapProps {
   activeDay: DayValue;
@@ -37,10 +57,10 @@ function createIcon(color: string, emoji: string) {
   });
 }
 
-function createStayIcon() {
+function createStayIcon(color: string) {
   return L.divIcon({
     className: "",
-    html: `<div style="width:34px;height:34px;border-radius:50%;background:#f59e0b;
+    html: `<div style="width:34px;height:34px;border-radius:50%;background:${color};
       border:2.5px solid white;box-shadow:0 3px 12px rgba(0,0,0,0.28);
       display:flex;align-items:center;justify-content:center;">
       <span style="font-size:14px;line-height:1;">🏨</span>
@@ -51,10 +71,10 @@ function createStayIcon() {
   });
 }
 
-function createAirportIcon() {
+function createAirportIcon(color: string) {
   return L.divIcon({
     className: "",
-    html: `<div style="width:34px;height:34px;border-radius:50%;background:#6366f1;
+    html: `<div style="width:34px;height:34px;border-radius:50%;background:${color};
       border:2.5px solid white;box-shadow:0 3px 12px rgba(0,0,0,0.28);
       display:flex;align-items:center;justify-content:center;">
       <span style="font-size:14px;line-height:1;">✈️</span>
@@ -107,7 +127,7 @@ function MapController({
   return null;
 }
 
-function DayMarkers({ dayNum }: { dayNum: number }) {
+function DayMarkers({ dayNum, useTagColors }: { dayNum: number; useTagColors: boolean }) {
   const d = DAYS[dayNum];
   const coords = d.stops.map((s) => [s.lat, s.lng] as [number, number]);
 
@@ -126,7 +146,7 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
         <Marker
           key={`${dayNum}-${i}`}
           position={[stop.lat, stop.lng]}
-          icon={createIcon(d.color, stop.emoji)}
+          icon={createIcon(useTagColors && stop.tag ? (tagColorMap[stop.tag] ?? d.color) : d.color, stop.emoji)}
           ref={(ref) => {
             const register = (window as unknown as Record<string, unknown>)
               .__registerMarker as
@@ -165,11 +185,11 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
         <Marker
           key={`stay-${dayNum}-${i}`}
           position={[stay.lat, stay.lng]}
-          icon={createStayIcon()}
+          icon={createStayIcon(d.color)}
         >
           <Popup maxWidth={220}>
             <div className="p-3 px-4 font-sans">
-              <p className="text-[9px] tracking-[2px] uppercase font-bold mb-0.5 text-[#f59e0b]">
+              <p className="text-[9px] tracking-[2px] uppercase font-bold mb-0.5" style={{ color: d.color }}>
                 Stay
               </p>
               <p className="font-serif text-[17px] font-bold leading-tight text-[#111]">
@@ -183,11 +203,11 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
         <Marker
           key={`airport-${dayNum}`}
           position={[d.airport.lat, d.airport.lng]}
-          icon={createAirportIcon()}
+          icon={createAirportIcon(d.color)}
         >
           <Popup maxWidth={220}>
             <div className="p-3 px-4 font-sans">
-              <p className="text-[9px] tracking-[2px] uppercase font-bold mb-0.5 text-[#6366f1]">
+              <p className="text-[9px] tracking-[2px] uppercase font-bold mb-0.5" style={{ color: d.color }}>
                 Airport
               </p>
               <p className="font-serif text-[17px] font-bold leading-tight text-[#111]">
@@ -217,26 +237,65 @@ function DayMarkers({ dayNum }: { dayNum: number }) {
 }
 
 export function ItineraryMap({ activeDay, focusedStop }: ItineraryMapProps) {
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
   const allDayNums = Object.keys(DAYS).map(Number).sort((a, b) => a - b);
   const days = activeDay === "all" ? allDayNums : [activeDay as number];
 
+  const toggleFullscreen = useCallback(() => {
+    if (!document.fullscreenElement) {
+      containerRef.current?.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleChange = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener("fullscreenchange", handleChange);
+    return () => document.removeEventListener("fullscreenchange", handleChange);
+  }, []);
+
   return (
-    <MapContainer
-      center={[40.724, -73.999]}
-      zoom={14}
-      zoomControl={true}
-      className="w-full h-full"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-        subdomains="abcd"
-        maxZoom={19}
-      />
-      <MapController activeDay={activeDay} focusedStop={focusedStop} />
-      {days.map((d) => (
-        <DayMarkers key={d} dayNum={d} />
-      ))}
-    </MapContainer>
+    <div ref={containerRef} className="relative w-full h-full">
+      <MapContainer
+        center={[40.724, -73.999]}
+        zoom={14}
+        zoomControl={true}
+        className="w-full h-full"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          subdomains="abcd"
+          maxZoom={19}
+        />
+        <MapController activeDay={activeDay} focusedStop={focusedStop} />
+        {days.map((d) => (
+          <DayMarkers key={d} dayNum={d} useTagColors={activeDay !== "all"} />
+        ))}
+      </MapContainer>
+      <button
+        onClick={toggleFullscreen}
+        className="absolute top-3 right-3 z-1000 bg-white rounded-lg shadow-md border border-gray-200 p-2 hover:bg-gray-50 transition-colors"
+        title={isFullscreen ? "Exit fullscreen" : "Fullscreen"}
+      >
+        {isFullscreen ? (
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="4 14 10 14 10 20" />
+            <polyline points="20 10 14 10 14 4" />
+            <line x1="14" y1="10" x2="21" y2="3" />
+            <line x1="3" y1="21" x2="10" y2="14" />
+          </svg>
+        ) : (
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="15 3 21 3 21 9" />
+            <polyline points="9 21 3 21 3 15" />
+            <line x1="21" y1="3" x2="14" y2="10" />
+            <line x1="3" y1="21" x2="10" y2="14" />
+          </svg>
+        )}
+      </button>
+    </div>
   );
 }
