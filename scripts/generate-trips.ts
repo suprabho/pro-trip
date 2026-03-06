@@ -3,6 +3,7 @@ import * as path from "path";
 
 const CONTENT_DIR = path.join(__dirname, "..", "content", "trips");
 const OUTPUT_FILE = path.join(__dirname, "..", "src", "lib", "generated-trips.ts");
+const DASHBOARD_FILE = path.join(__dirname, "..", "src", "lib", "generated-dashboard.ts");
 
 interface Todo {
   note: string;
@@ -350,6 +351,80 @@ export function getAllTrips(): TripMeta[] {
 
   fs.writeFileSync(OUTPUT_FILE, output, "utf-8");
   console.log(`Generated ${OUTPUT_FILE} with ${trips.length} trip(s)`);
+
+  // Generate dashboard widget data
+  const tripSummaries = trips.map((t) => {
+    const dayNums = Object.keys(t.days).map(Number).sort((a, b) => a - b);
+    const firstDayCenter = t.days[dayNums[0]]?.center ?? [0, 0];
+    const totalStops = Object.values(t.days).reduce((sum, d) => sum + d.stops.length, 0);
+    return {
+      id: t.meta.id,
+      city: t.meta.city,
+      emoji: t.meta.emoji,
+      subtitle: t.meta.subtitle,
+      highlights: t.meta.highlights,
+      color: t.days[1]?.color ?? "#666",
+      days: dayNums.length,
+      stops: totalStops,
+      startDate: t.meta.startDate,
+      endDate: t.meta.endDate,
+      mapCenter: firstDayCenter,
+    };
+  });
+
+  // Compute calendar range
+  const datedTrips = tripSummaries.filter((t) => t.startDate && t.endDate);
+  let calendarRange: { start: string; end: string } | null = null;
+  if (datedTrips.length > 0) {
+    const starts = datedTrips.map((t) => t.startDate!).sort();
+    const ends = datedTrips.map((t) => t.endDate!).sort();
+    calendarRange = { start: starts[0], end: ends[ends.length - 1] };
+  }
+
+  // Compute map bounds
+  const coords = tripSummaries.map((t) => t.mapCenter);
+  let mapBounds: { sw: [number, number]; ne: [number, number] } | null = null;
+  if (coords.length > 0) {
+    const lats = coords.map((c) => c[0]);
+    const lngs = coords.map((c) => c[1]);
+    mapBounds = {
+      sw: [Math.min(...lats), Math.min(...lngs)],
+      ne: [Math.max(...lats), Math.max(...lngs)],
+    };
+  }
+
+  const dashboardOutput = `// Auto-generated dashboard widget data — do not edit manually
+// Run "npm run generate" to regenerate
+
+export interface TripSummary {
+  id: string;
+  city: string;
+  emoji: string;
+  subtitle: string;
+  highlights: string;
+  color: string;
+  days: number;
+  stops: number;
+  startDate?: string;
+  endDate?: string;
+  mapCenter: [number, number];
+}
+
+export const TRIP_SUMMARIES: TripSummary[] = ${JSON.stringify(tripSummaries, null, 2)};
+
+export const CALENDAR_RANGE: { start: string; end: string } | null = ${JSON.stringify(calendarRange)};
+
+export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null = ${JSON.stringify(mapBounds)};
+
+export const STATS = {
+  totalTrips: ${tripSummaries.length},
+  totalDays: ${tripSummaries.reduce((s, t) => s + t.days, 0)},
+  totalStops: ${tripSummaries.reduce((s, t) => s + t.stops, 0)},
+};
+`;
+
+  fs.writeFileSync(DASHBOARD_FILE, dashboardOutput, "utf-8");
+  console.log(`Generated ${DASHBOARD_FILE} with dashboard widget data`);
 }
 
 generate();
