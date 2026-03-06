@@ -69,8 +69,8 @@ Small specialty coffee shop on E 5th St. Great pour-overs and pastries before a 
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Coffee -->
 
-### 9:00 AM | 🎓 | SXSW EDU — Morning Keynotes
-Full day at the convention center. Morning keynotes and featured sessions tend to be the best — arrive early for good seats.
+### 10:00 AM | 🎓 | SXSW EDU — Morning Keynotes
+Morning keynotes and featured sessions at the convention center. Arrive early for good seats.
 > Tip: Keynotes fill up fast · Grab coffee from the convention center if Fleet is too far
 <!-- location: 30.2631, -97.7394 -->
 <!-- suggestedBy: Suprabho -->
@@ -87,14 +87,14 @@ Hit the food trucks around the convention center or walk to nearby spots on E Ce
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 1:30 PM | 🎓 | SXSW EDU — Afternoon Workshops
-Deep-dive workshops and interactive sessions in the afternoon. These are smaller and more hands-on than the keynotes.
+### 1:00 PM | 🎓 | SXSW EDU — Afternoon Workshops
+Deep-dive workshops and interactive sessions. These are smaller and more hands-on than the keynotes. Sessions wrap up at 3 PM.
 > Tip: Pre-register for workshops — they cap attendance
 <!-- location: 30.2631, -97.7394 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Conference -->
 
-### 5:00 PM | 🚶 | South Congress Avenue (SoCo)
+### 3:30 PM | 🚶 | South Congress Avenue (SoCo)
 Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the "I love you so much" mural on the side of Jo's Coffee and the "Greetings from Austin" postcard mural.
 > Tip: 📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching
 <!-- location: 30.2496, -97.7494 -->
@@ -133,8 +133,8 @@ The original Jo's on South Congress. Good coffee, great vibes, and the famous "I
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Coffee -->
 
-### 9:30 AM | 🎓 | SXSW EDU — Morning Sessions
-Second day at the convention center. Catch sessions you missed yesterday and revisit the expo hall.
+### 10:00 AM | 🎓 | SXSW EDU — Morning Sessions
+Day 2 at the convention center. Catch sessions you missed yesterday and revisit the expo hall.
 > Tip: Day 2 is usually less crowded — great for deeper conversations
 <!-- location: 30.2631, -97.7394 -->
 <!-- suggestedBy: Suprabho -->
@@ -148,14 +148,14 @@ Best breakfast tacos in Austin. The migas taco is legendary. The location on E C
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 1:30 PM | 🎓 | SXSW EDU — Afternoon Sessions
-Wrap up the conference — final panels, networking, and closing remarks.
+### 1:00 PM | 🎓 | SXSW EDU — Afternoon Sessions
+Final panels, networking, and closing remarks. Sessions wrap up at 3 PM.
 > Tip: Exchange contacts with people you met · Grab any last swag from the expo
 <!-- location: 30.2631, -97.7394 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Conference -->
 
-### 4:00 PM | 🌳 | Zilker Park & Lady Bird Lake
+### 3:30 PM | 🌳 | Zilker Park & Lady Bird Lake
 351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water, relax on the great lawn, or rent a kayak. Barton Springs Pool is here too if it's warm enough for a dip.
 > Tip: 👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse
 <!-- location: 30.2669, -97.7729 -->
@@ -176,9 +176,9 @@ The cooler, less touristy side of 6th Street. Craft cocktail bars, dive bars, an
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Evening -->
 
-## Day 4: Capitol, West 6th & Farewell
-<!-- label: Day 4 · Explore Austin -->
-<!-- subtitle: Texas State Capitol · West 6th Street · Farewell Dinner -->
+## Day 4: SXSW EDU Day 3, Capitol & West 6th
+<!-- label: Day 4 · SXSW EDU -->
+<!-- subtitle: SXSW EDU · Texas State Capitol · West 6th Street · Farewell Dinner -->
 <!-- color: #bf5700 -->
 <!-- center: 30.270, -97.748 -->
 <!-- zoom: 14 -->
@@ -191,30 +191,37 @@ Specialty coffee on North Congress. A favorite of Austin locals with a great min
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Coffee -->
 
-### 10:00 AM | 🏛 | Texas State Capitol
-Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for a morning walk.
+### 10:00 AM | 🎓 | SXSW EDU — Morning Sessions
+Day 3 at the convention center. Final day of sessions — catch anything you missed and wrap up networking.
+> Tip: Last chance for expo hall and swag · Focus on must-see sessions
+<!-- location: 30.2631, -97.7394 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Conference -->
+
+### 12:00 PM | 🍔 | Lunch Break
+Grab a quick bite from the food trucks near the convention center or walk to Hopdoddy on South Congress for craft burgers.
+> Tip: Food trucks on Trinity St · Hopdoddy is a 10-min walk south
+<!-- location: 30.2625, -97.7380 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Food -->
+
+### 1:00 PM | 🎓 | SXSW EDU — Afternoon Sessions
+Final afternoon of panels and workshops. Sessions wrap up at 3 PM.
+> Tip: Exchange contacts · Grab any last swag from the expo
+<!-- location: 30.2631, -97.7394 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Conference -->
+
+### 3:30 PM | 🏛 | Texas State Capitol
+Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk.
 > Tip: Free tours every 30 min · 15-min walk north from downtown
 <!-- location: 30.2747, -97.7403 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Landmark -->
 
-### 11:30 AM | 🍔 | Hopdoddy Burger Bar
-South Congress burger spot with craft burgers and truffle fries. Great midday stop between exploring.
-> Tip: 1400 S Congress Ave · The Goodnight burger is the move
-<!-- location: 30.2486, -97.7497 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Food -->
-
-### 1:30 PM | 🛍 | 2nd Street District
-Downtown shopping and strolling. Boutiques, local shops, and the Austin Central Library (stunning modern architecture worth a peek).
-> Tip: The library rooftop has great views of Lady Bird Lake
-<!-- location: 30.2639, -97.7476 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Walk -->
-
-### 4:00 PM | 🍻 | West 6th Street
+### 5:00 PM | 🍻 | West 6th Street
 Austin's upscale bar district — rooftop patios, craft cocktails, and a more chill vibe than Dirty Sixth. Try spots like Irene's, Handlebar, or The Dogwood for great outdoor decks.
-> Tip: Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials 4–6 PM
+> Tip: Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials start at 5 PM
 <!-- location: 30.2710, -97.7520 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Evening -->

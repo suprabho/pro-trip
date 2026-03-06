@@ -78,7 +78,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-12",
       "color": "#e85d26",
       "days": 5,
-      "stops": 27
+      "stops": 28
     },
     "days": {
       "1": {
@@ -199,7 +199,7 @@ export const TRIPS: TripData[] = [
             "desc": "Small specialty coffee shop on E 5th St. Great pour-overs and pastries before a long conference day."
           },
           {
-            "time": "9:00 AM",
+            "time": "10:00 AM",
             "emoji": "🎓",
             "name": "SXSW EDU — Morning Keynotes",
             "tip": "Keynotes fill up fast · Grab coffee from the convention center if Fleet is too far",
@@ -226,7 +226,7 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Full day at the convention center. Morning keynotes and featured sessions tend to be the best — arrive early for good seats."
+            "desc": "Morning keynotes and featured sessions at the convention center. Arrive early for good seats."
           },
           {
             "time": "12:00 PM",
@@ -240,7 +240,7 @@ export const TRIPS: TripData[] = [
             "desc": "Hit the food trucks around the convention center or walk to nearby spots on E Cesar Chavez. Great networking opportunity over lunch."
           },
           {
-            "time": "1:30 PM",
+            "time": "1:00 PM",
             "emoji": "🎓",
             "name": "SXSW EDU — Afternoon Workshops",
             "tip": "Pre-register for workshops — they cap attendance",
@@ -248,10 +248,10 @@ export const TRIPS: TripData[] = [
             "lng": -97.7394,
             "suggestedBy": "Suprabho",
             "tag": "Conference",
-            "desc": "Deep-dive workshops and interactive sessions in the afternoon. These are smaller and more hands-on than the keynotes."
+            "desc": "Deep-dive workshops and interactive sessions. These are smaller and more hands-on than the keynotes. Sessions wrap up at 3 PM."
           },
           {
-            "time": "5:00 PM",
+            "time": "3:30 PM",
             "emoji": "🚶",
             "name": "South Congress Avenue (SoCo)",
             "tip": "📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching",
@@ -331,7 +331,7 @@ export const TRIPS: TripData[] = [
             "desc": "The original Jo's on South Congress. Good coffee, great vibes, and the famous \"I love you so much\" mural if you missed it yesterday."
           },
           {
-            "time": "9:30 AM",
+            "time": "10:00 AM",
             "emoji": "🎓",
             "name": "SXSW EDU — Morning Sessions",
             "tip": "Day 2 is usually less crowded — great for deeper conversations",
@@ -345,7 +345,7 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Second day at the convention center. Catch sessions you missed yesterday and revisit the expo hall."
+            "desc": "Day 2 at the convention center. Catch sessions you missed yesterday and revisit the expo hall."
           },
           {
             "time": "12:00 PM",
@@ -359,7 +359,7 @@ export const TRIPS: TripData[] = [
             "desc": "Best breakfast tacos in Austin. The migas taco is legendary. The location on E Cesar Chavez is closest to the convention center."
           },
           {
-            "time": "1:30 PM",
+            "time": "1:00 PM",
             "emoji": "🎓",
             "name": "SXSW EDU — Afternoon Sessions",
             "tip": "Exchange contacts with people you met · Grab any last swag from the expo",
@@ -367,10 +367,10 @@ export const TRIPS: TripData[] = [
             "lng": -97.7394,
             "suggestedBy": "Suprabho",
             "tag": "Conference",
-            "desc": "Wrap up the conference — final panels, networking, and closing remarks."
+            "desc": "Final panels, networking, and closing remarks. Sessions wrap up at 3 PM."
           },
           {
-            "time": "4:00 PM",
+            "time": "3:30 PM",
             "emoji": "🌳",
             "name": "Zilker Park & Lady Bird Lake",
             "tip": "👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse",
@@ -412,9 +412,9 @@ export const TRIPS: TripData[] = [
         ]
       },
       "4": {
-        "label": "Day 4 · Explore Austin",
-        "title": "Capitol, West 6th & Farewell",
-        "subtitle": "Texas State Capitol · West 6th Street · Farewell Dinner",
+        "label": "Day 4 · SXSW EDU",
+        "title": "SXSW EDU Day 3, Capitol & West 6th",
+        "subtitle": "SXSW EDU · Texas State Capitol · West 6th Street · Farewell Dinner",
         "color": "#bf5700",
         "center": [
           30.27,
@@ -435,6 +435,39 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "10:00 AM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Morning Sessions",
+            "tip": "Last chance for expo hall and swag · Focus on must-see sessions",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Day 3 at the convention center. Final day of sessions — catch anything you missed and wrap up networking."
+          },
+          {
+            "time": "12:00 PM",
+            "emoji": "🍔",
+            "name": "Lunch Break",
+            "tip": "Food trucks on Trinity St · Hopdoddy is a 10-min walk south",
+            "lat": 30.2625,
+            "lng": -97.738,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Grab a quick bite from the food trucks near the convention center or walk to Hopdoddy on South Congress for craft burgers."
+          },
+          {
+            "time": "1:00 PM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Afternoon Sessions",
+            "tip": "Exchange contacts · Grab any last swag from the expo",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Final afternoon of panels and workshops. Sessions wrap up at 3 PM."
+          },
+          {
+            "time": "3:30 PM",
             "emoji": "🏛",
             "name": "Texas State Capitol",
             "tip": "Free tours every 30 min · 15-min walk north from downtown",
@@ -442,35 +475,13 @@ export const TRIPS: TripData[] = [
             "lng": -97.7403,
             "suggestedBy": "Suprabho",
             "tag": "Landmark",
-            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for a morning walk."
+            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk."
           },
           {
-            "time": "11:30 AM",
-            "emoji": "🍔",
-            "name": "Hopdoddy Burger Bar",
-            "tip": "1400 S Congress Ave · The Goodnight burger is the move",
-            "lat": 30.2486,
-            "lng": -97.7497,
-            "suggestedBy": "Suprabho",
-            "tag": "Food",
-            "desc": "South Congress burger spot with craft burgers and truffle fries. Great midday stop between exploring."
-          },
-          {
-            "time": "1:30 PM",
-            "emoji": "🛍",
-            "name": "2nd Street District",
-            "tip": "The library rooftop has great views of Lady Bird Lake",
-            "lat": 30.2639,
-            "lng": -97.7476,
-            "suggestedBy": "Suprabho",
-            "tag": "Walk",
-            "desc": "Downtown shopping and strolling. Boutiques, local shops, and the Austin Central Library (stunning modern architecture worth a peek)."
-          },
-          {
-            "time": "4:00 PM",
+            "time": "5:00 PM",
             "emoji": "🍻",
             "name": "West 6th Street",
-            "tip": "Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials 4–6 PM",
+            "tip": "Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials start at 5 PM",
             "lat": 30.271,
             "lng": -97.752,
             "suggestedBy": "Suprabho",
