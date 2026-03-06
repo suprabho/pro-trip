@@ -17,13 +17,13 @@ endDate: "2026-03-12"
 <!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 9, 2026 | 3:15 PM | LH468 -->
 <!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 
-### 12:00 PM | 🏨 | Fairmont Austin — Check In
-101 Red River St, right next to the Austin Convention Center. Drop bags and head straight to SXSW EDU.
+### 12:00 PM | 🏨 | Hilton Garden Inn Austin Downtown — Check In
+500 N Interstate 35, right near the convention center. Drop bags and head straight to SXSW EDU.
 > Tip: Uber from AUS ~15 min · Hotel is steps from the convention center
-<!-- location: 30.2614, -97.7399 -->
+<!-- location: 30.2652, -97.7358 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Arrive -->
-- [ ] Confirm hotel reservation | https://www.fairmont.com/austin
+- [ ] Confirm hotel reservation | https://www.hilton.com/en/hotels/auscogi-hilton-garden-inn-austin-downtown-convention-center/
 - [ ] Book Uber from AUS
 
 ### 12:30 PM | 🎓 | SXSW EDU — Afternoon Sessions
