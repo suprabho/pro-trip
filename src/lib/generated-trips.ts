@@ -67,6 +67,376 @@ export interface TripData {
 export const TRIPS: TripData[] = [
   {
     "meta": {
+      "id": "austin",
+      "city": "Austin",
+      "subtitle": "3 Day Itinerary",
+      "emoji": "🤠",
+      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
+      "color": "#e85d26",
+      "days": 3,
+      "stops": 20
+    },
+    "days": {
+      "1": {
+        "label": "Day 1 · Arrival",
+        "title": "SXSW EDU & Downtown",
+        "subtitle": "Austin Convention Center · Rainey St · Congress Ave Bridge",
+        "color": "#e85d26",
+        "center": [
+          30.264,
+          -97.74
+        ],
+        "zoom": 14,
+        "stops": [
+          {
+            "time": "12:00 PM",
+            "emoji": "🏨",
+            "name": "Fairmont Austin — Check In",
+            "tip": "Uber from AUS ~15 min · Hotel is steps from the convention center",
+            "lat": 30.2614,
+            "lng": -97.7399,
+            "suggestedBy": "Suprabho",
+            "tag": "Arrive",
+            "todos": [
+              {
+                "note": "Confirm hotel reservation",
+                "done": false,
+                "link": "https://www.fairmont.com/austin"
+              },
+              {
+                "note": "Book Uber from AUS",
+                "done": false
+              }
+            ],
+            "desc": "101 Red River St, right next to the Austin Convention Center. Drop bags and head straight to SXSW EDU."
+          },
+          {
+            "time": "12:30 PM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Afternoon Sessions",
+            "tip": "🎟 Badge required · Download the SXSW EDU app for scheduling · Bring a portable charger",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "todos": [
+              {
+                "note": "Register badge pickup",
+                "done": false,
+                "link": "https://www.sxswedu.com"
+              },
+              {
+                "note": "Download SXSW EDU scheduling app",
+                "done": false
+              },
+              {
+                "note": "Review session schedule and bookmark must-attend talks",
+                "done": false
+              }
+            ],
+            "desc": "Austin Convention Center, 500 E Cesar Chavez St. Explore keynotes, panels, and the expo hall. Focus on the afternoon featured sessions."
+          },
+          {
+            "time": "5:00 PM",
+            "emoji": "🍻",
+            "name": "Rainey Street Historic District",
+            "tip": "5-min walk from the convention center · Bangers is the go-to · Outdoor seating everywhere",
+            "lat": 30.2567,
+            "lng": -97.739,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "A block of old bungalows converted into bars and food trucks. The best spot in Austin for a casual post-conference drink. Try Bangers for sausages and craft beer."
+          },
+          {
+            "time": "7:00 PM",
+            "emoji": "🦇",
+            "name": "Congress Ave Bridge — Bat Watching",
+            "tip": "🦇 Best viewed from the south side of the bridge · Arrive 30 min before sunset · Peak bat season is summer but March works too",
+            "lat": 30.2621,
+            "lng": -97.7454,
+            "suggestedBy": "Suprabho",
+            "tag": "Experience",
+            "desc": "1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences."
+          },
+          {
+            "time": "8:00 PM",
+            "emoji": "🌮",
+            "name": "Torchy's Tacos — South Congress",
+            "tip": "1311 S 1st St location or the S Congress one · Expect a short wait",
+            "lat": 30.2508,
+            "lng": -97.753,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Austin's beloved taco chain. Try the Trailer Park (trashy style) and the Democrat. Loud, fun, and delicious."
+          },
+          {
+            "time": "9:30 PM",
+            "emoji": "🎵",
+            "name": "6th Street — Live Music",
+            "tip": "🎸 Free entry to most bars · East 6th has the cooler, less touristy spots",
+            "lat": 30.2672,
+            "lng": -97.7396,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "Dirty Sixth is Austin's legendary bar strip — live music pouring out of every door. Walk the strip, duck into whatever sounds good."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Fairmont Austin",
+            "lat": 30.2614,
+            "lng": -97.7399
+          }
+        ],
+        "airport": {
+          "name": "Austin-Bergstrom International",
+          "code": "AUS",
+          "lat": 30.1975,
+          "lng": -97.6664,
+          "date": "Mar 9, 2026",
+          "time": "10:30 AM",
+          "flightNumber": "WN1842"
+        }
+      },
+      "2": {
+        "label": "Day 2 · Full Day",
+        "title": "SXSW EDU Full Day & South Congress",
+        "subtitle": "SXSW EDU · South Congress · Lady Bird Lake · Food Trucks",
+        "color": "#2c7fb8",
+        "center": [
+          30.258,
+          -97.748
+        ],
+        "zoom": 14,
+        "stops": [
+          {
+            "time": "8:30 AM",
+            "emoji": "☕",
+            "name": "Fleet Coffee — Morning Fuel",
+            "tip": "5-min walk from Fairmont · Opens early · Quick in-and-out",
+            "lat": 30.2656,
+            "lng": -97.7335,
+            "suggestedBy": "Suprabho",
+            "tag": "Coffee",
+            "desc": "Small specialty coffee shop on E 5th St. Great pour-overs and pastries before a long conference day."
+          },
+          {
+            "time": "9:00 AM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Morning Keynotes",
+            "tip": "Keynotes fill up fast · Grab coffee from the convention center if Fleet is too far",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "todos": [
+              {
+                "note": "Check keynote speaker schedule",
+                "done": false
+              },
+              {
+                "note": "Plan which breakout sessions to attend",
+                "done": false
+              }
+            ],
+            "desc": "Full day at the convention center. Morning keynotes and featured sessions tend to be the best — arrive early for good seats."
+          },
+          {
+            "time": "12:00 PM",
+            "emoji": "🍔",
+            "name": "SXSW EDU Lunch & Networking",
+            "tip": "Food trucks cluster on Trinity St · Bring business cards",
+            "lat": 30.2625,
+            "lng": -97.738,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Hit the food trucks around the convention center or walk to nearby spots on E Cesar Chavez. Great networking opportunity over lunch."
+          },
+          {
+            "time": "1:30 PM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Afternoon Workshops",
+            "tip": "Pre-register for workshops — they cap attendance",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Deep-dive workshops and interactive sessions in the afternoon. These are smaller and more hands-on than the keynotes."
+          },
+          {
+            "time": "4:30 PM",
+            "emoji": "🚶",
+            "name": "South Congress Avenue (SoCo)",
+            "tip": "📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching",
+            "lat": 30.2496,
+            "lng": -97.7494,
+            "suggestedBy": "Suprabho",
+            "tag": "Walk",
+            "todos": [
+              {
+                "note": "Photo at \"I love you so much\" mural",
+                "done": false
+              },
+              {
+                "note": "Photo at \"Greetings from Austin\" mural",
+                "done": false
+              }
+            ],
+            "desc": "Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the \"I love you so much\" mural on the side of Jo's Coffee and the \"Greetings from Austin\" postcard mural."
+          },
+          {
+            "time": "6:00 PM",
+            "emoji": "🌊",
+            "name": "Lady Bird Lake — Hike & Bike Trail",
+            "tip": "👟 Flat, paved path · 20-min walk segment is plenty · Kayak rentals available too",
+            "lat": 30.2515,
+            "lng": -97.751,
+            "suggestedBy": "Suprabho",
+            "tag": "Walk",
+            "desc": "10-mile urban trail around the lake. Walk the southern section from South Congress to Lamar — beautiful at golden hour."
+          },
+          {
+            "time": "7:30 PM",
+            "emoji": "🍖",
+            "name": "Franklin Barbecue *or* la Barbecue",
+            "tip": "🔥 la Barbecue is the practical choice for dinner · Franklin requires a morning commitment",
+            "lat": 30.2701,
+            "lng": -97.7312,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "todos": [
+              {
+                "note": "Check Franklin vs la Barbecue wait times",
+                "done": false
+              }
+            ],
+            "desc": "Franklin is the #1 BBQ in Texas — but the line is legendary (2–3 hrs). la Barbecue on E Cesar Chavez is nearly as good with a shorter wait. Brisket, ribs, sausage."
+          },
+          {
+            "time": "9:00 PM",
+            "emoji": "🎶",
+            "name": "The Continental Club — Live Music",
+            "tip": "🎸 1315 S Congress Ave · No cover most nights · Shows start around 9:30",
+            "lat": 30.2488,
+            "lng": -97.7497,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "South Congress institution since 1955. Rockabilly, country, blues — the real Austin music scene, not the tourist version."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Fairmont Austin",
+            "lat": 30.2614,
+            "lng": -97.7399
+          }
+        ]
+      },
+      "3": {
+        "label": "Day 3 · Departure",
+        "title": "UT Campus, Museums & Departure",
+        "subtitle": "UT Campus · Blanton Museum · Texas State Capitol · Farewell Brunch",
+        "color": "#bf5700",
+        "center": [
+          30.284,
+          -97.74
+        ],
+        "zoom": 14,
+        "stops": [
+          {
+            "time": "9:00 AM",
+            "emoji": "☕",
+            "name": "Jo's Coffee — South Congress",
+            "tip": "Outdoor patio is the move · 1300 S Congress Ave",
+            "lat": 30.2494,
+            "lng": -97.7497,
+            "suggestedBy": "Suprabho",
+            "tag": "Coffee",
+            "desc": "The original Jo's on South Congress. Good coffee, great vibes, and the famous \"I love you so much\" mural if you missed it yesterday."
+          },
+          {
+            "time": "10:00 AM",
+            "emoji": "🏛",
+            "name": "Texas State Capitol",
+            "tip": "Free tours every 30 min · 15-min walk north from downtown",
+            "lat": 30.2747,
+            "lng": -97.7403,
+            "suggestedBy": "Suprabho",
+            "tag": "Landmark",
+            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for a morning walk."
+          },
+          {
+            "time": "11:00 AM",
+            "emoji": "🎓",
+            "name": "UT Austin Campus Walk",
+            "tip": "📸 Tower is the iconic shot · 5-min walk from the Capitol · Campus is open to visitors",
+            "lat": 30.2849,
+            "lng": -97.7341,
+            "suggestedBy": "Suprabho",
+            "tag": "Walk",
+            "desc": "Walk the Forty Acres — the Main Building tower, the Littlefield Fountain, South Mall. One of the most beautiful campuses in the country."
+          },
+          {
+            "time": "12:00 PM",
+            "emoji": "🎨",
+            "name": "Blanton Museum of Art",
+            "tip": "🎟 Free on Thursdays · Ellsworth Kelly building is outside the main museum · 200 E MLK Blvd",
+            "lat": 30.2808,
+            "lng": -97.737,
+            "suggestedBy": "Suprabho",
+            "tag": "Museum",
+            "desc": "UT's art museum — excellent Latin American and contemporary collections. The Ellsworth Kelly \"Austin\" chapel is a must-see."
+          },
+          {
+            "time": "1:30 PM",
+            "emoji": "🌮",
+            "name": "Veracruz All Natural — Farewell Lunch",
+            "tip": "Cash and card · Order migas and the green salsa · Quick and easy before heading to the airport",
+            "lat": 30.2594,
+            "lng": -97.7258,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Best breakfast tacos in Austin. The migas taco is legendary. Multiple locations — the one on E Cesar Chavez is closest."
+          },
+          {
+            "time": "3:30 PM",
+            "emoji": "✈️",
+            "name": "Head to AUS",
+            "tip": "Uber recommended · ~$15–25 · AUS is a small, easy airport",
+            "lat": 30.1975,
+            "lng": -97.6664,
+            "suggestedBy": "Suprabho",
+            "tag": "Depart",
+            "todos": [
+              {
+                "note": "Book Uber to AUS",
+                "done": false
+              }
+            ],
+            "desc": "Allow ~30 min to Austin-Bergstrom. For a 6:30 PM flight, aim to be at the airport by 4:00 PM."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Fairmont Austin",
+            "lat": 30.2614,
+            "lng": -97.7399
+          }
+        ],
+        "airport": {
+          "name": "Austin-Bergstrom International",
+          "code": "AUS",
+          "lat": 30.1975,
+          "lng": -97.6664,
+          "date": "Mar 11, 2026",
+          "time": "6:30 PM",
+          "flightNumber": "WN2204"
+        }
+      }
+    }
+  },
+  {
+    "meta": {
       "id": "new-york",
       "city": "New York",
       "subtitle": "3 Day Itinerary",
