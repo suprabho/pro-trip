@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useParams, notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { TopBar } from "@/components/top-bar";
 import type { DayValue } from "@/components/top-bar";
@@ -21,9 +22,10 @@ const ItineraryMap = dynamic(
   }
 );
 
-const trip = getTripById("new-york")!;
+export default function TripPage() {
+  const { slug } = useParams<{ slug: string }>();
+  const trip = getTripById(slug);
 
-export default function NewYorkTrip() {
   const [activeDay, setActiveDay] = useState<DayValue>(1);
   const [activeStop, setActiveStop] = useState<string | null>(null);
   const [focusedStop, setFocusedStop] = useState<Stop | null>(null);
@@ -40,12 +42,17 @@ export default function NewYorkTrip() {
     setFocusedStop(stop);
   }, []);
 
+  if (!trip) {
+    notFound();
+  }
+
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-paper text-ink font-sans">
       <TopBar trip={trip} activeDay={activeDay} onDayChange={handleDayChange} />
       <div className="flex-1 flex flex-col md:flex-row overflow-hidden relative">
         <div className="hidden md:flex md:w-[380px] shrink-0">
           <Sidebar
+            trip={trip}
             activeDay={activeDay}
             activeStop={activeStop}
             onStopClick={handleStopClick}
@@ -53,10 +60,11 @@ export default function NewYorkTrip() {
           />
         </div>
         <div className="flex-1 relative">
-          <ItineraryMap activeDay={activeDay} focusedStop={focusedStop} />
+          <ItineraryMap trip={trip} activeDay={activeDay} focusedStop={focusedStop} />
         </div>
         <MobileBottomSheet>
           <Sidebar
+            trip={trip}
             activeDay={activeDay}
             activeStop={activeStop}
             onStopClick={handleStopClick}

@@ -11,11 +11,8 @@ import {
 } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { getTripById, type Stop } from "@/lib/generated-trips";
+import type { Stop, TripData, DayData } from "@/lib/generated-trips";
 import type { DayValue } from "@/components/top-bar";
-
-const trip = getTripById("new-york")!;
-const DAYS = trip.days;
 
 /* Tag → pin color using palette values from globals.css */
 const tagColorMap: Record<string, string> = {
@@ -38,6 +35,7 @@ const tagColorMap: Record<string, string> = {
 };
 
 interface ItineraryMapProps {
+  trip: TripData;
   activeDay: DayValue;
   focusedStop: Stop | null;
 }
@@ -86,9 +84,11 @@ function createAirportIcon(color: string) {
 }
 
 function MapController({
+  days,
   activeDay,
   focusedStop,
 }: {
+  days: Record<number, DayData>;
   activeDay: DayValue;
   focusedStop: Stop | null;
 }) {
@@ -109,12 +109,15 @@ function MapController({
         if (marker) marker.openPopup();
       }, 900);
     } else if (activeDay === "all") {
-      map.flyTo([40.735, -73.993], 12, { duration: 0.9 });
+      // Fly to the center of the first day as a reasonable default
+      const firstDayNum = Object.keys(days).map(Number).sort((a, b) => a - b)[0];
+      const firstDay = days[firstDayNum];
+      map.flyTo(firstDay.center, firstDay.zoom - 1, { duration: 0.9 });
     } else {
-      const d = DAYS[activeDay];
+      const d = days[activeDay];
       map.flyTo(d.center, d.zoom, { duration: 0.9 });
     }
-  }, [activeDay, focusedStop, map]);
+  }, [activeDay, focusedStop, map, days]);
 
   // Expose registerMarker on the window for the DayMarkers to use
   useEffect(() => {
@@ -127,8 +130,8 @@ function MapController({
   return null;
 }
 
-function DayMarkers({ dayNum, useTagColors }: { dayNum: number; useTagColors: boolean }) {
-  const d = DAYS[dayNum];
+function DayMarkers({ days, dayNum, useTagColors }: { days: Record<number, DayData>; dayNum: number; useTagColors: boolean }) {
+  const d = days[dayNum];
   const coords = d.stops.map((s) => [s.lat, s.lng] as [number, number]);
 
   return (
@@ -236,11 +239,13 @@ function DayMarkers({ dayNum, useTagColors }: { dayNum: number; useTagColors: bo
   );
 }
 
-export function ItineraryMap({ activeDay, focusedStop }: ItineraryMapProps) {
+export function ItineraryMap({ trip, activeDay, focusedStop }: ItineraryMapProps) {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const DAYS = trip.days;
   const allDayNums = Object.keys(DAYS).map(Number).sort((a, b) => a - b);
   const days = activeDay === "all" ? allDayNums : [activeDay as number];
+  const firstDay = DAYS[allDayNums[0]];
 
   const toggleFullscreen = useCallback(() => {
     if (!document.fullscreenElement) {
@@ -259,8 +264,8 @@ export function ItineraryMap({ activeDay, focusedStop }: ItineraryMapProps) {
   return (
     <div ref={containerRef} className="relative w-full h-full">
       <MapContainer
-        center={[40.724, -73.999]}
-        zoom={14}
+        center={firstDay.center}
+        zoom={firstDay.zoom}
         zoomControl={true}
         className="w-full h-full"
       >
@@ -270,9 +275,9 @@ export function ItineraryMap({ activeDay, focusedStop }: ItineraryMapProps) {
           subdomains="abcd"
           maxZoom={19}
         />
-        <MapController activeDay={activeDay} focusedStop={focusedStop} />
+        <MapController days={DAYS} activeDay={activeDay} focusedStop={focusedStop} />
         {days.map((d) => (
-          <DayMarkers key={d} dayNum={d} useTagColors={activeDay !== "all"} />
+          <DayMarkers key={d} days={DAYS} dayNum={d} useTagColors={activeDay !== "all"} />
         ))}
       </MapContainer>
       <button
