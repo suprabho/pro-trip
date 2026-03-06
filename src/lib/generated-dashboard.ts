@@ -20,7 +20,7 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "id": "austin",
     "city": "Austin",
     "emoji": "🤠",
-    "subtitle": "3 Day Itinerary",
+    "subtitle": "4 Night Trip",
     "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
     "color": "#e85d26",
     "days": 3,
