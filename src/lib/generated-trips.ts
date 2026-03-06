@@ -71,20 +71,20 @@ export const TRIPS: TripData[] = [
     "meta": {
       "id": "austin",
       "city": "Austin",
-      "subtitle": "4 Night Trip",
+      "subtitle": "5 Day Itinerary",
       "emoji": "🤠",
-      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
+      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park",
       "startDate": "2026-03-08",
       "endDate": "2026-03-12",
       "color": "#e85d26",
-      "days": 3,
-      "stops": 20
+      "days": 5,
+      "stops": 28
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
-        "title": "SXSW EDU & Downtown",
-        "subtitle": "Austin Convention Center · Rainey St · Congress Ave Bridge",
+        "title": "Arrival & Downtown",
+        "subtitle": "Austin-Bergstrom · Rainey St · Congress Ave Bridge",
         "color": "#e85d26",
         "center": [
           30.264,
@@ -93,7 +93,7 @@ export const TRIPS: TripData[] = [
         "zoom": 14,
         "stops": [
           {
-            "time": "12:00 PM",
+            "time": "4:00 PM",
             "emoji": "🏨",
             "name": "Hilton Garden Inn Austin Downtown — Check In",
             "tip": "Uber from AUS ~15 min · Hotel is steps from the convention center",
@@ -149,7 +149,7 @@ export const TRIPS: TripData[] = [
             "lng": -97.739,
             "suggestedBy": "Suprabho",
             "tag": "Food",
-            "desc": "A block of old bungalows converted into bars and food trucks. The best spot in Austin for a casual post-conference drink. Try Bangers for sausages and craft beer."
+            "desc": "A block of old bungalows converted into bars and food trucks. The best spot in Austin for a casual post-flight drink. Try Bangers for sausages and craft beer."
           },
           {
             "time": "7:00 PM",
@@ -197,19 +197,19 @@ export const TRIPS: TripData[] = [
           "code": "AUS",
           "lat": 30.1975,
           "lng": -97.6664,
-          "date": "Mar 9, 2026",
+          "date": "Mar 8, 2026",
           "time": "3:15 PM",
           "flightNumber": "LH468"
         }
       },
       "2": {
-        "label": "Day 2 · Full Day",
-        "title": "SXSW EDU Full Day & South Congress",
-        "subtitle": "SXSW EDU · South Congress · Lady Bird Lake · Food Trucks",
+        "label": "Day 2 · SXSW EDU",
+        "title": "SXSW EDU Day 1",
+        "subtitle": "Convention Center · Keynotes · Panels · Expo Hall",
         "color": "#2c7fb8",
         "center": [
-          30.258,
-          -97.748
+          30.263,
+          -97.739
         ],
         "zoom": 14,
         "stops": [
@@ -225,7 +225,7 @@ export const TRIPS: TripData[] = [
             "desc": "Small specialty coffee shop on E 5th St. Great pour-overs and pastries before a long conference day."
           },
           {
-            "time": "9:00 AM",
+            "time": "10:00 AM",
             "emoji": "🎓",
             "name": "SXSW EDU — Morning Keynotes",
             "tip": "Keynotes fill up fast · Grab coffee from the convention center if Fleet is too far",
@@ -235,15 +235,24 @@ export const TRIPS: TripData[] = [
             "tag": "Conference",
             "todos": [
               {
-                "note": "Check keynote speaker schedule",
+                "note": "Register badge pickup",
+                "done": false,
+                "link": "https://www.sxswedu.com"
+              },
+              {
+                "note": "Download SXSW EDU scheduling app",
                 "done": false
               },
               {
-                "note": "Plan which breakout sessions to attend",
+                "note": "Review session schedule and bookmark must-attend talks",
+                "done": false
+              },
+              {
+                "note": "Check keynote speaker schedule",
                 "done": false
               }
             ],
-            "desc": "Full day at the convention center. Morning keynotes and featured sessions tend to be the best — arrive early for good seats."
+            "desc": "Morning keynotes and featured sessions at the convention center. Arrive early for good seats."
           },
           {
             "time": "12:00 PM",
@@ -257,7 +266,7 @@ export const TRIPS: TripData[] = [
             "desc": "Hit the food trucks around the convention center or walk to nearby spots on E Cesar Chavez. Great networking opportunity over lunch."
           },
           {
-            "time": "1:30 PM",
+            "time": "1:00 PM",
             "emoji": "🎓",
             "name": "SXSW EDU — Afternoon Workshops",
             "tip": "Pre-register for workshops — they cap attendance",
@@ -265,10 +274,10 @@ export const TRIPS: TripData[] = [
             "lng": -97.7394,
             "suggestedBy": "Suprabho",
             "tag": "Conference",
-            "desc": "Deep-dive workshops and interactive sessions in the afternoon. These are smaller and more hands-on than the keynotes."
+            "desc": "Deep-dive workshops and interactive sessions. These are smaller and more hands-on than the keynotes. Sessions wrap up at 3 PM."
           },
           {
-            "time": "4:30 PM",
+            "time": "3:30 PM",
             "emoji": "🚶",
             "name": "South Congress Avenue (SoCo)",
             "tip": "📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching",
@@ -289,32 +298,21 @@ export const TRIPS: TripData[] = [
             "desc": "Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the \"I love you so much\" mural on the side of Jo's Coffee and the \"Greetings from Austin\" postcard mural."
           },
           {
-            "time": "6:00 PM",
-            "emoji": "🌊",
-            "name": "Lady Bird Lake — Hike & Bike Trail",
-            "tip": "👟 Flat, paved path · 20-min walk segment is plenty · Kayak rentals available too",
-            "lat": 30.2515,
-            "lng": -97.751,
-            "suggestedBy": "Suprabho",
-            "tag": "Walk",
-            "desc": "10-mile urban trail around the lake. Walk the southern section from South Congress to Lamar — beautiful at golden hour."
-          },
-          {
             "time": "7:30 PM",
             "emoji": "🍖",
-            "name": "Franklin Barbecue *or* la Barbecue",
-            "tip": "🔥 la Barbecue is the practical choice for dinner · Franklin requires a morning commitment",
-            "lat": 30.2701,
-            "lng": -97.7312,
+            "name": "la Barbecue — Dinner",
+            "tip": "🔥 la Barbecue is the practical dinner choice · Franklin requires a morning commitment",
+            "lat": 30.2594,
+            "lng": -97.7311,
             "suggestedBy": "Suprabho",
             "tag": "Food",
             "todos": [
               {
-                "note": "Check Franklin vs la Barbecue wait times",
+                "note": "Check la Barbecue wait times",
                 "done": false
               }
             ],
-            "desc": "Franklin is the #1 BBQ in Texas — but the line is legendary (2–3 hrs). la Barbecue on E Cesar Chavez is nearly as good with a shorter wait. Brisket, ribs, sausage."
+            "desc": "On E Cesar Chavez, nearly as good as Franklin with a shorter wait. Brisket, ribs, sausage — the real Texas BBQ experience."
           },
           {
             "time": "9:00 PM",
@@ -337,18 +335,18 @@ export const TRIPS: TripData[] = [
         ]
       },
       "3": {
-        "label": "Day 3 · Departure",
-        "title": "UT Campus, Museums & Departure",
-        "subtitle": "UT Campus · Blanton Museum · Texas State Capitol · Farewell Brunch",
-        "color": "#bf5700",
+        "label": "Day 3 · SXSW EDU",
+        "title": "SXSW EDU Day 2 & Lady Bird Lake",
+        "subtitle": "SXSW EDU · Lady Bird Lake · East Austin",
+        "color": "#2d8a6e",
         "center": [
-          30.284,
+          30.26,
           -97.74
         ],
         "zoom": 14,
         "stops": [
           {
-            "time": "9:00 AM",
+            "time": "8:30 AM",
             "emoji": "☕",
             "name": "Jo's Coffee — South Congress",
             "tip": "Outdoor patio is the move · 1300 S Congress Ave",
@@ -360,6 +358,142 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "10:00 AM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Morning Sessions",
+            "tip": "Day 2 is usually less crowded — great for deeper conversations",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "todos": [
+              {
+                "note": "Plan which breakout sessions to attend",
+                "done": false
+              }
+            ],
+            "desc": "Day 2 at the convention center. Catch sessions you missed yesterday and revisit the expo hall."
+          },
+          {
+            "time": "12:00 PM",
+            "emoji": "🌮",
+            "name": "Veracruz All Natural — Lunch",
+            "tip": "Cash and card · Order migas and the green salsa",
+            "lat": 30.2594,
+            "lng": -97.7258,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Best breakfast tacos in Austin. The migas taco is legendary. The location on E Cesar Chavez is closest to the convention center."
+          },
+          {
+            "time": "1:00 PM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Afternoon Sessions",
+            "tip": "Exchange contacts with people you met · Grab any last swag from the expo",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Final panels, networking, and closing remarks. Sessions wrap up at 3 PM."
+          },
+          {
+            "time": "3:30 PM",
+            "emoji": "🌳",
+            "name": "Zilker Park & Lady Bird Lake",
+            "tip": "👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse",
+            "lat": 30.2669,
+            "lng": -97.7729,
+            "suggestedBy": "Suprabho",
+            "tag": "Walk",
+            "desc": "351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water, relax on the great lawn, or rent a kayak. Barton Springs Pool is here too if it's warm enough for a dip."
+          },
+          {
+            "time": "7:00 PM",
+            "emoji": "🍕",
+            "name": "East Austin Dinner — Odd Duck",
+            "tip": "Reservations recommended · Share multiple plates · Great craft cocktails",
+            "lat": 30.2528,
+            "lng": -97.7637,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Farm-to-table small plates on South Lamar. Creative Texas cuisine — one of the best restaurants in Austin."
+          },
+          {
+            "time": "9:00 PM",
+            "emoji": "🎵",
+            "name": "East 6th Street — Bar Hop",
+            "tip": "East 6th between I-35 and Chicon St is the sweet spot",
+            "lat": 30.2665,
+            "lng": -97.731,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "The cooler, less touristy side of 6th Street. Craft cocktail bars, dive bars, and live music venues. Try Whisler's or Hotel Vegas."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
+          }
+        ]
+      },
+      "4": {
+        "label": "Day 4 · SXSW EDU",
+        "title": "SXSW EDU Day 3, Capitol & West 6th",
+        "subtitle": "SXSW EDU · Texas State Capitol · West 6th Street · Farewell Dinner",
+        "color": "#bf5700",
+        "center": [
+          30.27,
+          -97.748
+        ],
+        "zoom": 14,
+        "stops": [
+          {
+            "time": "9:00 AM",
+            "emoji": "☕",
+            "name": "Houndstooth Coffee",
+            "tip": "401 Congress Ave · Excellent cold brew",
+            "lat": 30.2688,
+            "lng": -97.7432,
+            "suggestedBy": "Suprabho",
+            "tag": "Coffee",
+            "desc": "Specialty coffee on North Congress. A favorite of Austin locals with a great minimalist vibe."
+          },
+          {
+            "time": "10:00 AM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Morning Sessions",
+            "tip": "Last chance for expo hall and swag · Focus on must-see sessions",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Day 3 at the convention center. Final day of sessions — catch anything you missed and wrap up networking."
+          },
+          {
+            "time": "12:00 PM",
+            "emoji": "🍔",
+            "name": "Lunch Break",
+            "tip": "Food trucks on Trinity St · Hopdoddy is a 10-min walk south",
+            "lat": 30.2625,
+            "lng": -97.738,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "Grab a quick bite from the food trucks near the convention center or walk to Hopdoddy on South Congress for craft burgers."
+          },
+          {
+            "time": "1:00 PM",
+            "emoji": "🎓",
+            "name": "SXSW EDU — Afternoon Sessions",
+            "tip": "Exchange contacts · Grab any last swag from the expo",
+            "lat": 30.2631,
+            "lng": -97.7394,
+            "suggestedBy": "Suprabho",
+            "tag": "Conference",
+            "desc": "Final afternoon of panels and workshops. Sessions wrap up at 3 PM."
+          },
+          {
+            "time": "3:30 PM",
             "emoji": "🏛",
             "name": "Texas State Capitol",
             "tip": "Free tours every 30 min · 15-min walk north from downtown",
@@ -367,41 +501,61 @@ export const TRIPS: TripData[] = [
             "lng": -97.7403,
             "suggestedBy": "Suprabho",
             "tag": "Landmark",
-            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for a morning walk."
+            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk."
           },
           {
-            "time": "11:00 AM",
-            "emoji": "🎓",
-            "name": "UT Austin Campus Walk",
-            "tip": "📸 Tower is the iconic shot · 5-min walk from the Capitol · Campus is open to visitors",
-            "lat": 30.2849,
-            "lng": -97.7341,
+            "time": "5:00 PM",
+            "emoji": "🍻",
+            "name": "West 6th Street",
+            "tip": "Between Lamar Blvd and West Ave · Rooftop bars are the move · Happy hour specials start at 5 PM",
+            "lat": 30.271,
+            "lng": -97.752,
             "suggestedBy": "Suprabho",
-            "tag": "Walk",
-            "desc": "Walk the Forty Acres — the Main Building tower, the Littlefield Fountain, South Mall. One of the most beautiful campuses in the country."
+            "tag": "Evening",
+            "desc": "Austin's upscale bar district — rooftop patios, craft cocktails, and a more chill vibe than Dirty Sixth. Try spots like Irene's, Handlebar, or The Dogwood for great outdoor decks."
           },
           {
-            "time": "12:00 PM",
-            "emoji": "🎨",
-            "name": "Blanton Museum of Art",
-            "tip": "🎟 Free on Thursdays · Ellsworth Kelly building is outside the main museum · 200 E MLK Blvd",
-            "lat": 30.2808,
-            "lng": -97.737,
-            "suggestedBy": "Suprabho",
-            "tag": "Museum",
-            "desc": "UT's art museum — excellent Latin American and contemporary collections. The Ellsworth Kelly \"Austin\" chapel is a must-see."
-          },
-          {
-            "time": "1:30 PM",
-            "emoji": "🌮",
-            "name": "Veracruz All Natural — Farewell Lunch",
-            "tip": "Cash and card · Order migas and the green salsa · Quick and easy before heading to the airport",
-            "lat": 30.2594,
-            "lng": -97.7258,
+            "time": "7:00 PM",
+            "emoji": "🥩",
+            "name": "Uchi — Farewell Dinner",
+            "tip": "Reservations essential · Omakase or the tasting menu recommended · 801 S Lamar Blvd",
+            "lat": 30.2547,
+            "lng": -97.764,
             "suggestedBy": "Suprabho",
             "tag": "Food",
-            "desc": "Best breakfast tacos in Austin. The migas taco is legendary. Multiple locations — the one on E Cesar Chavez is closest."
+            "desc": "James Beard Award-winning Japanese farmhouse dining. One of Austin's finest restaurants — a perfect farewell dinner."
           },
+          {
+            "time": "9:30 PM",
+            "emoji": "🎵",
+            "name": "Elephant Room — Jazz Night",
+            "tip": "🎷 315 Congress Ave · Small cover charge · Shows nightly",
+            "lat": 30.266,
+            "lng": -97.7432,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "Basement jazz club on Congress Ave. Intimate, low-key, and the perfect way to close out an Austin trip."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
+          }
+        ]
+      },
+      "5": {
+        "label": "Day 5 · Departure",
+        "title": "Departure",
+        "subtitle": "Farewell Brunch · Austin-Bergstrom",
+        "color": "#8c5e3c",
+        "center": [
+          30.26,
+          -97.74
+        ],
+        "zoom": 13,
+        "stops": [
           {
             "time": "4:00 AM",
             "emoji": "✈️",
