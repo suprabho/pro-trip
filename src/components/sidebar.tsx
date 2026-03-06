@@ -1,15 +1,13 @@
 "use client";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { getTripById, type Stop } from "@/lib/generated-trips";
-
-const trip = getTripById("new-york")!;
-const DAYS = trip.days;
+import type { Stop, TripData } from "@/lib/generated-trips";
 import { cn } from "@/lib/utils";
 
 import type { DayValue } from "@/components/top-bar";
 
 interface SidebarProps {
+  trip: TripData;
   activeDay: DayValue;
   activeStop: string | null;
   onStopClick: (stop: Stop, day: number) => void;
@@ -57,7 +55,8 @@ const dayLabelColorMap: Record<number, string> = {
   4: "text-[#666]",
 };
 
-export function Sidebar({ activeDay, activeStop, onStopClick, onTodoClick, mobile }: SidebarProps) {
+export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick, mobile }: SidebarProps) {
+  const DAYS = trip.days;
 
   const headerInfo =
     activeDay === "all"
