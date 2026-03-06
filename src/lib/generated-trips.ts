@@ -550,7 +550,7 @@ export const TRIPS: TripData[] = [
         "label": "Day 4 · Departure",
         "title": "Departure",
         "subtitle": "Brunch · West Village · JFK",
-        "color": "#ac97f3",
+        "color": "#666",
         "center": [
           40.6449,
           -73.7807
