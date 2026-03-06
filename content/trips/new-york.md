@@ -8,7 +8,7 @@ highlights: NoHo · Greenwich Village · Brooklyn Bridge · Central Park
 
 ## Day 1: Downtown Initiation
 <!-- label: Day 1 · Arrival -->
-<!-- subtitle: NoHo · Greenwich Village · Eataly · Tribeca -->
+<!-- subtitle: Washington Square · West Village · Greenwich Village · Madison Square · Union Square -->
 <!-- color: #c94f2c -->
 <!-- center: 40.724, -73.999 -->
 <!-- zoom: 14 -->
@@ -23,42 +23,54 @@ highlights: NoHo · Greenwich Village · Brooklyn Bridge · Central Park
 - [ ] Confirm hotel reservation | https://nownownoho.com
 - [x] Book Uber from LGA
 
-### 4:30 PM | 🚶 | Greenwich Village
+### 4:30 PM | ⛲ | Washington Square Fountain
+The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the arch beautifully — worth lingering.
+> Tip: 10-min walk from your hotel
+<!-- location: 40.7309, -73.9973 -->
+<!-- suggestedBy: Srayana -->
+
+### 5:30 PM | 🍕 | Joe's Pizza, Carmine St
+The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza.
+> Tip: 💵 Cash only · ATM right outside · 5-min walk from Washington Square
+<!-- location: 40.7307, -74.0022 -->
+<!-- suggestedBy: Srayana -->
+- [ ] Withdraw cash from ATM before going
+
+### 6:30 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
 > Tip: No agenda needed. Just wander.
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 
-### 5:30 PM | 🌳 | Washington Square Park
-The iconic arch, the fountain, NYU students everywhere. Golden hour hits the arch beautifully.
-> Tip: 10-min walk from your hotel
-<!-- location: 40.7309, -73.9973 -->
-<!-- suggestedBy: Srayana -->
+### 7:30 PM | 🌿 | Madison Square Park
+Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots at dusk. The original Shake Shack is right here if you need dessert.
+> Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from Greenwich Village
+<!-- location: 40.7425, -73.9878 -->
+<!-- suggestedBy: Suprabho -->
 
-### 6:30 PM | 🎪 | Union Square Holiday Market
-Seasonal outdoor market with crafts, food, and gifts. 15-min walk north from Washington Sq.
-> Tip: 🎄 Seasonal · Open Nov–Dec only
+### 8:00 PM | 🧱 | The LEGO Store — Flatiron District
+Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
+> Tip: 🕐 Check hours before going · Less crowded than the 5th Ave Midtown store
+<!-- location: 40.7419, -73.9898 -->
+<!-- suggestedBy: Suprabho -->
+
+### 8:30 PM | 🛍 | Union Square
+Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and night energy. The Greenmarket runs here on select days.
+> Tip: 10-min walk south from Madison Square Park
 <!-- location: 40.7359, -73.9911 -->
 <!-- suggestedBy: Ritwik -->
 
-### 7:00 PM | 🍕 | Joe's Pizza, Carmine St
-The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza.
-> Tip: 💵 Cash only · ATM right outside
-<!-- location: 40.7307, -74.0022 -->
-<!-- suggestedBy: Srayana -->
-- [ ] Withdraw cash from ATM before going
-
-### 8:00 PM | 🍝 | Eataly Flatiron
-Italian food hall near the iconic triangular Flatiron Building. Great for dessert, gelato, or a browse after pizza.
-> Tip: 📍 Right next to the Flatiron Building
-<!-- location: 40.7425, -73.9896 -->
-<!-- suggestedBy: Ritwik -->
-
-### 9:00 PM | 🌙 | Tribeca at Night
-Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy.
-> Tip: Walk south from your hotel
+### 9:30 PM | 🌙 | Tribeca at Night
+Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot.
+> Tip: Walk south from your hotel · 10-min from NoHo
 <!-- location: 40.7163, -74.0086 -->
 <!-- suggestedBy: Suprabho, Srayana -->
+
+### 10:30 PM | 🥪 | Katz's Delicatessen
+The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. Open late, cash or card. The "I'll have what she's having" spot from When Harry Met Sally.
+> Tip: 🕐 Open late (until 10:45 PM weekdays, 2:45 AM weekends) · 5-min walk from your hotel · Split a sandwich — they're massive
+<!-- location: 40.7223, -73.9874 -->
+<!-- suggestedBy: Suprabho -->
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
@@ -86,9 +98,9 @@ Two massive reflecting pools where the towers stood. Book tickets in advance. ~2
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 2:30 PM | 🌐 | One World Observatory
-102nd floor of One World Trade Center. Panoramic views of NYC. Right next to the 9/11 Memorial.
-> Tip: 🎟 Book online · Can skip if saving The Edge for Day 3
+### 2:30 PM | 🌐 | One World Observatory *(Optional)*
+102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both.
+> Tip: ⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection
 <!-- location: 40.7127, -74.0134 -->
 <!-- suggestedBy: Ritwik -->
 
@@ -96,7 +108,7 @@ Two massive reflecting pools where the towers stood. Book tickets in advance. ~2
 From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close.
 > Tip: 📍 Start from City Hall Park side · 20-min walk from One World
 <!-- location: 40.7061, -73.9969 -->
-<!-- suggestedBy: Aarav, Srayana -->
+<!-- suggestedBy: Srayana -->
 
 ### 5:00 PM | 🌆 | DUMBO Piers — Manhattan Skyline
 Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view.
@@ -115,9 +127,16 @@ Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel 
 > Tip: Walk back over the bridge at dusk for the reverse skyline view
 <!-- location: 40.7261, -73.9923 -->
 
+### 9:30 PM | 🎤 | Comedy Cellar — Friday Night
+One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
+> Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
+<!-- location: 40.7300, -74.0005 -->
+<!-- suggestedBy: Suprabho -->
+- [ ] Book Comedy Cellar tickets | https://www.comedycellar.com
+
 ## Day 3: West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: High Line · The Edge · Halal Guys · Central Park · MET · Guggenheim · Times Square · MoMA -->
+<!-- subtitle: High Line · The Edge · Grand Central · Central Park · MET · Guggenheim · Times Square · MoMA -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
@@ -138,29 +157,36 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 <!-- suggestedBy: Suprabho, Srayana -->
 - [ ] Book Edge tickets | https://www.edgenyc.com/en/tickets
 
-### 1:00 PM | 🥙 | The Halal Guys, 53rd & 6th
-The OG halal cart — gyro over rice with white sauce. $13 for a massive bowl.
-> Tip: 🌶 Ask for extra white sauce · 10-min walk from Hudson Yards
-<!-- location: 40.7618, -73.9794 -->
-<!-- suggestedBy: Aarav, Ritwik -->
+### 1:00 PM | 🎭 | Hamilton — Broadway Matinée
+The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM.
+> Tip: 🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early
+<!-- location: 40.7590, -73.9871 -->
+<!-- suggestedBy: Suprabho -->
+- [ ] Book Hamilton tickets | https://hamiltonmusical.com/new-york/
 
-### 2:00 PM | 🛍 | 5th Avenue Shops
+### 4:00 PM | 🛍 | 5th Avenue Shops
 Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown.
-> Tip: Window shopping is free · You're already walking uptown toward the museums
+> Tip: Window shopping is free · 2-min walk from the theatre
 <!-- location: 40.7564, -73.9782 -->
 <!-- suggestedBy: Ritwik -->
 
-### 2:30 PM | 🏙 | Rockefeller Center
+### 4:30 PM | 🏙 | Rockefeller Center
 Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios.
 > Tip: Combine with 5th Ave — all walkable
 <!-- location: 40.7587, -73.9787 -->
 <!-- suggestedBy: Ritwik -->
 
-### 3:30 PM | 🌿 | Central Park
+### 5:00 PM | 🚂 | Grand Central Terminal
+Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour.
+> Tip: 📍 5-min walk from Rockefeller Center · Free to enter · Look up at the celestial ceiling mural
+<!-- location: 40.7527, -73.9772 -->
+<!-- suggestedBy: Suprabho -->
+
+### 5:30 PM | 🌿 | Central Park
 843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields.
 > Tip: 👟 Enter at 59th St, walk north — naturally routes you toward the museums
 <!-- location: 40.7826, -73.9656 -->
-<!-- suggestedBy: Aarav, Srayana, Ritwik -->
+<!-- suggestedBy: Srayana, Ritwik -->
 
 ### 4:30 PM | 🎨 | The Metropolitan Museum of Art
 Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep.
@@ -195,8 +221,8 @@ Starry Night, Warhols, Picasso. One of the world's greatest modern art collectio
 <!-- suggestedBy: Ritwik -->
 
 ### 9:30 PM | 🌃 | Times Square at Night
-NYC's most iconic intersection — bright lights, billboards, pure chaos. Best experienced after dark.
-> Tip: Best at night for the full effect · 5-min walk from MoMA
+NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough.
+> Tip: 🌙 Night only — don't bother during the day · 5-min walk from MoMA · Don't linger too long
 <!-- location: 40.7580, -73.9855 -->
 <!-- suggestedBy: Ritwik -->
 
@@ -204,7 +230,7 @@ NYC's most iconic intersection — bright lights, billboards, pure chaos. Best e
 Fun, photo-rich hour in Chelsea — Vortex Tunnel, Ames Room, Infinity Mirrors.
 > Tip: 📸 Great for photos · Open until 10 PM · Skip if energy is low after a big day
 <!-- location: 40.7397, -74.0029 -->
-<!-- suggestedBy: Aarav, Ritwik -->
+<!-- suggestedBy: Ritwik -->
 - [ ] Book tickets online | https://museumofillusions.com/new-york
 
 ## Bonus Suggestions
