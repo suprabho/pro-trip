@@ -95,24 +95,24 @@ export const TRIPS: TripData[] = [
           {
             "time": "12:00 PM",
             "emoji": "🏨",
-            "name": "Fairmont Austin — Check In",
+            "name": "Hilton Garden Inn Austin Downtown — Check In",
             "tip": "Uber from AUS ~15 min · Hotel is steps from the convention center",
-            "lat": 30.2614,
-            "lng": -97.7399,
+            "lat": 30.2652,
+            "lng": -97.7358,
             "suggestedBy": "Suprabho",
             "tag": "Arrive",
             "todos": [
               {
                 "note": "Confirm hotel reservation",
                 "done": false,
-                "link": "https://www.fairmont.com/austin"
+                "link": "https://www.hilton.com/en/hotels/auscogi-hilton-garden-inn-austin-downtown-convention-center/"
               },
               {
                 "note": "Book Uber from AUS",
                 "done": false
               }
             ],
-            "desc": "101 Red River St, right next to the Austin Convention Center. Drop bags and head straight to SXSW EDU."
+            "desc": "500 N Interstate 35, right near the convention center. Drop bags and head straight to SXSW EDU."
           },
           {
             "time": "12:30 PM",
@@ -187,9 +187,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ],
         "airport": {
@@ -330,9 +330,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ]
       },
@@ -422,9 +422,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ],
         "airport": {

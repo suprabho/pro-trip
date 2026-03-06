@@ -15,15 +15,15 @@ endDate: "2026-03-12"
 <!-- center: 30.264, -97.740 -->
 <!-- zoom: 14 -->
 <!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 9, 2026 | 3:15 PM | LH468 -->
-<!-- stay: Fairmont Austin | 30.2614, -97.7399 -->
+<!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 
-### 12:00 PM | 🏨 | Fairmont Austin — Check In
-101 Red River St, right next to the Austin Convention Center. Drop bags and head straight to SXSW EDU.
+### 12:00 PM | 🏨 | Hilton Garden Inn Austin Downtown — Check In
+500 N Interstate 35, right near the convention center. Drop bags and head straight to SXSW EDU.
 > Tip: Uber from AUS ~15 min · Hotel is steps from the convention center
-<!-- location: 30.2614, -97.7399 -->
+<!-- location: 30.2652, -97.7358 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Arrive -->
-- [ ] Confirm hotel reservation | https://www.fairmont.com/austin
+- [ ] Confirm hotel reservation | https://www.hilton.com/en/hotels/auscogi-hilton-garden-inn-austin-downtown-convention-center/
 - [ ] Book Uber from AUS
 
 ### 12:30 PM | 🎓 | SXSW EDU — Afternoon Sessions
@@ -70,7 +70,7 @@ Dirty Sixth is Austin's legendary bar strip — live music pouring out of every 
 <!-- color: #2c7fb8 -->
 <!-- center: 30.258, -97.748 -->
 <!-- zoom: 14 -->
-<!-- stay: Fairmont Austin | 30.2614, -97.7399 -->
+<!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 
 ### 8:30 AM | ☕ | Fleet Coffee — Morning Fuel
 Small specialty coffee shop on E 5th St. Great pour-overs and pastries before a long conference day.
@@ -139,7 +139,7 @@ South Congress institution since 1955. Rockabilly, country, blues — the real A
 <!-- color: #bf5700 -->
 <!-- center: 30.284, -97.740 -->
 <!-- zoom: 14 -->
-<!-- stay: Fairmont Austin | 30.2614, -97.7399 -->
+<!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 <!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 12, 2026 | 6:00 AM | WN2091 -->
 
 ### 9:00 AM | ☕ | Jo's Coffee — South Congress
