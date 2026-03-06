@@ -24,48 +24,61 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <Link href="/trips" className="group">
-            <div className="border border-line rounded-lg p-8 hover:bg-cream transition-colors cursor-pointer h-full">
-              <div className="text-3xl mb-4">🗺️</div>
-              <h3 className="font-serif text-2xl font-bold group-hover:underline">
-                My Trips
-              </h3>
-              <p className="text-sm text-muted-foreground mt-2">
-                View and manage all your trip itineraries.
-              </p>
-              <div className="mt-4">
-                <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
-                  {trips.length} trip{trips.length !== 1 ? "s" : ""}
-                </span>
-              </div>
-            </div>
+        <div className="flex items-center justify-between mb-5">
+          <p className="text-[10px] tracking-[3px] uppercase text-muted-foreground">
+            {trips.length} trip{trips.length !== 1 ? "s" : ""}
+          </p>
+          <Link
+            href="/trips"
+            className="text-xs text-muted-foreground hover:text-ink transition-colors"
+          >
+            View all &rarr;
           </Link>
-
         </div>
 
-        <div className="mt-12 border border-line rounded-lg p-6">
-          <p className="text-[10px] tracking-[3px] uppercase text-muted-foreground mb-3">
-            Recent
-          </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {trips.map((trip) => (
             <Link
               key={trip.id}
               href={`/trips/${trip.id}`}
-              className="flex items-center gap-3 group hover:bg-cream -mx-3 px-3 py-2 rounded-md transition-colors"
+              className="block group"
             >
-              <span className="text-lg">{trip.emoji}</span>
-              <div>
-                <p className="font-serif text-lg font-semibold group-hover:underline">
-                  {trip.city}
-                </p>
-                <p className="text-xs text-muted-foreground">
-                  {trip.days} days · {trip.stops} stops
-                </p>
+              <div className="border border-line rounded-lg overflow-hidden hover:bg-cream transition-colors cursor-pointer h-full flex flex-col">
+                <div
+                  className="h-2 w-full"
+                  style={{ backgroundColor: trip.color }}
+                />
+                <div className="p-6 flex flex-col flex-1">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center text-xl shrink-0"
+                      style={{ backgroundColor: `${trip.color}15` }}
+                    >
+                      {trip.emoji}
+                    </div>
+                    <div>
+                      <h2 className="font-serif text-xl font-bold group-hover:underline leading-tight">
+                        {trip.city}
+                      </h2>
+                      <span className="text-xs text-subtle">{trip.subtitle}</span>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground flex-1">
+                    {trip.highlights}
+                  </p>
+                  <div className="flex gap-3 mt-4 pt-4 border-t border-line">
+                    <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
+                      {trip.days} days
+                    </span>
+                    <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
+                      {trip.stops} stops
+                    </span>
+                    <span className="ml-auto text-subtle group-hover:text-ink transition-colors text-sm">
+                      &rarr;
+                    </span>
+                  </div>
+                </div>
               </div>
-              <span className="ml-auto text-subtle group-hover:text-ink transition-colors">
-                &rarr;
-              </span>
             </Link>
           ))}
         </div>

@@ -21,43 +21,47 @@ export default function TripsPage() {
           <h1 className="font-serif text-4xl font-bold">All Trips</h1>
         </div>
 
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {trips.map((trip) => (
             <Link
               key={trip.id}
               href={`/trips/${trip.id}`}
               className="block group"
             >
-              <div className="border border-line rounded-lg p-6 hover:bg-cream transition-colors cursor-pointer">
-                <div className="flex items-start gap-4">
-                  <div
-                    className="w-12 h-12 rounded-full flex items-center justify-center text-2xl shrink-0"
-                    style={{ backgroundColor: `${trip.color}15` }}
-                  >
-                    {trip.emoji}
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex flex-wrap items-baseline gap-2">
-                      <h2 className="font-serif text-2xl font-bold group-hover:underline">
+              <div className="border border-line rounded-lg overflow-hidden hover:bg-cream transition-colors cursor-pointer h-full flex flex-col">
+                <div
+                  className="h-2 w-full"
+                  style={{ backgroundColor: trip.color }}
+                />
+                <div className="p-6 flex flex-col flex-1">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center text-xl shrink-0"
+                      style={{ backgroundColor: `${trip.color}15` }}
+                    >
+                      {trip.emoji}
+                    </div>
+                    <div>
+                      <h2 className="font-serif text-xl font-bold group-hover:underline leading-tight">
                         {trip.city}
                       </h2>
                       <span className="text-xs text-subtle">{trip.subtitle}</span>
                     </div>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      {trip.highlights}
-                    </p>
-                    <div className="flex gap-3 mt-3">
-                      <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
-                        {trip.days} days
-                      </span>
-                      <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
-                        {trip.stops} stops
-                      </span>
-                    </div>
                   </div>
-                  <span className="text-subtle group-hover:text-ink transition-colors text-lg mt-2">
-                    &rarr;
-                  </span>
+                  <p className="text-sm text-muted-foreground flex-1">
+                    {trip.highlights}
+                  </p>
+                  <div className="flex gap-3 mt-4 pt-4 border-t border-line">
+                    <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
+                      {trip.days} days
+                    </span>
+                    <span className="text-[10.5px] bg-warm rounded-full px-2.5 py-0.5 text-muted-foreground">
+                      {trip.stops} stops
+                    </span>
+                    <span className="ml-auto text-subtle group-hover:text-ink transition-colors text-sm">
+                      &rarr;
+                    </span>
+                  </div>
                 </div>
               </div>
             </Link>
