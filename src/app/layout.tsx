@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Manrope, Petit_Formal_Script } from "next/font/google";
+import { Manrope, Petit_Formal_Script, Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Petit_Formal_Script({
+const petit = Petit_Formal_Script({
   variable: "--font-serif",
   subsets: ["latin"],
   weight: ["400"],
@@ -13,6 +13,12 @@ const dmSans = Manrope({
   variable: "--font-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
+});
+
+const spaceMono = Space_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -27,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cormorant.variable} ${dmSans.variable} antialiased`}>
+      <body className={`${petit.variable} ${dmSans.variable} antialiased`}>
         {children}
       </body>
     </html>

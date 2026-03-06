@@ -43,8 +43,8 @@ export function TopBar({ trip, activeDay, onDayChange }: TopBarProps) {
   const subtitle = subtitleParts.join(" · ");
 
   return (
-    <header className="bg-ink flex flex-col md:flex-row items-start justify-between px-5 shrink-0 z-50">
-      <div className="flex items-center">
+    <header className="bg-ink flex flex-col md:flex-row items-start md:items-center justify-between shrink-0 z-50">
+      <div className="flex flex-1 items-center px-5">
         <Link href="/trips" className="text-subtle hover:text-paper transition-colors mr-3 text-sm">
           &larr;
         </Link>
@@ -62,7 +62,7 @@ export function TopBar({ trip, activeDay, onDayChange }: TopBarProps) {
           </div>
         )}
       </div>
-      <div className="flex p-2 gap-1">
+      <div className="flex flex-1 justify-start md:justify-end p-2 gap-1 w-full overflow-x-auto">
         {dayTabs.map((tab) => (
           <Button
             key={String(tab.value)}

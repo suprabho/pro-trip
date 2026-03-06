@@ -81,7 +81,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
         ? "w-full h-full"
         : "w-full md:w-[380px] border-b md:border-b-0 md:border-r border-line h-[46vh] md:h-auto"
     )}>
-      <div className="px-[22px] pt-[18px] pb-[14px] border-b border-line shrink-0">
+      <div className="px-5.5 py-2  border-b border-line shrink-0">
         <p className="text-[10px] tracking-[3px] uppercase text-muted-foreground">
           {headerInfo.label}
         </p>
@@ -93,14 +93,14 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
         </p>
       </div>
       <ScrollArea className="flex-1 overflow-hidden">
-        <div className="py-1.5 pb-5">
+        <div className="py-1.5 pb-2">
           {days.map((dayNum) => (
             <div key={dayNum}>
               {activeDay === "all" && (
-                <div className="px-[22px] pt-3.5 pb-1">
+                <div className="px-5.5 pt-2">
                   <p
                     className={cn(
-                      "text-[10px] tracking-[2px] uppercase font-semibold",
+                      "text-xs tracking-wider uppercase font-semibold",
                       dayLabelColorMap[dayNum]
                     )}
                   >
@@ -115,8 +115,8 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
                     ✈️
                   </div>
                   <div>
-                    <p className="text-[10px] tracking-[1.5px] uppercase text-subtle mb-0.5">Airport</p>
-                    <p className="font-serif text-[17px] font-semibold leading-tight mb-0.5">
+                    <p className="text-xs tracking-wide uppercase text-subtle mb-0.5">Airport</p>
+                    <p className="font-mono text-sm font-semibold leading-tight mb-0.5">
                       {DAYS[dayNum].airport!.name}
                     </p>
                     <div className="flex flex-wrap gap-1.5 mt-1">
@@ -147,7 +147,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
                       {DAYS[dayNum].stays.length > 1 ? "Stays" : "Stay"}
                     </p>
                     {DAYS[dayNum].stays.map((stay, si) => (
-                      <p key={si} className="font-serif text-[17px] font-semibold leading-tight mb-0.5">
+                      <p key={si} className="font-mono text-sm font-semibold leading-tight mb-0.5">
                         {stay.name}
                       </p>
                     ))}
@@ -190,7 +190,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
                         </span>
                       )}
                     </div>
-                    <p className="font-serif text-[17px] font-semibold leading-tight mb-0.5">
+                    <p className="font-mono text-base font-semibold tracking-tighter leading-tight mb-0.5">
                       {stop.name}
                     </p>
                     <p className="text-xs leading-relaxed text-[#5a5045]">

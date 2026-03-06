@@ -93,7 +93,7 @@ export const TRIPS: TripData[] = [
         "zoom": 14,
         "stops": [
           {
-            "time": "4:00 PM",
+            "time": "12:00 PM",
             "emoji": "🏨",
             "name": "Hilton Garden Inn Austin Downtown — Check In",
             "tip": "Uber from AUS ~15 min · Hotel is steps from the convention center",
@@ -113,32 +113,6 @@ export const TRIPS: TripData[] = [
               }
             ],
             "desc": "500 N Interstate 35, right near the convention center. Drop bags and head straight to SXSW EDU."
-          },
-          {
-            "time": "12:30 PM",
-            "emoji": "🎓",
-            "name": "SXSW EDU — Afternoon Sessions",
-            "tip": "🎟 Badge required · Download the SXSW EDU app for scheduling · Bring a portable charger",
-            "lat": 30.2631,
-            "lng": -97.7394,
-            "suggestedBy": "Suprabho",
-            "tag": "Conference",
-            "todos": [
-              {
-                "note": "Register badge pickup",
-                "done": false,
-                "link": "https://www.sxswedu.com"
-              },
-              {
-                "note": "Download SXSW EDU scheduling app",
-                "done": false
-              },
-              {
-                "note": "Review session schedule and bookmark must-attend talks",
-                "done": false
-              }
-            ],
-            "desc": "Austin Convention Center, 500 E Cesar Chavez St. Explore keynotes, panels, and the expo hall. Focus on the afternoon featured sessions."
           },
           {
             "time": "5:00 PM",
