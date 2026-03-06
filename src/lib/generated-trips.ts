@@ -187,9 +187,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ],
         "airport": {
@@ -330,9 +330,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ]
       },
@@ -422,9 +422,9 @@ export const TRIPS: TripData[] = [
         ],
         "stays": [
           {
-            "name": "Fairmont Austin",
-            "lat": 30.2614,
-            "lng": -97.7399
+            "name": "Hilton Garden Inn Austin Downtown",
+            "lat": 30.2652,
+            "lng": -97.7358
           }
         ],
         "airport": {
