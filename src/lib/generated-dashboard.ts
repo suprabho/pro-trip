@@ -20,11 +20,11 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "id": "austin",
     "city": "Austin",
     "emoji": "🤠",
-    "subtitle": "4 Night Trip",
+    "subtitle": "5 Day Itinerary",
     "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
     "color": "#e85d26",
-    "days": 3,
-    "stops": 20,
+    "days": 5,
+    "stops": 28,
     "startDate": "2026-03-08",
     "endDate": "2026-03-12",
     "mapCenter": [
@@ -56,6 +56,6 @@ export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null =
 
 export const STATS = {
   totalTrips: 2,
-  totalDays: 7,
-  totalStops: 53,
+  totalDays: 9,
+  totalStops: 61,
 };
