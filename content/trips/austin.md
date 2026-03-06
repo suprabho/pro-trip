@@ -140,7 +140,7 @@ South Congress institution since 1955. Rockabilly, country, blues — the real A
 <!-- center: 30.284, -97.740 -->
 <!-- zoom: 14 -->
 <!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
-<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 11, 2026 | 6:00 PM | WN2091 -->
+<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 12, 2026 | 6:00 AM | WN2091 -->
 
 ### 9:00 AM | ☕ | Jo's Coffee — South Congress
 The original Jo's on South Congress. Good coffee, great vibes, and the famous "I love you so much" mural if you missed it yesterday.
@@ -177,8 +177,8 @@ Best breakfast tacos in Austin. The migas taco is legendary. Multiple locations 
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 3:30 PM | ✈️ | Head to AUS
-Allow ~30 min to Austin-Bergstrom. For a 6:30 PM flight, aim to be at the airport by 4:00 PM.
+### 4:00 AM | ✈️ | Head to AUS
+Allow ~30 min to Austin-Bergstrom. For a 6:00 AM flight, aim to be at the airport by 4:30 AM.
 > Tip: Uber recommended · ~$15–25 · AUS is a small, easy airport
 <!-- location: 30.1975, -97.6664 -->
 <!-- suggestedBy: Suprabho -->

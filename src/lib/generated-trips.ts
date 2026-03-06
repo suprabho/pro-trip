@@ -403,7 +403,7 @@ export const TRIPS: TripData[] = [
             "desc": "Best breakfast tacos in Austin. The migas taco is legendary. Multiple locations — the one on E Cesar Chavez is closest."
           },
           {
-            "time": "3:30 PM",
+            "time": "4:00 AM",
             "emoji": "✈️",
             "name": "Head to AUS",
             "tip": "Uber recommended · ~$15–25 · AUS is a small, easy airport",
@@ -417,7 +417,7 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Allow ~30 min to Austin-Bergstrom. For a 6:30 PM flight, aim to be at the airport by 4:00 PM."
+            "desc": "Allow ~30 min to Austin-Bergstrom. For a 6:00 AM flight, aim to be at the airport by 4:30 AM."
           }
         ],
         "stays": [
@@ -432,8 +432,8 @@ export const TRIPS: TripData[] = [
           "code": "AUS",
           "lat": 30.1975,
           "lng": -97.6664,
-          "date": "Mar 11, 2026",
-          "time": "6:00 PM",
+          "date": "Mar 12, 2026",
+          "time": "6:00 AM",
           "flightNumber": "WN2091"
         }
       }
