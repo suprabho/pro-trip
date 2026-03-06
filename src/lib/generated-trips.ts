@@ -71,7 +71,7 @@ export const TRIPS: TripData[] = [
     "meta": {
       "id": "austin",
       "city": "Austin",
-      "subtitle": "3 Day Itinerary",
+      "subtitle": "4 Night Trip",
       "emoji": "🤠",
       "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
       "startDate": "2026-03-08",
