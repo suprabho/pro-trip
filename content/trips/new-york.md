@@ -266,8 +266,26 @@ NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be
 
 ## Day 4: Departure
 <!-- label: Day 4 · Departure -->
-<!-- subtitle: JFK Airport -->
+<!-- subtitle: Brunch · West Village · JFK -->
 <!-- color: #666 -->
 <!-- center: 40.6449, -73.7807 -->
 <!-- zoom: 12 -->
+<!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 <!-- airport: JFK Airport | JFK | 40.6449,-73.7807 | Mar 15, 2026 | 3:45 PM | EY 2 -->
+
+### 9:00 AM | ☕ | Slow Brunch — NoHo / SoHo
+Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café.
+> Tip: No rush · Balthazar (80 Spring St) is a 10-min walk · Great people-watching on a Sunday morning
+<!-- location: 40.7228, -73.9985 -->
+<!-- suggestedBy: Suprabho -->
+
+### 10:30 AM | 🚶 | West Village Wander
+The quietest, most charming corner of downtown Manhattan — tree-lined streets, old townhouses, great independent shops. Perfect for a last slow walk before flying out.
+> Tip: Wander Hudson St and Jane St · No destination needed · Pick up any last-minute souvenirs
+<!-- location: 40.7337, -74.0070 -->
+<!-- suggestedBy: Suprabho -->
+
+### 12:30 PM | 🚕 | Head to JFK
+Allow ~1 hour to JFK from NoHo. For a 3:45 PM international flight, aim to be at the airport by 1:30–1:45 PM.
+> Tip: Uber recommended · ~$45–60 · Or AirTrain from Jamaica Station
+<!-- location: 40.6449, -73.7807 -->

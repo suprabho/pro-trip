@@ -74,14 +74,14 @@ export const TRIPS: TripData[] = [
       "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 30
+      "stops": 33
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
         "title": "Downtown Initiation",
         "subtitle": "Washington Square · West Village · Greenwich Village · Madison Square · Union Square",
-        "color": "#bc6537",
+        "color": "#c94f2c",
         "center": [
           40.724,
           -73.999
@@ -215,7 +215,7 @@ export const TRIPS: TripData[] = [
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
         "subtitle": "9/11 Memorial · One World · Statue of Liberty · Brooklyn Bridge · DUMBO",
-        "color": "#009c62",
+        "color": "#2c6bc9",
         "center": [
           40.706,
           -74.006
@@ -362,7 +362,7 @@ export const TRIPS: TripData[] = [
         "label": "Day 3 · Full Day",
         "title": "West Side Midtown → Uptown Museums",
         "subtitle": "High Line · The Edge · Grand Central · Central Park · MET · Guggenheim · Times Square · MoMA",
-        "color": "#4f85de",
+        "color": "#2ca068",
         "center": [
           40.76,
           -73.982
@@ -549,15 +549,51 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · Departure",
         "title": "Departure",
-        "subtitle": "JFK Airport",
-        "color": "#876cd6",
+        "subtitle": "Brunch · West Village · JFK",
+        "color": "#ac97f3",
         "center": [
           40.6449,
           -73.7807
         ],
         "zoom": 12,
-        "stops": [],
-        "stays": [],
+        "stops": [
+          {
+            "time": "9:00 AM",
+            "emoji": "☕",
+            "name": "Slow Brunch — NoHo / SoHo",
+            "tip": "No rush · Balthazar (80 Spring St) is a 10-min walk · Great people-watching on a Sunday morning",
+            "lat": 40.7228,
+            "lng": -73.9985,
+            "suggestedBy": "Suprabho",
+            "desc": "Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café."
+          },
+          {
+            "time": "10:30 AM",
+            "emoji": "🚶",
+            "name": "West Village Wander",
+            "tip": "Wander Hudson St and Jane St · No destination needed · Pick up any last-minute souvenirs",
+            "lat": 40.7337,
+            "lng": -74.007,
+            "suggestedBy": "Suprabho",
+            "desc": "The quietest, most charming corner of downtown Manhattan — tree-lined streets, old townhouses, great independent shops. Perfect for a last slow walk before flying out."
+          },
+          {
+            "time": "12:30 PM",
+            "emoji": "🚕",
+            "name": "Head to JFK",
+            "tip": "Uber recommended · ~$45–60 · Or AirTrain from Jamaica Station",
+            "lat": 40.6449,
+            "lng": -73.7807,
+            "desc": "Allow ~1 hour to JFK from NoHo. For a 3:45 PM international flight, aim to be at the airport by 1:30–1:45 PM."
+          }
+        ],
+        "stays": [
+          {
+            "name": "Now Now NoHo",
+            "lat": 40.7261,
+            "lng": -73.9923
+          }
+        ],
         "airport": {
           "name": "JFK Airport",
           "code": "JFK",
