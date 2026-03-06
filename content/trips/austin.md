@@ -14,7 +14,7 @@ endDate: "2026-03-12"
 <!-- color: #e85d26 -->
 <!-- center: 30.264, -97.740 -->
 <!-- zoom: 14 -->
-<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 9, 2026 | 10:30 AM | WN1842 -->
+<!-- airport: Austin-Bergstrom International | AUS | 30.1975, -97.6664 | Mar 9, 2026 | 3:15 PM | LH468 -->
 <!-- stay: Hilton Garden Inn Austin Downtown | 30.2652, -97.7358 -->
 
 ### 12:00 PM | 🏨 | Fairmont Austin — Check In
