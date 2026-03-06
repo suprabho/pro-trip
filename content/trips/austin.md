@@ -4,6 +4,8 @@ city: Austin
 subtitle: 3 Day Itinerary
 emoji: "🤠"
 highlights: SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus
+startDate: "2026-03-08"
+endDate: "2026-03-12"
 ---
 
 ## Day 1: SXSW EDU & Downtown

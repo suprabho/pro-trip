@@ -54,6 +54,8 @@ export interface TripMeta {
   subtitle: string;
   emoji: string;
   highlights: string;
+  startDate?: string;
+  endDate?: string;
   color: string;
   days: number;
   stops: number;
@@ -72,6 +74,8 @@ export const TRIPS: TripData[] = [
       "subtitle": "3 Day Itinerary",
       "emoji": "🤠",
       "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · UT Campus",
+      "startDate": "2026-03-08",
+      "endDate": "2026-03-12",
       "color": "#e85d26",
       "days": 3,
       "stops": 20
@@ -442,6 +446,8 @@ export const TRIPS: TripData[] = [
       "subtitle": "3 Day Itinerary",
       "emoji": "🗽",
       "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
+      "startDate": "2026-03-12",
+      "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
       "stops": 33
@@ -470,7 +476,7 @@ export const TRIPS: TripData[] = [
             "todos": [
               {
                 "note": "Confirm hotel reservation",
-                "done": false,
+                "done": true,
                 "link": "https://nownownoho.com"
               },
               {

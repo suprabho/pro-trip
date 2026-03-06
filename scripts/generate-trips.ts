@@ -57,6 +57,8 @@ interface TripMeta {
   subtitle: string;
   emoji: string;
   highlights: string;
+  startDate?: string;
+  endDate?: string;
 }
 
 interface Trip {
@@ -100,6 +102,8 @@ function parseTrip(filePath: string): Trip {
     subtitle: meta.subtitle,
     emoji: meta.emoji,
     highlights: meta.highlights,
+    startDate: meta.startDate,
+    endDate: meta.endDate,
   };
 
   const days: Record<number, DayData> = {};
@@ -309,6 +313,8 @@ export interface TripMeta {
   subtitle: string;
   emoji: string;
   highlights: string;
+  startDate?: string;
+  endDate?: string;
   color: string;
   days: number;
   stops: number;

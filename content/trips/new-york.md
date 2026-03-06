@@ -4,6 +4,8 @@ city: New York
 subtitle: 3 Day Itinerary
 emoji: "🗽"
 highlights: NoHo · Greenwich Village · Brooklyn Bridge · Central Park
+startDate: "2026-03-12"
+endDate: "2026-03-15"
 ---
 
 ## Day 1: Downtown Initiation
@@ -21,7 +23,7 @@ highlights: NoHo · Greenwich Village · Brooklyn Bridge · Central Park
 <!-- location: 40.7261, -73.9923 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Arrive -->
-- [ ] Confirm hotel reservation | https://nownownoho.com
+- [x] Confirm hotel reservation | https://nownownoho.com
 - [ ] Book Uber from LGA
 
 ### 4:30 PM | ⛲ | Washington Square Fountain
