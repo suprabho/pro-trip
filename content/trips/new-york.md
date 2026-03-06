@@ -10,7 +10,7 @@ endDate: "2026-03-15"
 
 ## Day 1: Downtown Initiation
 <!-- label: Day 1 · Arrival -->
-<!-- subtitle: Washington Square · West Village · Greenwich Village · Madison Square · Union Square -->
+<!-- subtitle: Washington Square · West Village · Greenwich Village · Friends Apartment · Carrie's Stoop · Madison Square · Union Square -->
 <!-- color: #c94f2c -->
 <!-- center: 40.724, -73.999 -->
 <!-- zoom: 14 -->
@@ -48,6 +48,18 @@ NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bar
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
+### 7:00 PM | 📺 | Friends Apartment — 90 Bedford St
+The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
+> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
+<!-- location: 40.7324, -74.0036 -->
+<!-- tag: TV Spot -->
+
+### 7:15 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
+> Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
+<!-- location: 40.7350, -74.0029 -->
+<!-- tag: TV Spot -->
+
 ### 7:30 PM | 🌿 | Madison Square Park
 Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots at dusk. The original Shake Shack is right here if you need dessert.
 > Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from Greenwich Village
@@ -79,13 +91,19 @@ Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money down
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: 9/11 Memorial · One World · Statue of Liberty · Brooklyn Bridge · DUMBO -->
+<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
 > **Cluster logic:** This entire day stays below Canal St and crosses into Brooklyn — zero backtracking. Battery Park → Financial District → Brooklyn and back. Save the uptown and midtown sights for Day 3.
+
+### 8:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
+The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside.
+> Tip: Quick photo op · On the way to Battery Park · Still an active FDNY station
+<!-- location: 40.7190, -74.0066 -->
+<!-- tag: TV Spot -->
 
 ### 8:30 AM | 🗽 | Statue of Liberty Ferry
 Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
@@ -111,6 +129,12 @@ Two massive reflecting pools where the towers stood. Book tickets in advance. ~2
 <!-- location: 40.7127, -74.0134 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Viewpoint -->
+
+### 3:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
+The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
+> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge
+<!-- location: 40.7143, -74.0018 -->
+<!-- tag: TV Spot -->
 
 ### 4:00 PM | 🌉 | Walk the Brooklyn Bridge
 From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close.
@@ -156,7 +180,7 @@ One of NYC's most legendary comedy clubs, right in the Village. Friday nights ar
 
 ## Day 3: West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: High Line · The Edge · Grand Central · Central Park · MET · Guggenheim · Times Square · MoMA -->
+<!-- subtitle: High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
@@ -178,6 +202,12 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Viewpoint -->
 - [ ] Book Edge tickets | https://www.edgenyc.com/en/tickets
+
+### 12:15 PM | 📺 | How I Met Your Mother — McGee's Pub
+The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
+> Tip: Quick drink or photo · 10-min walk to the Hamilton theatre · Great pre-show spot
+<!-- location: 40.7642, -73.9814 -->
+<!-- tag: TV Spot -->
 
 ### 1:00 PM | 🎭 | Hamilton — Broadway Matinée
 The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM.
@@ -231,6 +261,12 @@ Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Museum -->
 
+### 6:30 PM | 📺 | Gossip Girl — Blair Waldorf's Building
+The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO.
+> Tip: Just the exterior · Steps from the MET entrance · Photo op only
+<!-- location: 40.7838, -73.9613 -->
+<!-- tag: TV Spot -->
+
 ### 7:00 PM | ☕ | Coffee — Upper East Side
 Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown.
 > Tip: Lots of great spots nearby
@@ -268,7 +304,7 @@ NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be
 
 ## Day 4: Departure
 <!-- label: Day 4 · Departure -->
-<!-- subtitle: Brunch · West Village · JFK -->
+<!-- subtitle: Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · JFK -->
 <!-- color: #666 -->
 <!-- center: 40.6449, -73.7807 -->
 <!-- zoom: 12 -->
@@ -280,6 +316,18 @@ Take it easy on the last morning. The neighbourhood has great brunch spots — B
 > Tip: No rush · Balthazar (80 Spring St) is a 10-min walk · Great people-watching on a Sunday morning
 <!-- location: 40.7228, -73.9985 -->
 <!-- suggestedBy: Suprabho -->
+
+### 10:00 AM | 📺 | Magnolia Bakery — Sex and the City
+The bakery made famous by Carrie and Miranda's cupcake scene in *Sex and the City*. 401 Bleecker St in the West Village. The banana pudding is actually the must-try.
+> Tip: Try the banana pudding, not just cupcakes · Right in the West Village wander route
+<!-- location: 40.7359, -74.0044 -->
+<!-- tag: TV Spot -->
+
+### 10:15 AM | 📺 | The Marvelous Mrs. Maisel — Gaslight Cafe
+The legendary Greenwich Village comedy club where Midge Maisel launched her stand-up career. The original Gaslight at 116 MacDougal St is gone, but the block still radiates that Village comedy-club energy — Café Wha? and Comedy Cellar are steps away.
+> Tip: The Gaslight no longer exists, but the block is a comedy landmark · Grab a coffee at Café Reggio next door
+<!-- location: 40.7303, -74.0003 -->
+<!-- tag: TV Spot -->
 
 ### 10:30 AM | 🚶 | West Village Wander
 The quietest, most charming corner of downtown Manhattan — tree-lined streets, old townhouses, great independent shops. Perfect for a last slow walk before flying out.

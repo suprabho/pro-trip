@@ -578,13 +578,13 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 33
+      "stops": 41
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
         "title": "Downtown Initiation",
-        "subtitle": "Washington Square · West Village · Greenwich Village · Madison Square · Union Square",
+        "subtitle": "Washington Square · West Village · Greenwich Village · Friends Apartment · Carrie's Stoop · Madison Square · Union Square",
         "color": "#c94f2c",
         "center": [
           40.724,
@@ -654,6 +654,26 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
+            "time": "7:00 PM",
+            "emoji": "📺",
+            "name": "Friends Apartment — 90 Bedford St",
+            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
+            "lat": 40.7324,
+            "lng": -74.0036,
+            "tag": "TV Spot",
+            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
+          },
+          {
+            "time": "7:15 PM",
+            "emoji": "📺",
+            "name": "Carrie Bradshaw's Stoop — Sex and the City",
+            "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
+            "lat": 40.735,
+            "lng": -74.0029,
+            "tag": "TV Spot",
+            "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
+          },
+          {
             "time": "7:30 PM",
             "emoji": "🌿",
             "name": "Madison Square Park",
@@ -718,7 +738,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "9/11 Memorial · One World · Statue of Liberty · Brooklyn Bridge · DUMBO",
+        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -726,6 +746,16 @@ export const TRIPS: TripData[] = [
         ],
         "zoom": 12,
         "stops": [
+          {
+            "time": "8:00 AM",
+            "emoji": "📺",
+            "name": "Ghostbusters Firehouse — Hook & Ladder 8",
+            "tip": "Quick photo op · On the way to Battery Park · Still an active FDNY station",
+            "lat": 40.719,
+            "lng": -74.0066,
+            "tag": "TV Spot",
+            "desc": "The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside."
+          },
           {
             "time": "8:30 AM",
             "emoji": "🗽",
@@ -780,6 +810,16 @@ export const TRIPS: TripData[] = [
             "suggestedBy": "Ritwik",
             "tag": "Viewpoint",
             "desc": "102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both."
+          },
+          {
+            "time": "3:30 PM",
+            "emoji": "📺",
+            "name": "Law & Order Courthouse — NY Supreme Court",
+            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge",
+            "lat": 40.7143,
+            "lng": -74.0018,
+            "tag": "TV Spot",
+            "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
           },
           {
             "time": "4:00 PM",
@@ -865,7 +905,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "West Side Midtown → Uptown Museums",
-        "subtitle": "High Line · The Edge · Grand Central · Central Park · MET · Guggenheim · Times Square · MoMA",
+        "subtitle": "High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -901,6 +941,16 @@ export const TRIPS: TripData[] = [
               }
             ],
             "desc": "100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings."
+          },
+          {
+            "time": "12:15 PM",
+            "emoji": "📺",
+            "name": "How I Met Your Mother — McGee's Pub",
+            "tip": "Quick drink or photo · 10-min walk to the Hamilton theatre · Great pre-show spot",
+            "lat": 40.7642,
+            "lng": -73.9814,
+            "tag": "TV Spot",
+            "desc": "The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails."
           },
           {
             "time": "1:00 PM",
@@ -998,6 +1048,16 @@ export const TRIPS: TripData[] = [
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
+            "time": "6:30 PM",
+            "emoji": "📺",
+            "name": "Gossip Girl — Blair Waldorf's Building",
+            "tip": "Just the exterior · Steps from the MET entrance · Photo op only",
+            "lat": 40.7838,
+            "lng": -73.9613,
+            "tag": "TV Spot",
+            "desc": "The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO."
+          },
+          {
             "time": "7:00 PM",
             "emoji": "☕",
             "name": "Coffee — Upper East Side",
@@ -1053,7 +1113,7 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · Departure",
         "title": "Departure",
-        "subtitle": "Brunch · West Village · JFK",
+        "subtitle": "Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · JFK",
         "color": "#666",
         "center": [
           40.6449,
@@ -1070,6 +1130,26 @@ export const TRIPS: TripData[] = [
             "lng": -73.9985,
             "suggestedBy": "Suprabho",
             "desc": "Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café."
+          },
+          {
+            "time": "10:00 AM",
+            "emoji": "📺",
+            "name": "Magnolia Bakery — Sex and the City",
+            "tip": "Try the banana pudding, not just cupcakes · Right in the West Village wander route",
+            "lat": 40.7359,
+            "lng": -74.0044,
+            "tag": "TV Spot",
+            "desc": "The bakery made famous by Carrie and Miranda's cupcake scene in *Sex and the City*. 401 Bleecker St in the West Village. The banana pudding is actually the must-try."
+          },
+          {
+            "time": "10:15 AM",
+            "emoji": "📺",
+            "name": "The Marvelous Mrs. Maisel — Gaslight Cafe",
+            "tip": "The Gaslight no longer exists, but the block is a comedy landmark · Grab a coffee at Café Reggio next door",
+            "lat": 40.7303,
+            "lng": -74.0003,
+            "tag": "TV Spot",
+            "desc": "The legendary Greenwich Village comedy club where Midge Maisel launched her stand-up career. The original Gaslight at 116 MacDougal St is gone, but the block still radiates that Village comedy-club energy — Café Wha? and Comedy Cellar are steps away."
           },
           {
             "time": "10:30 AM",
