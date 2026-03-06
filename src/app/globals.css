@@ -276,7 +276,6 @@
   }
   body {
     @apply bg-paper text-ink font-sans;
-    overflow: hidden;
   }
 }
 
