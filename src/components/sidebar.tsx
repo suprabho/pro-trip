@@ -55,8 +55,19 @@ const dayLabelColorMap: Record<number, string> = {
   4: "text-[#666]",
 };
 
+function formatDateRange(startDate?: string, endDate?: string): string | null {
+  if (!startDate || !endDate) return null;
+  const start = new Date(startDate + "T00:00:00");
+  const end = new Date(endDate + "T00:00:00");
+  const opts: Intl.DateTimeFormatOptions = { month: "short", day: "numeric" };
+  const startStr = start.toLocaleDateString("en-US", opts);
+  const endStr = end.toLocaleDateString("en-US", { ...opts, year: "numeric" });
+  return `${startStr} – ${endStr}`;
+}
+
 export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick, mobile }: SidebarProps) {
   const DAYS = trip.days;
+  const dateRange = formatDateRange(trip.meta.startDate, trip.meta.endDate);
 
   const headerInfo =
     activeDay === "all"
@@ -91,6 +102,11 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
         <p className="text-[11.5px] text-muted-foreground mt-0.5">
           {headerInfo.subtitle}
         </p>
+        {dateRange && (
+          <p className="text-sm text-muted-foreground mt-1">
+            {dateRange}
+          </p>
+        )}
       </div>
       <ScrollArea className="flex-1 overflow-hidden">
         <div className="py-1.5 pb-2">
@@ -106,6 +122,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
                   >
                     Day {dayNum} — {DAYS[dayNum].title}
                   </p>
+                  
                 </div>
               )}
               <div className="flex flex-row p-4 gap-4">
