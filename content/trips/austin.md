@@ -156,25 +156,18 @@ Final panels, networking, and closing remarks. Sessions wrap up at 3 PM.
 <!-- tag: Conference -->
 
 ### 3:30 PM | 🌳 | Zilker Park & Lady Bird Lake
-351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water, relax on the great lawn, or rent a kayak. Barton Springs Pool is here too if it's warm enough for a dip.
-> Tip: 👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Kayak rentals at the boathouse
+351-acre park right on Lady Bird Lake — Austin's backyard. Walk the Hike & Bike Trail along the water or relax on the great lawn. Head back by 5:00 PM to make it to Launch Spotlight.
+> Tip: 👟 Park at Zilker and walk north along the lake trail · Barton Springs is $5 · Keep it to a short loop today
 <!-- location: 30.2669, -97.7729 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
 
-### 7:00 PM | 🍕 | East Austin Dinner — Odd Duck
-Farm-to-table small plates on South Lamar. Creative Texas cuisine — one of the best restaurants in Austin.
-> Tip: Reservations recommended · Share multiple plates · Great craft cocktails
-<!-- location: 30.2528, -97.7637 -->
+### 5:30 PM | 🚀 | Launch Spotlight — Antone's
+Launch Spotlight event at Antone's Nightclub on E 5th St. Runs 5:30–7:00 PM CT.
+> Tip: 305 E 5th St · 10-min walk from the convention center · Wraps at 7 PM sharp
+<!-- location: 30.2661, -97.7404 -->
 <!-- suggestedBy: Suprabho -->
-<!-- tag: Food -->
-
-### 9:00 PM | 🎵 | East 6th Street — Bar Hop
-The cooler, less touristy side of 6th Street. Craft cocktail bars, dive bars, and live music venues. Try Whisler's or Hotel Vegas.
-> Tip: East 6th between I-35 and Chicon St is the sweet spot
-<!-- location: 30.2665, -97.7310 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Evening -->
+<!-- tag: Event -->
 
 ## Day 4: SXSW EDU Day 3, Capitol & West 6th
 <!-- label: Day 4 · SXSW EDU -->
