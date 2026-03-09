@@ -28,7 +28,7 @@ endDate: "2026-03-12"
 
 ## Day 2: SXSW EDU Day 1
 <!-- label: Day 2 · SXSW EDU -->
-<!-- subtitle: Convention Center · Keynotes · Capitol · Congress Ave Bridge -->
+<!-- subtitle: Convention Center · Keynotes · Capitol · Elephant Room -->
 <!-- color: #2c7fb8 -->
 <!-- center: 30.263, -97.739 -->
 <!-- zoom: 14 -->
@@ -88,10 +88,10 @@ On E Cesar Chavez, nearly as good as Franklin with a shorter wait. Brisket, ribs
 <!-- tag: Food -->
 - [ ] Check la Barbecue wait times
 
-### 9:00 PM | 🎶 | The Continental Club — Live Music
-South Congress institution since 1955. Rockabilly, country, blues — the real Austin music scene, not the tourist version.
-> Tip: 🎸 1315 S Congress Ave · No cover most nights · Shows start around 9:30
-<!-- location: 30.2488, -97.7497 -->
+### 9:00 PM | 🎷 | Elephant Room — Jazz Night
+Basement jazz club on Congress Ave. Intimate, low-key, and a true Austin institution for live jazz right in the heart of downtown.
+> Tip: 🎷 315 Congress Ave · Small cover charge · Shows nightly
+<!-- location: 30.2660, -97.7432 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Evening -->
 
@@ -212,10 +212,10 @@ James Beard Award-winning Japanese farmhouse dining. One of Austin's finest rest
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 9:30 PM | 🎵 | Elephant Room — Jazz Night
-Basement jazz club on Congress Ave. Intimate, low-key, and the perfect way to close out an Austin trip.
-> Tip: 🎷 315 Congress Ave · Small cover charge · Shows nightly
-<!-- location: 30.2660, -97.7432 -->
+### 9:30 PM | 🎶 | The Continental Club — Live Music
+South Congress institution since 1955. Rockabilly, country, blues — the real Austin music scene, not the tourist version. Pairs perfectly with the SoCo afternoon.
+> Tip: 🎸 1315 S Congress Ave · No cover most nights · Shows start around 9:30
+<!-- location: 30.2488, -97.7497 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Evening -->
 
