@@ -28,7 +28,7 @@ endDate: "2026-03-12"
 
 ## Day 2: SXSW EDU Day 1
 <!-- label: Day 2 · SXSW EDU -->
-<!-- subtitle: Convention Center · Keynotes · SoCo · Congress Ave Bridge -->
+<!-- subtitle: Convention Center · Keynotes · Capitol · Congress Ave Bridge -->
 <!-- color: #2c7fb8 -->
 <!-- center: 30.263, -97.739 -->
 <!-- zoom: 14 -->
@@ -66,14 +66,12 @@ Deep-dive workshops and interactive sessions. These are smaller and more hands-o
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Conference -->
 
-### 3:30 PM | 🚶 | South Congress Avenue (SoCo)
-Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the "I love you so much" mural on the side of Jo's Coffee and the "Greetings from Austin" postcard mural.
-> Tip: 📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching
-<!-- location: 30.2496, -97.7494 -->
+### 3:30 PM | 🏛 | Texas State Capitol
+Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk.
+> Tip: Free tours every 30 min · 15-min walk north from downtown
+<!-- location: 30.2747, -97.7403 -->
 <!-- suggestedBy: Suprabho -->
-<!-- tag: Walk -->
-- [ ] Photo at "I love you so much" mural
-- [ ] Photo at "Greetings from Austin" mural
+<!-- tag: Landmark -->
 
 ### 5:30 PM | 🦇 | Congress Ave Bridge — Bat Watching
 1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences.
@@ -157,7 +155,7 @@ Dirty Sixth is Austin's legendary bar strip — live music pouring out of every 
 
 ## Day 4: SXSW EDU Day 3, Capitol & West 6th
 <!-- label: Day 4 · SXSW EDU -->
-<!-- subtitle: SXSW EDU · Texas State Capitol · West 6th Street · Farewell Dinner -->
+<!-- subtitle: SXSW EDU · SoCo · West 6th Street · Farewell Dinner -->
 <!-- color: #bf5700 -->
 <!-- center: 30.270, -97.748 -->
 <!-- zoom: 14 -->
@@ -191,12 +189,14 @@ Final afternoon of panels and workshops. Sessions wrap up at 3 PM.
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Conference -->
 
-### 3:30 PM | 🏛 | Texas State Capitol
-Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk.
-> Tip: Free tours every 30 min · 15-min walk north from downtown
-<!-- location: 30.2747, -97.7403 -->
+### 3:30 PM | 🚶 | South Congress Avenue (SoCo)
+Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the "I love you so much" mural on the side of Jo's Coffee and the "Greetings from Austin" postcard mural.
+> Tip: 📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching
+<!-- location: 30.2496, -97.7494 -->
 <!-- suggestedBy: Suprabho -->
-<!-- tag: Landmark -->
+<!-- tag: Walk -->
+- [ ] Photo at "I love you so much" mural
+- [ ] Photo at "Greetings from Austin" mural
 
 ### 5:00 PM | 🍻 | West 6th Street
 Austin's upscale bar district — rooftop patios, craft cocktails, and a more chill vibe than Dirty Sixth. Try spots like Irene's, Handlebar, or The Dogwood for great outdoor decks.
