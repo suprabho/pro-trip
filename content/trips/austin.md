@@ -3,14 +3,14 @@ id: austin
 city: Austin
 subtitle: 5 Day Itinerary
 emoji: "🤠"
-highlights: SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park
+highlights: SXSW EDU · South Congress · Lady Bird Lake · Zilker Park · 6th Street
 startDate: "2026-03-08"
 endDate: "2026-03-12"
 ---
 
 ## Day 1: Arrival & Downtown
 <!-- label: Day 1 · Arrival -->
-<!-- subtitle: Check In · Rainey St · Congress Ave Bridge · 6th Street -->
+<!-- subtitle: Check In · Rest -->
 <!-- color: #e85d26 -->
 <!-- center: 30.264, -97.740 -->
 <!-- zoom: 14 -->
@@ -26,37 +26,9 @@ endDate: "2026-03-12"
 - [ ] Confirm hotel reservation | https://www.hilton.com/en/hotels/auscogi-hilton-garden-inn-austin-downtown-convention-center/
 - [x] Book Uber from AUS
 
-### 6:00 PM | 🍻 | Rainey Street Historic District
-A block of old bungalows converted into bars and food trucks. The best spot in Austin for a casual post-flight drink. Try Bangers for sausages and craft beer.
-> Tip: 5-min walk from the convention center · Bangers is the go-to · Outdoor seating everywhere
-<!-- location: 30.2567, -97.7390 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Food -->
-
-### 7:30 PM | 🦇 | Congress Ave Bridge — Bat Watching
-1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences.
-> Tip: 🦇 Best viewed from the south side of the bridge · Arrive 30 min before sunset · Peak bat season is summer but March works too
-<!-- location: 30.2621, -97.7454 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Experience -->
-
-### 8:30 PM | 🌮 | Torchy's Tacos — South Congress
-Austin's beloved taco chain. Try the Trailer Park (trashy style) and the Democrat. Loud, fun, and delicious.
-> Tip: 1311 S 1st St location or the S Congress one · Expect a short wait
-<!-- location: 30.2508, -97.7530 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Food -->
-
-### 10:00 PM | 🎵 | 6th Street — Live Music
-Dirty Sixth is Austin's legendary bar strip — live music pouring out of every door. Walk the strip, duck into whatever sounds good.
-> Tip: 🎸 Free entry to most bars · East 6th has the cooler, less touristy spots
-<!-- location: 30.2672, -97.7396 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Evening -->
-
 ## Day 2: SXSW EDU Day 1
 <!-- label: Day 2 · SXSW EDU -->
-<!-- subtitle: Convention Center · Keynotes · Panels · Expo Hall -->
+<!-- subtitle: Convention Center · Keynotes · SoCo · Congress Ave Bridge -->
 <!-- color: #2c7fb8 -->
 <!-- center: 30.263, -97.739 -->
 <!-- zoom: 14 -->
@@ -103,6 +75,13 @@ Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the
 - [ ] Photo at "I love you so much" mural
 - [ ] Photo at "Greetings from Austin" mural
 
+### 5:30 PM | 🦇 | Congress Ave Bridge — Bat Watching
+1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences.
+> Tip: 🦇 Best viewed from the south side of the bridge · Arrive 30 min before sunset · Peak bat season is summer but March works too
+<!-- location: 30.2621, -97.7454 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Experience -->
+
 ### 7:30 PM | 🍖 | la Barbecue — Dinner
 On E Cesar Chavez, nearly as good as Franklin with a shorter wait. Brisket, ribs, sausage — the real Texas BBQ experience.
 > Tip: 🔥 la Barbecue is the practical dinner choice · Franklin requires a morning commitment
@@ -120,7 +99,7 @@ South Congress institution since 1955. Rockabilly, country, blues — the real A
 
 ## Day 3: SXSW EDU Day 2 & Lady Bird Lake
 <!-- label: Day 3 · SXSW EDU -->
-<!-- subtitle: SXSW EDU · Lady Bird Lake · East Austin -->
+<!-- subtitle: SXSW EDU · Lady Bird Lake · Launch Spotlight · 6th Street -->
 <!-- color: #2d8a6e -->
 <!-- center: 30.260, -97.740 -->
 <!-- zoom: 14 -->
@@ -168,6 +147,13 @@ Launch Spotlight event at Antone's Nightclub on E 5th St. Runs 5:30–7:00 PM CT
 <!-- location: 30.2661, -97.7404 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Event -->
+
+### 8:00 PM | 🎵 | 6th Street — Live Music
+Dirty Sixth is Austin's legendary bar strip — live music pouring out of every door. Walk the strip, duck into whatever sounds good.
+> Tip: 🎸 Free entry to most bars · East 6th has the cooler, less touristy spots
+<!-- location: 30.2672, -97.7396 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Evening -->
 
 ## Day 4: SXSW EDU Day 3, Capitol & West 6th
 <!-- label: Day 4 · SXSW EDU -->

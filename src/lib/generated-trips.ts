@@ -73,18 +73,18 @@ export const TRIPS: TripData[] = [
       "city": "Austin",
       "subtitle": "5 Day Itinerary",
       "emoji": "🤠",
-      "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park",
+      "highlights": "SXSW EDU · South Congress · Lady Bird Lake · Zilker Park · 6th Street",
       "startDate": "2026-03-08",
       "endDate": "2026-03-12",
       "color": "#e85d26",
       "days": 5,
-      "stops": 27
+      "stops": 25
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
         "title": "Arrival & Downtown",
-        "subtitle": "Check In · Rainey St · Congress Ave Bridge · 6th Street",
+        "subtitle": "Check In · Rest",
         "color": "#e85d26",
         "center": [
           30.264,
@@ -113,50 +113,6 @@ export const TRIPS: TripData[] = [
               }
             ],
             "desc": "500 N Interstate 35, right near the convention center. Drop bags and freshen up before heading out for the evening."
-          },
-          {
-            "time": "6:00 PM",
-            "emoji": "🍻",
-            "name": "Rainey Street Historic District",
-            "tip": "5-min walk from the convention center · Bangers is the go-to · Outdoor seating everywhere",
-            "lat": 30.2567,
-            "lng": -97.739,
-            "suggestedBy": "Suprabho",
-            "tag": "Food",
-            "desc": "A block of old bungalows converted into bars and food trucks. The best spot in Austin for a casual post-flight drink. Try Bangers for sausages and craft beer."
-          },
-          {
-            "time": "7:30 PM",
-            "emoji": "🦇",
-            "name": "Congress Ave Bridge — Bat Watching",
-            "tip": "🦇 Best viewed from the south side of the bridge · Arrive 30 min before sunset · Peak bat season is summer but March works too",
-            "lat": 30.2621,
-            "lng": -97.7454,
-            "suggestedBy": "Suprabho",
-            "tag": "Experience",
-            "desc": "1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences."
-          },
-          {
-            "time": "8:30 PM",
-            "emoji": "🌮",
-            "name": "Torchy's Tacos — South Congress",
-            "tip": "1311 S 1st St location or the S Congress one · Expect a short wait",
-            "lat": 30.2508,
-            "lng": -97.753,
-            "suggestedBy": "Suprabho",
-            "tag": "Food",
-            "desc": "Austin's beloved taco chain. Try the Trailer Park (trashy style) and the Democrat. Loud, fun, and delicious."
-          },
-          {
-            "time": "10:00 PM",
-            "emoji": "🎵",
-            "name": "6th Street — Live Music",
-            "tip": "🎸 Free entry to most bars · East 6th has the cooler, less touristy spots",
-            "lat": 30.2672,
-            "lng": -97.7396,
-            "suggestedBy": "Suprabho",
-            "tag": "Evening",
-            "desc": "Dirty Sixth is Austin's legendary bar strip — live music pouring out of every door. Walk the strip, duck into whatever sounds good."
           }
         ],
         "stays": [
@@ -179,7 +135,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · SXSW EDU",
         "title": "SXSW EDU Day 1",
-        "subtitle": "Convention Center · Keynotes · Panels · Expo Hall",
+        "subtitle": "Convention Center · Keynotes · SoCo · Congress Ave Bridge",
         "color": "#2c7fb8",
         "center": [
           30.263,
@@ -272,6 +228,17 @@ export const TRIPS: TripData[] = [
             "desc": "Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the \"I love you so much\" mural on the side of Jo's Coffee and the \"Greetings from Austin\" postcard mural."
           },
           {
+            "time": "5:30 PM",
+            "emoji": "🦇",
+            "name": "Congress Ave Bridge — Bat Watching",
+            "tip": "🦇 Best viewed from the south side of the bridge · Arrive 30 min before sunset · Peak bat season is summer but March works too",
+            "lat": 30.2621,
+            "lng": -97.7454,
+            "suggestedBy": "Suprabho",
+            "tag": "Experience",
+            "desc": "1.5 million Mexican free-tailed bats emerge at dusk from under the bridge (March–October). One of Austin's most unique experiences."
+          },
+          {
             "time": "7:30 PM",
             "emoji": "🍖",
             "name": "la Barbecue — Dinner",
@@ -311,7 +278,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · SXSW EDU",
         "title": "SXSW EDU Day 2 & Lady Bird Lake",
-        "subtitle": "SXSW EDU · Lady Bird Lake · East Austin",
+        "subtitle": "SXSW EDU · Lady Bird Lake · Launch Spotlight · 6th Street",
         "color": "#2d8a6e",
         "center": [
           30.26,
@@ -390,6 +357,17 @@ export const TRIPS: TripData[] = [
             "suggestedBy": "Suprabho",
             "tag": "Event",
             "desc": "Launch Spotlight event at Antone's Nightclub on E 5th St. Runs 5:30–7:00 PM CT."
+          },
+          {
+            "time": "8:00 PM",
+            "emoji": "🎵",
+            "name": "6th Street — Live Music",
+            "tip": "🎸 Free entry to most bars · East 6th has the cooler, less touristy spots",
+            "lat": 30.2672,
+            "lng": -97.7396,
+            "suggestedBy": "Suprabho",
+            "tag": "Evening",
+            "desc": "Dirty Sixth is Austin's legendary bar strip — live music pouring out of every door. Walk the strip, duck into whatever sounds good."
           }
         ],
         "stays": [
