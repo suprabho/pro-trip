@@ -135,7 +135,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · SXSW EDU",
         "title": "SXSW EDU Day 1",
-        "subtitle": "Convention Center · Keynotes · SoCo · Congress Ave Bridge",
+        "subtitle": "Convention Center · Keynotes · Capitol · Congress Ave Bridge",
         "color": "#2c7fb8",
         "center": [
           30.263,
@@ -208,24 +208,14 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "3:30 PM",
-            "emoji": "🚶",
-            "name": "South Congress Avenue (SoCo)",
-            "tip": "📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching",
-            "lat": 30.2496,
-            "lng": -97.7494,
+            "emoji": "🏛",
+            "name": "Texas State Capitol",
+            "tip": "Free tours every 30 min · 15-min walk north from downtown",
+            "lat": 30.2747,
+            "lng": -97.7403,
             "suggestedBy": "Suprabho",
-            "tag": "Walk",
-            "todos": [
-              {
-                "note": "Photo at \"I love you so much\" mural",
-                "done": false
-              },
-              {
-                "note": "Photo at \"Greetings from Austin\" mural",
-                "done": false
-              }
-            ],
-            "desc": "Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the \"I love you so much\" mural on the side of Jo's Coffee and the \"Greetings from Austin\" postcard mural."
+            "tag": "Landmark",
+            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk."
           },
           {
             "time": "5:30 PM",
@@ -381,7 +371,7 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · SXSW EDU",
         "title": "SXSW EDU Day 3, Capitol & West 6th",
-        "subtitle": "SXSW EDU · Texas State Capitol · West 6th Street · Farewell Dinner",
+        "subtitle": "SXSW EDU · SoCo · West 6th Street · Farewell Dinner",
         "color": "#bf5700",
         "center": [
           30.27,
@@ -435,14 +425,24 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "3:30 PM",
-            "emoji": "🏛",
-            "name": "Texas State Capitol",
-            "tip": "Free tours every 30 min · 15-min walk north from downtown",
-            "lat": 30.2747,
-            "lng": -97.7403,
+            "emoji": "🚶",
+            "name": "South Congress Avenue (SoCo)",
+            "tip": "📸 Mural wall at Jo's Coffee · Walk from Congress Ave Bridge south · Great people watching",
+            "lat": 30.2496,
+            "lng": -97.7494,
             "suggestedBy": "Suprabho",
-            "tag": "Landmark",
-            "desc": "Taller than the US Capitol. Free guided tours of the stunning pink granite building. Beautiful grounds for an afternoon walk."
+            "tag": "Walk",
+            "todos": [
+              {
+                "note": "Photo at \"I love you so much\" mural",
+                "done": false
+              },
+              {
+                "note": "Photo at \"Greetings from Austin\" mural",
+                "done": false
+              }
+            ],
+            "desc": "Austin's most iconic street — vintage shops, murals, boutiques. Don't miss the \"I love you so much\" mural on the side of Jo's Coffee and the \"Greetings from Austin\" postcard mural."
           },
           {
             "time": "5:00 PM",
