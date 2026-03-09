@@ -135,7 +135,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · SXSW EDU",
         "title": "SXSW EDU Day 1",
-        "subtitle": "Convention Center · Keynotes · Capitol · Congress Ave Bridge",
+        "subtitle": "Convention Center · Keynotes · Capitol · Elephant Room",
         "color": "#2c7fb8",
         "center": [
           30.263,
@@ -247,14 +247,14 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "9:00 PM",
-            "emoji": "🎶",
-            "name": "The Continental Club — Live Music",
-            "tip": "🎸 1315 S Congress Ave · No cover most nights · Shows start around 9:30",
-            "lat": 30.2488,
-            "lng": -97.7497,
+            "emoji": "🎷",
+            "name": "Elephant Room — Jazz Night",
+            "tip": "🎷 315 Congress Ave · Small cover charge · Shows nightly",
+            "lat": 30.266,
+            "lng": -97.7432,
             "suggestedBy": "Suprabho",
             "tag": "Evening",
-            "desc": "South Congress institution since 1955. Rockabilly, country, blues — the real Austin music scene, not the tourist version."
+            "desc": "Basement jazz club on Congress Ave. Intimate, low-key, and a true Austin institution for live jazz right in the heart of downtown."
           }
         ],
         "stays": [
@@ -468,14 +468,14 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "9:30 PM",
-            "emoji": "🎵",
-            "name": "Elephant Room — Jazz Night",
-            "tip": "🎷 315 Congress Ave · Small cover charge · Shows nightly",
-            "lat": 30.266,
-            "lng": -97.7432,
+            "emoji": "🎶",
+            "name": "The Continental Club — Live Music",
+            "tip": "🎸 1315 S Congress Ave · No cover most nights · Shows start around 9:30",
+            "lat": 30.2488,
+            "lng": -97.7497,
             "suggestedBy": "Suprabho",
             "tag": "Evening",
-            "desc": "Basement jazz club on Congress Ave. Intimate, low-key, and the perfect way to close out an Austin trip."
+            "desc": "South Congress institution since 1955. Rockabilly, country, blues — the real Austin music scene, not the tourist version. Pairs perfectly with the SoCo afternoon."
           }
         ],
         "stays": [
