@@ -21,10 +21,10 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "city": "Austin",
     "emoji": "🤠",
     "subtitle": "5 Day Itinerary",
-    "highlights": "SXSW EDU · Rainey St · South Congress · Lady Bird Lake · Zilker Park",
+    "highlights": "SXSW EDU · South Congress · Lady Bird Lake · Zilker Park · 6th Street",
     "color": "#e85d26",
     "days": 5,
-    "stops": 28,
+    "stops": 25,
     "startDate": "2026-03-08",
     "endDate": "2026-03-12",
     "mapCenter": [
@@ -57,5 +57,5 @@ export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null =
 export const STATS = {
   totalTrips: 2,
   totalDays: 9,
-  totalStops: 69,
+  totalStops: 66,
 };
