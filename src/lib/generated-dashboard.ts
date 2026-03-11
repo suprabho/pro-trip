@@ -24,7 +24,7 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "highlights": "SXSW EDU · South Congress · Lady Bird Lake · Zilker Park · 6th Street",
     "color": "#e85d26",
     "days": 5,
-    "stops": 25,
+    "stops": 17,
     "startDate": "2026-03-08",
     "endDate": "2026-03-12",
     "mapCenter": [
@@ -57,5 +57,5 @@ export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null =
 export const STATS = {
   totalTrips: 2,
   totalDays: 9,
-  totalStops: 66,
+  totalStops: 58,
 };
