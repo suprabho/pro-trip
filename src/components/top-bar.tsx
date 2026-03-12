@@ -16,6 +16,15 @@ function daysLabel(n: number): string {
   return `${NUMBER_WORDS[n] ?? n} Day${n === 1 ? "" : "s"}`;
 }
 
+export function getDayDate(startDate: string | undefined, dayNum: number): string | null {
+  if (!startDate) return null;
+  const date = new Date(startDate + "T00:00:00");
+  date.setDate(date.getDate() + (dayNum - 1));
+  const day = date.toLocaleDateString("en-US", { weekday: "short" });
+  const monthDay = date.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  return `${day}, ${monthDay}`;
+}
+
 interface TopBarProps {
   trip: TripData;
   activeDay: DayValue;
@@ -27,11 +36,14 @@ export function TopBar({ trip, activeDay, onDayChange }: TopBarProps) {
   const dayNumbers = Object.keys(days).map(Number).sort((a, b) => a - b);
 
   const dayTabs: { value: DayValue; label: string; color?: string }[] = [
-    ...dayNumbers.map((d) => ({
-      value: d as DayValue,
-      label: `Day ${d}`,
-      color: days[d].color,
-    })),
+    ...dayNumbers.map((d) => {
+      const dateStr = getDayDate(meta.startDate, d);
+      return {
+        value: d as DayValue,
+        label: dateStr ?? `Day ${d}`,
+        color: days[d].color,
+      };
+    }),
     { value: "all" as const, label: "All Days" },
   ];
 

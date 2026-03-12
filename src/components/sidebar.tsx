@@ -4,7 +4,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import type { Stop, TripData } from "@/lib/generated-trips";
 import { cn } from "@/lib/utils";
 
-import type { DayValue } from "@/components/top-bar";
+import { type DayValue, getDayDate } from "@/components/top-bar";
 
 interface SidebarProps {
   trip: TripData;
@@ -77,7 +77,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
           subtitle: "Manhattan · Brooklyn · Uptown",
         }
       : {
-          label: DAYS[activeDay].label,
+          label: getDayDate(trip.meta.startDate, activeDay) ?? DAYS[activeDay].label,
           title: DAYS[activeDay].title,
           subtitle: DAYS[activeDay].subtitle,
         };
@@ -120,7 +120,7 @@ export function Sidebar({ trip, activeDay, activeStop, onStopClick, onTodoClick,
                       dayLabelColorMap[dayNum]
                     )}
                   >
-                    Day {dayNum} — {DAYS[dayNum].title}
+                    {getDayDate(trip.meta.startDate, dayNum) ?? `Day ${dayNum}`} — {DAYS[dayNum].title}
                   </p>
                   
                 </div>
