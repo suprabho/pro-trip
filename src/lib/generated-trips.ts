@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 41
+      "stops": 37
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Think Coffee · Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -528,30 +528,30 @@ export const TRIPS: TripData[] = [
         "zoom": 12,
         "stops": [
           {
-            "time": "8:30 AM",
-            "emoji": "💻",
-            "name": "Think Coffee — Work Session",
-            "tip": "🕐 8:30 – 10:30 AM · 3-min walk from Now Now NoHo · Grab a pastry before your meeting",
-            "lat": 40.7271,
-            "lng": -73.9974,
-            "tag": "Work",
-            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
-          },
-          {
-            "time": "11:00 AM",
+            "time": "8:00 AM",
             "emoji": "📺",
             "name": "Ghostbusters Firehouse — Hook & Ladder 8",
-            "tip": "Quick photo op · On the way to Battery Park · Still an active FDNY station",
+            "tip": "Quick photo op · Head back to NoHo after for the meeting · Still an active FDNY station",
             "lat": 40.719,
             "lng": -74.0066,
             "tag": "TV Spot",
             "desc": "The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside."
           },
           {
-            "time": "11:30 AM",
+            "time": "11:00 AM",
+            "emoji": "💻",
+            "name": "Think Coffee — Work Session",
+            "tip": "🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after",
+            "lat": 40.7271,
+            "lng": -73.9974,
+            "tag": "Work",
+            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
+          },
+          {
+            "time": "1:30 PM",
             "emoji": "🗽",
             "name": "Statue of Liberty Ferry",
-            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~3:30 PM",
+            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM",
             "lat": 40.7014,
             "lng": -74.0154,
             "suggestedBy": "Suprabho, Ritwik",
@@ -570,7 +570,7 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "3:30 PM",
+            "time": "5:30 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
             "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal",
@@ -589,74 +589,37 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Two massive reflecting pools where the towers stood. Book tickets in advance. ~1.5 hours."
+            "desc": "Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools."
           },
           {
-            "time": "5:00 PM",
+            "time": "6:30 PM",
             "emoji": "📺",
             "name": "Law & Order Courthouse — NY Supreme Court",
-            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge",
+            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner",
             "lat": 40.7143,
             "lng": -74.0018,
             "tag": "TV Spot",
             "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
           },
           {
-            "time": "5:30 PM",
-            "emoji": "🌉",
-            "name": "Walk the Brooklyn Bridge",
-            "tip": "📍 Start from City Hall Park side · 5-min walk from the courthouse",
-            "lat": 40.7061,
-            "lng": -73.9969,
-            "suggestedBy": "Srayana",
-            "tag": "Walk",
-            "desc": "From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close."
-          },
-          {
-            "time": "6:15 PM",
-            "emoji": "🌆",
-            "name": "DUMBO Piers — Manhattan Skyline",
-            "tip": "📸 Washington St for the iconic bridge shot",
-            "lat": 40.703,
-            "lng": -73.9956,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Views",
-            "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Catch the golden hour light."
-          },
-          {
-            "time": "6:45 PM",
-            "emoji": "🥊",
-            "name": "Gleasons Gym",
-            "tip": "Drop-in sessions available · 15-min walk from the bridge",
-            "lat": 40.6945,
-            "lng": -73.9787,
-            "suggestedBy": "Ritwik",
-            "tag": "Experience",
-            "desc": "Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO."
-          },
-          {
-            "time": "7:30 PM",
-            "emoji": "🌃",
-            "name": "Back to Manhattan — Evening in NoHo",
-            "tip": "Walk back over the bridge at dusk for the reverse skyline view",
-            "lat": 40.7261,
-            "lng": -73.9923,
-            "tag": "Evening",
-            "desc": "Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village."
-          },
-          {
-            "time": "8:00 PM",
-            "emoji": "🥪",
-            "name": "Katz's Delicatessen",
-            "tip": "5-min walk from your hotel · Split a sandwich — they're massive · Cash or card",
-            "lat": 40.7223,
-            "lng": -73.9874,
-            "suggestedBy": "Suprabho",
+            "time": "7:00 PM",
+            "emoji": "🍕",
+            "name": "Tappo — Thin Crust Pizza",
+            "tip": "🕐 7 – 8 PM · 15-min walk from your hotel · Reservations recommended",
+            "lat": 40.7398,
+            "lng": -73.9884,
             "tag": "Food",
-            "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
+            "todos": [
+              {
+                "note": "Book Tappo reservation",
+                "done": false,
+                "link": "https://resy.com/cities/new-york-ny/venues/tappo"
+              }
+            ],
+            "desc": "NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite."
           },
           {
-            "time": "8:45 PM",
+            "time": "8:15 PM",
             "emoji": "🚶",
             "name": "Greenwich Village",
             "tip": "No agenda needed. Just wander.",

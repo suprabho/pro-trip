@@ -37,37 +37,37 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Think Coffee · Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Meeting first near the hotel, then head downtown for the ferry, Financial District, across to Brooklyn and back. Save the uptown and midtown sights for Day 3.
+> **Cluster logic:** Meeting near the hotel late morning, then head downtown for the ferry and Financial District. Dinner at Tappo near the hotel, then evening in the Village. Save Brooklyn and uptown for other days.
 
-### 8:30 AM | 💻 | Think Coffee — Work Session
-Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel.
-> Tip: 🕐 8:30 – 10:30 AM · 3-min walk from Now Now NoHo · Grab a pastry before your meeting
-<!-- location: 40.7271, -73.9974 -->
-<!-- tag: Work -->
-
-### 11:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
+### 8:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
 The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside.
-> Tip: Quick photo op · On the way to Battery Park · Still an active FDNY station
+> Tip: Quick photo op · Head back to NoHo after for the meeting · Still an active FDNY station
 <!-- location: 40.7190, -74.0066 -->
 <!-- tag: TV Spot -->
 
-### 11:30 AM | 🗽 | Statue of Liberty Ferry
+### 11:00 AM | 💻 | Think Coffee — Work Session
+Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel.
+> Tip: 🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after
+<!-- location: 40.7271, -73.9974 -->
+<!-- tag: Work -->
+
+### 1:30 PM | 🗽 | Statue of Liberty Ferry
 Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
-> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~3:30 PM
+> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM
 <!-- location: 40.7014, -74.0154 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Icon -->
 - [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
 - [ ] Check ferry schedule
 
-### 3:30 PM | 🕊 | 9/11 Memorial & Museum
-Two massive reflecting pools where the towers stood. Book tickets in advance. ~1.5 hours.
+### 5:30 PM | 🕊 | 9/11 Memorial & Museum
+Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools.
 > Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal
 <!-- location: 40.7116, -74.0133 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
@@ -75,47 +75,20 @@ Two massive reflecting pools where the towers stood. Book tickets in advance. ~1
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 5:00 PM | 📺 | Law & Order Courthouse — NY Supreme Court
+### 6:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
 The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
-> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge
+> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner
 <!-- location: 40.7143, -74.0018 -->
 <!-- tag: TV Spot -->
 
-### 5:30 PM | 🌉 | Walk the Brooklyn Bridge
-From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close.
-> Tip: 📍 Start from City Hall Park side · 5-min walk from the courthouse
-<!-- location: 40.7061, -73.9969 -->
-<!-- suggestedBy: Srayana -->
-<!-- tag: Walk -->
-
-### 6:15 PM | 🌆 | DUMBO Piers — Manhattan Skyline
-Best view of Manhattan anywhere — the skyline framed by bridge cables. Catch the golden hour light.
-> Tip: 📸 Washington St for the iconic bridge shot
-<!-- location: 40.7030, -73.9956 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Views -->
-
-### 6:45 PM | 🥊 | Gleasons Gym
-Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO.
-> Tip: Drop-in sessions available · 15-min walk from the bridge
-<!-- location: 40.6945, -73.9787 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Experience -->
-
-### 7:30 PM | 🌃 | Back to Manhattan — Evening in NoHo
-Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village.
-> Tip: Walk back over the bridge at dusk for the reverse skyline view
-<!-- location: 40.7261, -73.9923 -->
-<!-- tag: Evening -->
-
-### 8:00 PM | 🥪 | Katz's Delicatessen
-The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The "I'll have what she's having" spot from When Harry Met Sally.
-> Tip: 5-min walk from your hotel · Split a sandwich — they're massive · Cash or card
-<!-- location: 40.7223, -73.9874 -->
-<!-- suggestedBy: Suprabho -->
+### 7:00 PM | 🍕 | Tappo — Thin Crust Pizza
+NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite.
+> Tip: 🕐 7 – 8 PM · 15-min walk from your hotel · Reservations recommended
+<!-- location: 40.7398, -73.9884 -->
 <!-- tag: Food -->
+- [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
-### 8:45 PM | 🚶 | Greenwich Village
+### 8:15 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
 > Tip: No agenda needed. Just wander.
 <!-- location: 40.7336, -74.0027 -->
