@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Think Coffee · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -562,18 +562,18 @@ export const TRIPS: TripData[] = [
           {
             "time": "11:00 AM",
             "emoji": "💻",
-            "name": "Brookfield Place — Work Session",
-            "tip": "🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial",
-            "lat": 40.7128,
-            "lng": -74.0156,
+            "name": "Think Coffee — Work Session",
+            "tip": "🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after",
+            "lat": 40.7271,
+            "lng": -73.9974,
             "tag": "Work",
-            "desc": "Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting."
+            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
           },
           {
             "time": "1:00 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · Take the subway from NoHo (Broadway-Lafayette to Fulton St)",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
