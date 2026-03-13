@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 41
+      "stops": 40
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Statue of Liberty · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -570,36 +570,14 @@ export const TRIPS: TripData[] = [
             "desc": "Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools."
           },
           {
-            "time": "5:30 PM",
-            "emoji": "🗽",
-            "name": "Statue of Liberty Ferry",
-            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM",
-            "lat": 40.7014,
-            "lng": -74.0154,
-            "suggestedBy": "Suprabho, Ritwik",
-            "tag": "Icon",
-            "todos": [
-              {
-                "note": "Book ferry + pedestal tickets",
-                "done": false,
-                "link": "https://www.statuecruises.com"
-              },
-              {
-                "note": "Check ferry schedule",
-                "done": false
-              }
-            ],
-            "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
-          },
-          {
             "time": "6:30 PM",
-            "emoji": "📺",
-            "name": "Law & Order Courthouse — NY Supreme Court",
-            "tip": "Just the exterior · 5-min walk from the ferry terminal · Then subway to Flatiron for dinner",
-            "lat": 40.7143,
-            "lng": -74.0018,
-            "tag": "TV Spot",
-            "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
+            "emoji": "🏛",
+            "name": "Flatiron Building & Madison Square Park",
+            "tip": "Quick 10-min stop · Right next to Tappo · Great photo ops at sunset",
+            "lat": 40.7411,
+            "lng": -73.9897,
+            "tag": "Icon",
+            "desc": "The iconic triangular Flatiron Building at 175 5th Ave — one of NYC's most photographed landmarks. Stroll through Madison Square Park right next door before dinner."
           },
           {
             "time": "7:00 PM",

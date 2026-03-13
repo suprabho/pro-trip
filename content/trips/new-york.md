@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Statue of Liberty · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -66,20 +66,11 @@ Two massive reflecting pools where the towers stood. Walk through the memorial a
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 5:30 PM | 🗽 | Statue of Liberty Ferry
-Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
-> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM
-<!-- location: 40.7014, -74.0154 -->
-<!-- suggestedBy: Suprabho, Ritwik -->
+### 6:30 PM | 🏛 | Flatiron Building & Madison Square Park
+The iconic triangular Flatiron Building at 175 5th Ave — one of NYC's most photographed landmarks. Stroll through Madison Square Park right next door before dinner.
+> Tip: Quick 10-min stop · Right next to Tappo · Great photo ops at sunset
+<!-- location: 40.7411, -73.9897 -->
 <!-- tag: Icon -->
-- [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
-- [ ] Check ferry schedule
-
-### 6:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
-The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
-> Tip: Just the exterior · 5-min walk from the ferry terminal · Then subway to Flatiron for dinner
-<!-- location: 40.7143, -74.0018 -->
-<!-- tag: TV Spot -->
 
 ### 7:00 PM | 🍕 | Tappo — Thin Crust Pizza
 NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite.
