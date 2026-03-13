@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 41
+      "stops": 42
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -560,10 +560,20 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "12:30 PM",
+            "time": "11:00 AM",
+            "emoji": "💻",
+            "name": "Brookfield Place — Work Session",
+            "tip": "🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial",
+            "lat": 40.7128,
+            "lng": -74.0156,
+            "tag": "Work",
+            "desc": "Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting."
+          },
+          {
+            "time": "1:00 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Battery Park",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",

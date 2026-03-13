@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -60,9 +60,15 @@ Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible 
 - [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
 - [ ] Check ferry schedule
 
-### 12:30 PM | 🕊 | 9/11 Memorial & Museum
+### 11:00 AM | 💻 | Brookfield Place — Work Session
+Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting.
+> Tip: 🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial
+<!-- location: 40.7128, -74.0156 -->
+<!-- tag: Work -->
+
+### 1:00 PM | 🕊 | 9/11 Memorial & Museum
 Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside.
-> Tip: 🎟 Pre-book online · Closed Tuesdays · 10-min walk from Battery Park
+> Tip: 🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place
 <!-- location: 40.7116, -74.0133 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Memorial -->
