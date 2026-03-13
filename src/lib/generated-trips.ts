@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 42
+      "stops": 41
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Think Coffee · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Think Coffee · Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -528,7 +528,17 @@ export const TRIPS: TripData[] = [
         "zoom": 12,
         "stops": [
           {
-            "time": "8:00 AM",
+            "time": "8:30 AM",
+            "emoji": "💻",
+            "name": "Think Coffee — Work Session",
+            "tip": "🕐 8:30 – 10:30 AM · 3-min walk from Now Now NoHo · Grab a pastry before your meeting",
+            "lat": 40.7271,
+            "lng": -73.9974,
+            "tag": "Work",
+            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
+          },
+          {
+            "time": "11:00 AM",
             "emoji": "📺",
             "name": "Ghostbusters Firehouse — Hook & Ladder 8",
             "tip": "Quick photo op · On the way to Battery Park · Still an active FDNY station",
@@ -538,10 +548,10 @@ export const TRIPS: TripData[] = [
             "desc": "The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside."
           },
           {
-            "time": "8:30 AM",
+            "time": "11:30 AM",
             "emoji": "🗽",
             "name": "Statue of Liberty Ferry",
-            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast",
+            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~3:30 PM",
             "lat": 40.7014,
             "lng": -74.0154,
             "suggestedBy": "Suprabho, Ritwik",
@@ -560,20 +570,10 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "11:00 AM",
-            "emoji": "💻",
-            "name": "Think Coffee — Work Session",
-            "tip": "🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after",
-            "lat": 40.7271,
-            "lng": -73.9974,
-            "tag": "Work",
-            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
-          },
-          {
-            "time": "1:00 PM",
+            "time": "3:30 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · Take the subway from NoHo (Broadway-Lafayette to Fulton St)",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
@@ -589,21 +589,10 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside."
+            "desc": "Two massive reflecting pools where the towers stood. Book tickets in advance. ~1.5 hours."
           },
           {
-            "time": "2:30 PM",
-            "emoji": "🌐",
-            "name": "One World Observatory *Optional*",
-            "tip": "⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection",
-            "lat": 40.7127,
-            "lng": -74.0134,
-            "suggestedBy": "Ritwik",
-            "tag": "Viewpoint",
-            "desc": "102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both."
-          },
-          {
-            "time": "3:30 PM",
+            "time": "5:00 PM",
             "emoji": "📺",
             "name": "Law & Order Courthouse — NY Supreme Court",
             "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge",
@@ -613,10 +602,10 @@ export const TRIPS: TripData[] = [
             "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
           },
           {
-            "time": "4:00 PM",
+            "time": "5:30 PM",
             "emoji": "🌉",
             "name": "Walk the Brooklyn Bridge",
-            "tip": "📍 Start from City Hall Park side · 20-min walk from One World",
+            "tip": "📍 Start from City Hall Park side · 5-min walk from the courthouse",
             "lat": 40.7061,
             "lng": -73.9969,
             "suggestedBy": "Srayana",
@@ -624,7 +613,7 @@ export const TRIPS: TripData[] = [
             "desc": "From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close."
           },
           {
-            "time": "5:00 PM",
+            "time": "6:15 PM",
             "emoji": "🌆",
             "name": "DUMBO Piers — Manhattan Skyline",
             "tip": "📸 Washington St for the iconic bridge shot",
@@ -632,10 +621,10 @@ export const TRIPS: TripData[] = [
             "lng": -73.9956,
             "suggestedBy": "Suprabho, Srayana",
             "tag": "Views",
-            "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view."
+            "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Catch the golden hour light."
           },
           {
-            "time": "5:30 PM",
+            "time": "6:45 PM",
             "emoji": "🥊",
             "name": "Gleasons Gym",
             "tip": "Drop-in sessions available · 15-min walk from the bridge",
@@ -646,7 +635,7 @@ export const TRIPS: TripData[] = [
             "desc": "Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO."
           },
           {
-            "time": "7:00 PM",
+            "time": "7:30 PM",
             "emoji": "🌃",
             "name": "Back to Manhattan — Evening in NoHo",
             "tip": "Walk back over the bridge at dusk for the reverse skyline view",
@@ -656,7 +645,7 @@ export const TRIPS: TripData[] = [
             "desc": "Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village."
           },
           {
-            "time": "7:30 PM",
+            "time": "8:00 PM",
             "emoji": "🥪",
             "name": "Katz's Delicatessen",
             "tip": "5-min walk from your hotel · Split a sandwich — they're massive · Cash or card",
@@ -667,7 +656,7 @@ export const TRIPS: TripData[] = [
             "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
           },
           {
-            "time": "8:15 PM",
+            "time": "8:45 PM",
             "emoji": "🚶",
             "name": "Greenwich Village",
             "tip": "No agenda needed. Just wander.",
@@ -678,7 +667,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
-            "time": "8:45 PM",
+            "time": "9:15 PM",
             "emoji": "📺",
             "name": "Friends Apartment — 90 Bedford St",
             "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
@@ -688,7 +677,7 @@ export const TRIPS: TripData[] = [
             "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
           },
           {
-            "time": "9:00 PM",
+            "time": "9:30 PM",
             "emoji": "📺",
             "name": "Carrie Bradshaw's Stoop — Sex and the City",
             "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
@@ -698,7 +687,7 @@ export const TRIPS: TripData[] = [
             "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
           },
           {
-            "time": "9:30 PM",
+            "time": "9:45 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar — Friday Night",
             "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",

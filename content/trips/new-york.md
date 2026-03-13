@@ -37,111 +37,104 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · Think Coffee · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Think Coffee · Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** This entire day stays below Canal St and crosses into Brooklyn — zero backtracking. Battery Park → Financial District → Brooklyn and back. Save the uptown and midtown sights for Day 3.
+> **Cluster logic:** Meeting first near the hotel, then head downtown for the ferry, Financial District, across to Brooklyn and back. Save the uptown and midtown sights for Day 3.
 
-### 8:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
+### 8:30 AM | 💻 | Think Coffee — Work Session
+Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel.
+> Tip: 🕐 8:30 – 10:30 AM · 3-min walk from Now Now NoHo · Grab a pastry before your meeting
+<!-- location: 40.7271, -73.9974 -->
+<!-- tag: Work -->
+
+### 11:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
 The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside.
 > Tip: Quick photo op · On the way to Battery Park · Still an active FDNY station
 <!-- location: 40.7190, -74.0066 -->
 <!-- tag: TV Spot -->
 
-### 8:30 AM | 🗽 | Statue of Liberty Ferry
+### 11:30 AM | 🗽 | Statue of Liberty Ferry
 Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
-> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast
+> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~3:30 PM
 <!-- location: 40.7014, -74.0154 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Icon -->
 - [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
 - [ ] Check ferry schedule
 
-### 11:00 AM | 💻 | Think Coffee — Work Session
-Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel.
-> Tip: 🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after
-<!-- location: 40.7271, -73.9974 -->
-<!-- tag: Work -->
-
-### 1:00 PM | 🕊 | 9/11 Memorial & Museum
-Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside.
-> Tip: 🎟 Pre-book online · Closed Tuesdays · Take the subway from NoHo (Broadway-Lafayette to Fulton St)
+### 3:30 PM | 🕊 | 9/11 Memorial & Museum
+Two massive reflecting pools where the towers stood. Book tickets in advance. ~1.5 hours.
+> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal
 <!-- location: 40.7116, -74.0133 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Memorial -->
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 2:30 PM | 🌐 | One World Observatory *Optional*
-102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both.
-> Tip: ⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection
-<!-- location: 40.7127, -74.0134 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Viewpoint -->
-
-### 3:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
+### 5:00 PM | 📺 | Law & Order Courthouse — NY Supreme Court
 The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
 > Tip: Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge
 <!-- location: 40.7143, -74.0018 -->
 <!-- tag: TV Spot -->
 
-### 4:00 PM | 🌉 | Walk the Brooklyn Bridge
+### 5:30 PM | 🌉 | Walk the Brooklyn Bridge
 From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close.
-> Tip: 📍 Start from City Hall Park side · 20-min walk from One World
+> Tip: 📍 Start from City Hall Park side · 5-min walk from the courthouse
 <!-- location: 40.7061, -73.9969 -->
 <!-- suggestedBy: Srayana -->
 <!-- tag: Walk -->
 
-### 5:00 PM | 🌆 | DUMBO Piers — Manhattan Skyline
-Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view.
+### 6:15 PM | 🌆 | DUMBO Piers — Manhattan Skyline
+Best view of Manhattan anywhere — the skyline framed by bridge cables. Catch the golden hour light.
 > Tip: 📸 Washington St for the iconic bridge shot
 <!-- location: 40.7030, -73.9956 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Views -->
 
-### 5:30 PM | 🥊 | Gleasons Gym
+### 6:45 PM | 🥊 | Gleasons Gym
 Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO.
 > Tip: Drop-in sessions available · 15-min walk from the bridge
 <!-- location: 40.6945, -73.9787 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Experience -->
 
-### 7:00 PM | 🌃 | Back to Manhattan — Evening in NoHo
+### 7:30 PM | 🌃 | Back to Manhattan — Evening in NoHo
 Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village.
 > Tip: Walk back over the bridge at dusk for the reverse skyline view
 <!-- location: 40.7261, -73.9923 -->
 <!-- tag: Evening -->
 
-### 7:30 PM | 🥪 | Katz's Delicatessen
+### 8:00 PM | 🥪 | Katz's Delicatessen
 The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The "I'll have what she's having" spot from When Harry Met Sally.
 > Tip: 5-min walk from your hotel · Split a sandwich — they're massive · Cash or card
 <!-- location: 40.7223, -73.9874 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 8:15 PM | 🚶 | Greenwich Village
+### 8:45 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
 > Tip: No agenda needed. Just wander.
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 8:45 PM | 📺 | Friends Apartment — 90 Bedford St
+### 9:15 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 9:00 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+### 9:30 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
 The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
 > Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
 <!-- location: 40.7350, -74.0029 -->
 <!-- tag: TV Spot -->
 
-### 9:30 PM | 🎤 | Comedy Cellar — Friday Night
+### 9:45 PM | 🎤 | Comedy Cellar — Friday Night
 One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
 <!-- location: 40.7300, -74.0005 -->
