@@ -599,12 +599,12 @@ export const TRIPS: TripData[] = [
           {
             "time": "8:15 PM",
             "emoji": "🧱",
-            "name": "LEGO Store — Rockefeller Center",
-            "tip": "Open until 9 PM · Subway from Flatiron to Rockefeller Center (6 train to 51st or N/R to 49th)",
-            "lat": 40.7587,
-            "lng": -73.9787,
+            "name": "LEGO Store — Flatiron District",
+            "tip": "Open until 9 PM · 1-min walk from Tappo",
+            "lat": 40.7414,
+            "lng": -73.9894,
             "tag": "Shopping",
-            "desc": "The massive LEGO flagship at 636 5th Ave. Floor-to-ceiling builds, NYC-themed sets, and a pick-a-brick wall. Hard to leave empty-handed."
+            "desc": "LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display."
           },
           {
             "time": "9:15 PM",

@@ -79,10 +79,10 @@ NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, 
 <!-- tag: Food -->
 - [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
-### 8:15 PM | 🧱 | LEGO Store — Rockefeller Center
-The massive LEGO flagship at 636 5th Ave. Floor-to-ceiling builds, NYC-themed sets, and a pick-a-brick wall. Hard to leave empty-handed.
-> Tip: Open until 9 PM · Subway from Flatiron to Rockefeller Center (6 train to 51st or N/R to 49th)
-<!-- location: 40.7587, -73.9787 -->
+### 8:15 PM | 🧱 | LEGO Store — Flatiron District
+LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display.
+> Tip: Open until 9 PM · 1-min walk from Tappo
+<!-- location: 40.7414, -73.9894 -->
 <!-- tag: Shopping -->
 
 ### 9:15 PM | 🚶 | Greenwich Village
