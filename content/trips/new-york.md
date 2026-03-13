@@ -37,90 +37,56 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** This entire day stays below Canal St and crosses into Brooklyn — zero backtracking. Battery Park → Financial District → Brooklyn and back. Save the uptown and midtown sights for Day 3.
+> **Cluster logic:** Meeting near the hotel late morning, then head downtown for the ferry and Financial District. Dinner at Tappo near the hotel, then evening in the Village. Save Brooklyn and uptown for other days.
 
 ### 8:00 AM | 📺 | Ghostbusters Firehouse — Hook & Ladder 8
 The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside.
-> Tip: Quick photo op · On the way to Battery Park · Still an active FDNY station
+> Tip: Quick photo op · Head back to NoHo after for the meeting · Still an active FDNY station
 <!-- location: 40.7190, -74.0066 -->
 <!-- tag: TV Spot -->
 
-### 8:30 AM | 🗽 | Statue of Liberty Ferry
+### 11:00 AM | 💻 | Think Coffee — Work Session
+Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel.
+> Tip: 🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after
+<!-- location: 40.7271, -73.9974 -->
+<!-- tag: Work -->
+
+### 1:30 PM | 🗽 | Statue of Liberty Ferry
 Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
-> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast
+> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM
 <!-- location: 40.7014, -74.0154 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Icon -->
 - [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
 - [ ] Check ferry schedule
 
-### 11:00 AM | 💻 | Brookfield Place — Work Session
-Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting.
-> Tip: 🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial
-<!-- location: 40.7128, -74.0156 -->
-<!-- tag: Work -->
-
-### 1:00 PM | 🕊 | 9/11 Memorial & Museum
-Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside.
-> Tip: 🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place
+### 5:30 PM | 🕊 | 9/11 Memorial & Museum
+Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools.
+> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal
 <!-- location: 40.7116, -74.0133 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Memorial -->
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 2:30 PM | 🌐 | One World Observatory *Optional*
-102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both.
-> Tip: ⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection
-<!-- location: 40.7127, -74.0134 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Viewpoint -->
-
-### 3:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
+### 6:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
 The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
-> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge
+> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner
 <!-- location: 40.7143, -74.0018 -->
 <!-- tag: TV Spot -->
 
-### 4:00 PM | 🌉 | Walk the Brooklyn Bridge
-From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close.
-> Tip: 📍 Start from City Hall Park side · 20-min walk from One World
-<!-- location: 40.7061, -73.9969 -->
-<!-- suggestedBy: Srayana -->
-<!-- tag: Walk -->
-
-### 5:00 PM | 🌆 | DUMBO Piers — Manhattan Skyline
-Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view.
-> Tip: 📸 Washington St for the iconic bridge shot
-<!-- location: 40.7030, -73.9956 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Views -->
-
-### 5:30 PM | 🥊 | Gleasons Gym
-Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO.
-> Tip: Drop-in sessions available · 15-min walk from the bridge
-<!-- location: 40.6945, -73.9787 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Experience -->
-
-### 7:00 PM | 🌃 | Back to Manhattan — Evening in NoHo
-Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village.
-> Tip: Walk back over the bridge at dusk for the reverse skyline view
-<!-- location: 40.7261, -73.9923 -->
-<!-- tag: Evening -->
-
-### 7:30 PM | 🥪 | Katz's Delicatessen
-The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The "I'll have what she's having" spot from When Harry Met Sally.
-> Tip: 5-min walk from your hotel · Split a sandwich — they're massive · Cash or card
-<!-- location: 40.7223, -73.9874 -->
-<!-- suggestedBy: Suprabho -->
+### 7:00 PM | 🍕 | Tappo — Thin Crust Pizza
+NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite.
+> Tip: 🕐 7 – 8 PM · 15-min walk from your hotel · Reservations recommended
+<!-- location: 40.7398, -73.9884 -->
 <!-- tag: Food -->
+- [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
 ### 8:15 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
@@ -129,19 +95,19 @@ NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bar
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 8:45 PM | 📺 | Friends Apartment — 90 Bedford St
+### 9:15 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 9:00 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+### 9:30 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
 The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
 > Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
 <!-- location: 40.7350, -74.0029 -->
 <!-- tag: TV Spot -->
 
-### 9:30 PM | 🎤 | Comedy Cellar — Friday Night
+### 9:45 PM | 🎤 | Comedy Cellar — Friday Night
 One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
 <!-- location: 40.7300, -74.0005 -->
@@ -149,47 +115,75 @@ One of NYC's most legendary comedy clubs, right in the Village. Friday nights ar
 <!-- tag: Entertainment -->
 - [ ] Book Comedy Cellar tickets | https://www.comedycellar.com
 
-## Day 3: West Side Midtown → Uptown Museums
+## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Hamilton · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Start at Flatiron/Union Square, then west to the High Line → Hudson Yards, move northeast through Midtown (5th Ave, Rockefeller, Empire State), then up to the museum mile on the Upper East Side, and finish back in Midtown at MoMA and Times Square.
+> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then Flatiron/Union Square, west to the High Line → Hudson Yards, northeast through Midtown, up to museum mile, and finish in Midtown at MoMA and Times Square.
 
-### 8:30 AM | 🌿 | Madison Square Park
-Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here for a quick breakfast.
+### 7:00 AM | 🌉 | Walk the Brooklyn Bridge
+Early morning walk across the bridge — peaceful before the crowds. Gothic towers and steel cables are incredible in the morning light.
+> Tip: 📍 Subway from NoHo (Broadway-Lafayette → Chambers St) · Start from City Hall Park side
+<!-- location: 40.7061, -73.9969 -->
+<!-- suggestedBy: Srayana -->
+<!-- tag: Walk -->
+
+### 7:45 AM | 🌆 | DUMBO Piers — Manhattan Skyline
+Best view of Manhattan anywhere — the skyline framed by bridge cables. Beautiful in the early morning light.
+> Tip: 📸 Washington St for the iconic bridge shot
+<!-- location: 40.7030, -73.9956 -->
+<!-- suggestedBy: Suprabho, Srayana -->
+<!-- tag: Views -->
+
+### 8:15 AM | 🥊 | Gleasons Gym
+Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO.
+> Tip: Opens early · 15-min walk from the bridge
+<!-- location: 40.6945, -73.9787 -->
+<!-- suggestedBy: Ritwik -->
+<!-- tag: Experience -->
+
+### 9:00 AM | 🥪 | Katz's Delicatessen
+The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The "I'll have what she's having" spot from When Harry Met Sally.
+> Tip: 5-min walk from your hotel · Split a sandwich — they're massive · Cash or card
+<!-- location: 40.7223, -73.9874 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Food -->
+
+### 10:00 AM | 🌿 | Madison Square Park
+Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here.
 > Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel
 <!-- location: 40.7425, -73.9878 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Park -->
 
-### 9:00 AM | 🧱 | The LEGO Store — Flatiron District
+### 10:15 AM | 🧱 | The LEGO Store — Flatiron District
 Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
 > Tip: 🕐 Check hours before going · Less crowded than the 5th Ave Midtown store
 <!-- location: 40.7419, -73.9898 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Shopping -->
 
-### 9:30 AM | 🛍 | Union Square
+### 10:30 AM | 🛍 | Union Square
 Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days.
 > Tip: 10-min walk south from Madison Square Park
 <!-- location: 40.7359, -73.9911 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Walk -->
 
-### 10:00 AM | 🛤 | The High Line
+### 10:45 AM | 🛤 | The High Line
 Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles.
 > Tip: Open until 8 PM · Great coffee carts along the way
 <!-- location: 40.7480, -74.0048 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
 
-### 11:30 AM | ☁️ | The Edge, Hudson Yards
+### 11:45 AM | ☁️ | The Edge, Hudson Yards
 100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings.
-> Tip: 🎟 Book ahead · Midmorning light is excellent, sunset slot is best if you prefer it later
+> Tip: 🎟 Book ahead · Midday light is excellent
 <!-- location: 40.7534, -74.0011 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Viewpoint -->
@@ -237,7 +231,7 @@ Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great inte
 <!-- suggestedBy: Srayana, Ritwik -->
 <!-- tag: Park -->
 
-### 4:30 PM | 🎨 | The Metropolitan Museum of Art
+### 6:00 PM | 🎨 | The Metropolitan Museum of Art
 Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep.
 > Tip: 🗺 Grab a floor map · Closed Wednesdays
 <!-- location: 40.7794, -73.9632 -->
@@ -246,14 +240,14 @@ Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sec
 - [ ] Buy MET tickets | https://www.metmuseum.org/visit/tickets
 - [ ] Check if open on our day (closed Wednesdays)
 
-### 6:00 PM | 🖼 | Guggenheim Museum
+### 6:30 PM | 🖼 | Guggenheim Museum
 Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side.
 > Tip: Walk the spiral from top down · 5-min walk from MET
 <!-- location: 40.7830, -73.9590 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Museum -->
 
-### 6:30 PM | 📺 | Gossip Girl — Blair Waldorf's Building
+### 6:45 PM | 📺 | Gossip Girl — Blair Waldorf's Building
 The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO.
 > Tip: Just the exterior · Steps from the MET entrance · Photo op only
 <!-- location: 40.7838, -73.9613 -->

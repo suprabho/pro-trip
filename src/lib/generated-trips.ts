@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 42
+      "stops": 41
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -531,17 +531,27 @@ export const TRIPS: TripData[] = [
             "time": "8:00 AM",
             "emoji": "📺",
             "name": "Ghostbusters Firehouse — Hook & Ladder 8",
-            "tip": "Quick photo op · On the way to Battery Park · Still an active FDNY station",
+            "tip": "Quick photo op · Head back to NoHo after for the meeting · Still an active FDNY station",
             "lat": 40.719,
             "lng": -74.0066,
             "tag": "TV Spot",
             "desc": "The firehouse from *Ghostbusters*! 14 N Moore St in Tribeca. Still a working firehouse — the Ghostbusters logo mural is often on display inside."
           },
           {
-            "time": "8:30 AM",
+            "time": "11:00 AM",
+            "emoji": "💻",
+            "name": "Think Coffee — Work Session",
+            "tip": "🕐 11 AM – 1 PM · 3-min walk from Now Now NoHo · Grab lunch at one of the many spots on Bleecker after",
+            "lat": 40.7271,
+            "lng": -73.9974,
+            "tag": "Work",
+            "desc": "Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coffee — perfect for a meeting. Steps from your hotel."
+          },
+          {
+            "time": "1:30 PM",
             "emoji": "🗽",
             "name": "Statue of Liberty Ferry",
-            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast",
+            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM",
             "lat": 40.7014,
             "lng": -74.0154,
             "suggestedBy": "Suprabho, Ritwik",
@@ -560,20 +570,10 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "11:00 AM",
-            "emoji": "💻",
-            "name": "Brookfield Place — Work Session",
-            "tip": "🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial",
-            "lat": 40.7128,
-            "lng": -74.0156,
-            "tag": "Work",
-            "desc": "Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting."
-          },
-          {
-            "time": "1:00 PM",
+            "time": "5:30 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
@@ -589,82 +589,34 @@ export const TRIPS: TripData[] = [
                 "done": false
               }
             ],
-            "desc": "Two massive reflecting pools where the towers stood. Book tickets in advance. ~2 hours inside."
+            "desc": "Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools."
           },
           {
-            "time": "2:30 PM",
-            "emoji": "🌐",
-            "name": "One World Observatory *Optional*",
-            "tip": "⚡ Low priority · Save time and money for The Edge instead · Only do this if you want the 9/11 connection",
-            "lat": 40.7127,
-            "lng": -74.0134,
-            "suggestedBy": "Ritwik",
-            "tag": "Viewpoint",
-            "desc": "102nd floor of One World Trade Center. Panoramic views of NYC. Skip this if you're doing The Edge on Day 3 — no need to do both."
-          },
-          {
-            "time": "3:30 PM",
+            "time": "6:30 PM",
             "emoji": "📺",
             "name": "Law & Order Courthouse — NY Supreme Court",
-            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · On the way to Brooklyn Bridge",
+            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner",
             "lat": 40.7143,
             "lng": -74.0018,
             "tag": "TV Spot",
             "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
           },
           {
-            "time": "4:00 PM",
-            "emoji": "🌉",
-            "name": "Walk the Brooklyn Bridge",
-            "tip": "📍 Start from City Hall Park side · 20-min walk from One World",
-            "lat": 40.7061,
-            "lng": -73.9969,
-            "suggestedBy": "Srayana",
-            "tag": "Walk",
-            "desc": "From City Hall Park, walk across to DUMBO. Gothic towers and steel cables are incredible up close."
-          },
-          {
-            "time": "5:00 PM",
-            "emoji": "🌆",
-            "name": "DUMBO Piers — Manhattan Skyline",
-            "tip": "📸 Washington St for the iconic bridge shot",
-            "lat": 40.703,
-            "lng": -73.9956,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Views",
-            "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Grab food with this view."
-          },
-          {
-            "time": "5:30 PM",
-            "emoji": "🥊",
-            "name": "Gleasons Gym",
-            "tip": "Drop-in sessions available · 15-min walk from the bridge",
-            "lat": 40.6945,
-            "lng": -73.9787,
-            "suggestedBy": "Ritwik",
-            "tag": "Experience",
-            "desc": "Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO."
-          },
-          {
             "time": "7:00 PM",
-            "emoji": "🌃",
-            "name": "Back to Manhattan — Evening in NoHo",
-            "tip": "Walk back over the bridge at dusk for the reverse skyline view",
-            "lat": 40.7261,
-            "lng": -73.9923,
-            "tag": "Evening",
-            "desc": "Head back over the bridge or grab the A/C/F subway. Easy evening near the hotel — explore a bar or jazz spot in the Village."
-          },
-          {
-            "time": "7:30 PM",
-            "emoji": "🥪",
-            "name": "Katz's Delicatessen",
-            "tip": "5-min walk from your hotel · Split a sandwich — they're massive · Cash or card",
-            "lat": 40.7223,
-            "lng": -73.9874,
-            "suggestedBy": "Suprabho",
+            "emoji": "🍕",
+            "name": "Tappo — Thin Crust Pizza",
+            "tip": "🕐 7 – 8 PM · 15-min walk from your hotel · Reservations recommended",
+            "lat": 40.7398,
+            "lng": -73.9884,
             "tag": "Food",
-            "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
+            "todos": [
+              {
+                "note": "Book Tappo reservation",
+                "done": false,
+                "link": "https://resy.com/cities/new-york-ny/venues/tappo"
+              }
+            ],
+            "desc": "NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite."
           },
           {
             "time": "8:15 PM",
@@ -678,7 +630,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
-            "time": "8:45 PM",
+            "time": "9:15 PM",
             "emoji": "📺",
             "name": "Friends Apartment — 90 Bedford St",
             "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
@@ -688,7 +640,7 @@ export const TRIPS: TripData[] = [
             "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
           },
           {
-            "time": "9:00 PM",
+            "time": "9:30 PM",
             "emoji": "📺",
             "name": "Carrie Bradshaw's Stoop — Sex and the City",
             "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
@@ -698,7 +650,7 @@ export const TRIPS: TripData[] = [
             "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
           },
           {
-            "time": "9:30 PM",
+            "time": "9:45 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar — Friday Night",
             "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",
@@ -726,8 +678,8 @@ export const TRIPS: TripData[] = [
       },
       "3": {
         "label": "Day 3 · Full Day",
-        "title": "West Side Midtown → Uptown Museums",
-        "subtitle": "Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
+        "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Hamilton · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -736,7 +688,51 @@ export const TRIPS: TripData[] = [
         "zoom": 12,
         "stops": [
           {
-            "time": "8:30 AM",
+            "time": "7:00 AM",
+            "emoji": "🌉",
+            "name": "Walk the Brooklyn Bridge",
+            "tip": "📍 Subway from NoHo (Broadway-Lafayette → Chambers St) · Start from City Hall Park side",
+            "lat": 40.7061,
+            "lng": -73.9969,
+            "suggestedBy": "Srayana",
+            "tag": "Walk",
+            "desc": "Early morning walk across the bridge — peaceful before the crowds. Gothic towers and steel cables are incredible in the morning light."
+          },
+          {
+            "time": "7:45 AM",
+            "emoji": "🌆",
+            "name": "DUMBO Piers — Manhattan Skyline",
+            "tip": "📸 Washington St for the iconic bridge shot",
+            "lat": 40.703,
+            "lng": -73.9956,
+            "suggestedBy": "Suprabho, Srayana",
+            "tag": "Views",
+            "desc": "Best view of Manhattan anywhere — the skyline framed by bridge cables. Beautiful in the early morning light."
+          },
+          {
+            "time": "8:15 AM",
+            "emoji": "🥊",
+            "name": "Gleasons Gym",
+            "tip": "Opens early · 15-min walk from the bridge",
+            "lat": 40.6945,
+            "lng": -73.9787,
+            "suggestedBy": "Ritwik",
+            "tag": "Experience",
+            "desc": "Legendary Brooklyn boxing gym — Muhammad Ali, Mike Tyson trained here. Quick visit while in DUMBO."
+          },
+          {
+            "time": "9:00 AM",
+            "emoji": "🥪",
+            "name": "Katz's Delicatessen",
+            "tip": "5-min walk from your hotel · Split a sandwich — they're massive · Cash or card",
+            "lat": 40.7223,
+            "lng": -73.9874,
+            "suggestedBy": "Suprabho",
+            "tag": "Food",
+            "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
+          },
+          {
+            "time": "10:00 AM",
             "emoji": "🌿",
             "name": "Madison Square Park",
             "tip": "📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel",
@@ -744,10 +740,10 @@ export const TRIPS: TripData[] = [
             "lng": -73.9878,
             "suggestedBy": "Suprabho",
             "tag": "Park",
-            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here for a quick breakfast."
+            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here."
           },
           {
-            "time": "9:00 AM",
+            "time": "10:15 AM",
             "emoji": "🧱",
             "name": "The LEGO Store — Flatiron District",
             "tip": "🕐 Check hours before going · Less crowded than the 5th Ave Midtown store",
@@ -758,7 +754,7 @@ export const TRIPS: TripData[] = [
             "desc": "Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
           },
           {
-            "time": "9:30 AM",
+            "time": "10:30 AM",
             "emoji": "🛍",
             "name": "Union Square",
             "tip": "10-min walk south from Madison Square Park",
@@ -769,7 +765,7 @@ export const TRIPS: TripData[] = [
             "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days."
           },
           {
-            "time": "10:00 AM",
+            "time": "10:45 AM",
             "emoji": "🛤",
             "name": "The High Line",
             "tip": "Open until 8 PM · Great coffee carts along the way",
@@ -780,10 +776,10 @@ export const TRIPS: TripData[] = [
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
-            "time": "11:30 AM",
+            "time": "11:45 AM",
             "emoji": "☁️",
             "name": "The Edge, Hudson Yards",
-            "tip": "🎟 Book ahead · Midmorning light is excellent, sunset slot is best if you prefer it later",
+            "tip": "🎟 Book ahead · Midday light is excellent",
             "lat": 40.7534,
             "lng": -74.0011,
             "suggestedBy": "Suprabho, Srayana",
@@ -870,7 +866,7 @@ export const TRIPS: TripData[] = [
             "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
           },
           {
-            "time": "4:30 PM",
+            "time": "6:00 PM",
             "emoji": "🎨",
             "name": "The Metropolitan Museum of Art",
             "tip": "🗺 Grab a floor map · Closed Wednesdays",
@@ -892,7 +888,7 @@ export const TRIPS: TripData[] = [
             "desc": "Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep."
           },
           {
-            "time": "6:00 PM",
+            "time": "6:30 PM",
             "emoji": "🖼",
             "name": "Guggenheim Museum",
             "tip": "Walk the spiral from top down · 5-min walk from MET",
@@ -903,7 +899,7 @@ export const TRIPS: TripData[] = [
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
-            "time": "6:30 PM",
+            "time": "6:45 PM",
             "emoji": "📺",
             "name": "Gossip Girl — Blair Waldorf's Building",
             "tip": "Just the exterior · Steps from the MET entrance · Photo op only",
