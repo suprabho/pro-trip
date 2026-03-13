@@ -36,11 +36,11 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "id": "new-york",
     "city": "New York",
     "emoji": "🗽",
-    "subtitle": "3 Day Itinerary",
+    "subtitle": "4 Day Itinerary",
     "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
     "color": "#c94f2c",
     "days": 4,
-    "stops": 41,
+    "stops": 42,
     "startDate": "2026-03-12",
     "endDate": "2026-03-15",
     "mapCenter": [
@@ -57,5 +57,5 @@ export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null =
 export const STATS = {
   totalTrips: 2,
   totalDays: 9,
-  totalStops: 58,
+  totalStops: 59,
 };

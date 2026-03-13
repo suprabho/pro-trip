@@ -444,20 +444,20 @@ export const TRIPS: TripData[] = [
     "meta": {
       "id": "new-york",
       "city": "New York",
-      "subtitle": "3 Day Itinerary",
+      "subtitle": "4 Day Itinerary",
       "emoji": "🗽",
       "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
       "startDate": "2026-03-12",
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 41
+      "stops": 42
     },
     "days": {
       "1": {
         "label": "Day 1 · Arrival",
         "title": "Downtown Initiation",
-        "subtitle": "Washington Square · West Village · Greenwich Village · Friends Apartment · Carrie's Stoop · Madison Square · Union Square",
+        "subtitle": "Washington Square",
         "color": "#c94f2c",
         "center": [
           40.724,
@@ -497,98 +497,6 @@ export const TRIPS: TripData[] = [
             "suggestedBy": "Srayana",
             "tag": "Park",
             "desc": "The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the arch beautifully — worth lingering."
-          },
-          {
-            "time": "5:30 PM",
-            "emoji": "🍕",
-            "name": "Joe's Pizza, Carmine St",
-            "tip": "💵 Cash only · ATM right outside · 5-min walk from Washington Square",
-            "lat": 40.7307,
-            "lng": -74.0022,
-            "suggestedBy": "Srayana",
-            "tag": "Food",
-            "todos": [
-              {
-                "note": "Withdraw cash from ATM before going",
-                "done": false
-              }
-            ],
-            "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
-          },
-          {
-            "time": "6:30 PM",
-            "emoji": "🚶",
-            "name": "Greenwich Village",
-            "tip": "No agenda needed. Just wander.",
-            "lat": 40.7336,
-            "lng": -74.0027,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
-          },
-          {
-            "time": "7:00 PM",
-            "emoji": "📺",
-            "name": "Friends Apartment — 90 Bedford St",
-            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
-            "lat": 40.7324,
-            "lng": -74.0036,
-            "tag": "TV Spot",
-            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
-          },
-          {
-            "time": "7:15 PM",
-            "emoji": "📺",
-            "name": "Carrie Bradshaw's Stoop — Sex and the City",
-            "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
-            "lat": 40.735,
-            "lng": -74.0029,
-            "tag": "TV Spot",
-            "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
-          },
-          {
-            "time": "7:30 PM",
-            "emoji": "🌿",
-            "name": "Madison Square Park",
-            "tip": "📸 Best Flatiron angle from the park's south end · 15-min walk north from Greenwich Village",
-            "lat": 40.7425,
-            "lng": -73.9878,
-            "suggestedBy": "Suprabho",
-            "tag": "Park",
-            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots at dusk. The original Shake Shack is right here if you need dessert."
-          },
-          {
-            "time": "8:00 PM",
-            "emoji": "🧱",
-            "name": "The LEGO Store — Flatiron District",
-            "tip": "🕐 Check hours before going · Less crowded than the 5th Ave Midtown store",
-            "lat": 40.7419,
-            "lng": -73.9898,
-            "suggestedBy": "Suprabho",
-            "tag": "Shopping",
-            "desc": "Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
-          },
-          {
-            "time": "8:30 PM",
-            "emoji": "🛍",
-            "name": "Union Square",
-            "tip": "10-min walk south from Madison Square Park",
-            "lat": 40.7359,
-            "lng": -73.9911,
-            "suggestedBy": "Ritwik",
-            "tag": "Evening",
-            "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and night energy. The Greenmarket runs here on select days."
-          },
-          {
-            "time": "9:30 PM",
-            "emoji": "🌙",
-            "name": "Tribeca at Night",
-            "tip": "Walk south from your hotel · 10-min from NoHo",
-            "lat": 40.7163,
-            "lng": -74.0086,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Evening",
-            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot."
           }
         ],
         "stays": [
@@ -611,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO",
+        "subtitle": "Ghostbusters Firehouse · Statue of Liberty · Brookfield Place · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -652,10 +560,20 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "12:30 PM",
+            "time": "11:00 AM",
+            "emoji": "💻",
+            "name": "Brookfield Place — Work Session",
+            "tip": "🕐 11 AM – 1 PM · Winter Garden atrium is the best spot · Steps from the 9/11 Memorial",
+            "lat": 40.7128,
+            "lng": -74.0156,
+            "tag": "Work",
+            "desc": "Beautiful Winter Garden atrium right next to the WTC. Free WiFi, plenty of seating, Le District food hall for coffee and lunch. Quiet enough for a meeting."
+          },
+          {
+            "time": "1:00 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Battery Park",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · 10-min walk from Brookfield Place",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
@@ -749,6 +667,37 @@ export const TRIPS: TripData[] = [
             "desc": "The most famous deli in New York — pastrami on rye, towering sandwiches, and a room that hasn't changed in decades. The \"I'll have what she's having\" spot from When Harry Met Sally."
           },
           {
+            "time": "8:15 PM",
+            "emoji": "🚶",
+            "name": "Greenwich Village",
+            "tip": "No agenda needed. Just wander.",
+            "lat": 40.7336,
+            "lng": -74.0027,
+            "suggestedBy": "Suprabho, Srayana",
+            "tag": "Neighbourhood",
+            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
+          },
+          {
+            "time": "8:45 PM",
+            "emoji": "📺",
+            "name": "Friends Apartment — 90 Bedford St",
+            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
+            "lat": 40.7324,
+            "lng": -74.0036,
+            "tag": "TV Spot",
+            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
+          },
+          {
+            "time": "9:00 PM",
+            "emoji": "📺",
+            "name": "Carrie Bradshaw's Stoop — Sex and the City",
+            "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
+            "lat": 40.735,
+            "lng": -74.0029,
+            "tag": "TV Spot",
+            "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
+          },
+          {
             "time": "9:30 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar — Friday Night",
@@ -778,7 +727,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "West Side Midtown → Uptown Museums",
-        "subtitle": "High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
+        "subtitle": "Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -786,6 +735,39 @@ export const TRIPS: TripData[] = [
         ],
         "zoom": 12,
         "stops": [
+          {
+            "time": "8:30 AM",
+            "emoji": "🌿",
+            "name": "Madison Square Park",
+            "tip": "📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel",
+            "lat": 40.7425,
+            "lng": -73.9878,
+            "suggestedBy": "Suprabho",
+            "tag": "Park",
+            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here for a quick breakfast."
+          },
+          {
+            "time": "9:00 AM",
+            "emoji": "🧱",
+            "name": "The LEGO Store — Flatiron District",
+            "tip": "🕐 Check hours before going · Less crowded than the 5th Ave Midtown store",
+            "lat": 40.7419,
+            "lng": -73.9898,
+            "suggestedBy": "Suprabho",
+            "tag": "Shopping",
+            "desc": "Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
+          },
+          {
+            "time": "9:30 AM",
+            "emoji": "🛍",
+            "name": "Union Square",
+            "tip": "10-min walk south from Madison Square Park",
+            "lat": 40.7359,
+            "lng": -73.9911,
+            "suggestedBy": "Ritwik",
+            "tag": "Walk",
+            "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days."
+          },
           {
             "time": "10:00 AM",
             "emoji": "🛤",
@@ -986,13 +968,13 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · Departure",
         "title": "Departure",
-        "subtitle": "Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · JFK",
+        "subtitle": "Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · Joe's Pizza · Tribeca · Newark",
         "color": "#666",
         "center": [
-          40.6449,
-          -73.7807
+          40.724,
+          -73.999
         ],
-        "zoom": 12,
+        "zoom": 13,
         "stops": [
           {
             "time": "9:00 AM",
@@ -1036,12 +1018,40 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "12:30 PM",
+            "emoji": "🍕",
+            "name": "Joe's Pizza, Carmine St",
+            "tip": "💵 Cash only · ATM right outside · 5-min walk from West Village",
+            "lat": 40.7307,
+            "lng": -74.0022,
+            "suggestedBy": "Srayana",
+            "tag": "Food",
+            "todos": [
+              {
+                "note": "Withdraw cash from ATM before going",
+                "done": false
+              }
+            ],
+            "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
+          },
+          {
+            "time": "1:30 PM",
+            "emoji": "🌙",
+            "name": "Tribeca Walk",
+            "tip": "Walk south from the Village · 10-min from NoHo",
+            "lat": 40.7163,
+            "lng": -74.0086,
+            "suggestedBy": "Suprabho, Srayana",
+            "tag": "Neighbourhood",
+            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot during golden afternoon light."
+          },
+          {
+            "time": "7:00 PM",
             "emoji": "🚕",
-            "name": "Head to JFK",
-            "tip": "Uber recommended · ~$45–60 · Or AirTrain from Jamaica Station",
-            "lat": 40.6449,
-            "lng": -73.7807,
-            "desc": "Allow ~1 hour to JFK from NoHo. For a 3:45 PM international flight, aim to be at the airport by 1:30–1:45 PM."
+            "name": "Head to Newark",
+            "tip": "Uber recommended · ~$50–70 · Or NJ Transit from Penn Station",
+            "lat": 40.6895,
+            "lng": -74.1745,
+            "desc": "Allow ~1–1.5 hours to Newark Liberty Airport from NoHo. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM."
           }
         ],
         "stays": [
@@ -1052,13 +1062,13 @@ export const TRIPS: TripData[] = [
           }
         ],
         "airport": {
-          "name": "JFK Airport",
-          "code": "JFK",
-          "lat": 40.6449,
-          "lng": -73.7807,
+          "name": "Newark Liberty Airport",
+          "code": "EWR",
+          "lat": 40.6895,
+          "lng": -74.1745,
           "date": "Mar 15, 2026",
-          "time": "3:45 PM",
-          "flightNumber": "EY 2"
+          "time": "9:50 PM",
+          "flightNumber": "LH 413"
         }
       }
     }
