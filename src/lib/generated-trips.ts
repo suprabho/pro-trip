@@ -765,7 +765,7 @@ export const TRIPS: TripData[] = [
             "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days."
           },
           {
-            "time": "11:00 AM",
+            "time": "10:45 AM",
             "emoji": "🛤",
             "name": "The High Line",
             "tip": "Open until 8 PM · Great coffee carts along the way",
@@ -776,7 +776,7 @@ export const TRIPS: TripData[] = [
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
-            "time": "12:30 PM",
+            "time": "11:45 AM",
             "emoji": "☁️",
             "name": "The Edge, Hudson Yards",
             "tip": "🎟 Book ahead · Midday light is excellent",
@@ -794,7 +794,7 @@ export const TRIPS: TripData[] = [
             "desc": "100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings."
           },
           {
-            "time": "1:15 PM",
+            "time": "12:15 PM",
             "emoji": "📺",
             "name": "How I Met Your Mother — McGee's Pub",
             "tip": "Quick drink or photo · 10-min walk to the Hamilton theatre · Great pre-show spot",
@@ -804,10 +804,10 @@ export const TRIPS: TripData[] = [
             "desc": "The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails."
           },
           {
-            "time": "2:00 PM",
+            "time": "1:00 PM",
             "emoji": "🎭",
             "name": "Hamilton — Broadway Matinée",
-            "tip": "🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early · Saturday matinée at 2 PM",
+            "tip": "🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early",
             "lat": 40.759,
             "lng": -73.9871,
             "suggestedBy": "Suprabho",
@@ -819,10 +819,10 @@ export const TRIPS: TripData[] = [
                 "link": "https://hamiltonmusical.com/new-york/"
               }
             ],
-            "desc": "The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 4:45 PM."
+            "desc": "The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM."
           },
           {
-            "time": "5:00 PM",
+            "time": "4:00 PM",
             "emoji": "🛍",
             "name": "5th Avenue Shops",
             "tip": "Window shopping is free · 2-min walk from the theatre",
@@ -833,7 +833,7 @@ export const TRIPS: TripData[] = [
             "desc": "Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown."
           },
           {
-            "time": "5:15 PM",
+            "time": "4:30 PM",
             "emoji": "🏙",
             "name": "Rockefeller Center",
             "tip": "Combine with 5th Ave — all walkable",
@@ -844,7 +844,7 @@ export const TRIPS: TripData[] = [
             "desc": "Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios."
           },
           {
-            "time": "5:30 PM",
+            "time": "5:00 PM",
             "emoji": "🚂",
             "name": "Grand Central Terminal",
             "tip": "📍 5-min walk from Rockefeller Center · Free to enter · Look up at the celestial ceiling mural",
@@ -855,7 +855,7 @@ export const TRIPS: TripData[] = [
             "desc": "Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour."
           },
           {
-            "time": "6:00 PM",
+            "time": "5:30 PM",
             "emoji": "🌿",
             "name": "Central Park",
             "tip": "👟 Enter at 59th St, walk north — naturally routes you toward the museums",
@@ -866,7 +866,7 @@ export const TRIPS: TripData[] = [
             "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
           },
           {
-            "time": "6:30 PM",
+            "time": "6:00 PM",
             "emoji": "🎨",
             "name": "The Metropolitan Museum of Art",
             "tip": "🗺 Grab a floor map · Closed Wednesdays",
@@ -888,7 +888,7 @@ export const TRIPS: TripData[] = [
             "desc": "Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep."
           },
           {
-            "time": "7:30 PM",
+            "time": "6:30 PM",
             "emoji": "🖼",
             "name": "Guggenheim Museum",
             "tip": "Walk the spiral from top down · 5-min walk from MET",
@@ -899,7 +899,7 @@ export const TRIPS: TripData[] = [
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
-            "time": "7:45 PM",
+            "time": "6:45 PM",
             "emoji": "📺",
             "name": "Gossip Girl — Blair Waldorf's Building",
             "tip": "Just the exterior · Steps from the MET entrance · Photo op only",
@@ -909,7 +909,7 @@ export const TRIPS: TripData[] = [
             "desc": "The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO."
           },
           {
-            "time": "8:00 PM",
+            "time": "7:00 PM",
             "emoji": "☕",
             "name": "Coffee — Upper East Side",
             "tip": "Lots of great spots nearby",
@@ -920,7 +920,7 @@ export const TRIPS: TripData[] = [
             "desc": "Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown."
           },
           {
-            "time": "8:30 PM",
+            "time": "7:30 PM",
             "emoji": "🏛",
             "name": "Empire State Building",
             "tip": "🎟 Book skip-the-line tickets · 15-min subway ride from the Guggenheim",
@@ -931,7 +931,7 @@ export const TRIPS: TripData[] = [
             "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up."
           },
           {
-            "time": "9:30 PM",
+            "time": "9:00 PM",
             "emoji": "🎨",
             "name": "Museum of Modern Art (MoMA)",
             "tip": "Free on Friday evenings · Right next to Rockefeller Center",
@@ -942,7 +942,7 @@ export const TRIPS: TripData[] = [
             "desc": "Starry Night, Warhols, Picasso. One of the world's greatest modern art collections."
           },
           {
-            "time": "10:00 PM",
+            "time": "9:30 PM",
             "emoji": "🌃",
             "name": "Times Square at Night",
             "tip": "🌙 Night only — don't bother during the day · 5-min walk from MoMA · Don't linger too long",
