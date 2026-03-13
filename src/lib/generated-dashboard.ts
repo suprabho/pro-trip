@@ -36,7 +36,7 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "id": "new-york",
     "city": "New York",
     "emoji": "🗽",
-    "subtitle": "3 Day Itinerary",
+    "subtitle": "4 Day Itinerary",
     "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
     "color": "#c94f2c",
     "days": 4,

@@ -1,7 +1,7 @@
 ---
 id: new-york
 city: New York
-subtitle: 3 Day Itinerary
+subtitle: 4 Day Itinerary
 emoji: "🗽"
 highlights: NoHo · Greenwich Village · Brooklyn Bridge · Central Park
 startDate: "2026-03-12"
@@ -10,7 +10,7 @@ endDate: "2026-03-15"
 
 ## Day 1: Downtown Initiation
 <!-- label: Day 1 · Arrival -->
-<!-- subtitle: Washington Square · West Village · Greenwich Village · Friends Apartment · Carrie's Stoop · Madison Square · Union Square -->
+<!-- subtitle: Washington Square -->
 <!-- color: #c94f2c -->
 <!-- center: 40.724, -73.999 -->
 <!-- zoom: 14 -->
@@ -33,65 +33,11 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 <!-- suggestedBy: Srayana -->
 <!-- tag: Park -->
 
-### 5:30 PM | 🍕 | Joe's Pizza, Carmine St
-The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza.
-> Tip: 💵 Cash only · ATM right outside · 5-min walk from Washington Square
-<!-- location: 40.7307, -74.0022 -->
-<!-- suggestedBy: Srayana -->
-<!-- tag: Food -->
-- [ ] Withdraw cash from ATM before going
-
-### 6:30 PM | 🚶 | Greenwich Village
-NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
-> Tip: No agenda needed. Just wander.
-<!-- location: 40.7336, -74.0027 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Neighbourhood -->
-
-### 7:00 PM | 📺 | Friends Apartment — 90 Bedford St
-The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
-> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
-<!-- location: 40.7324, -74.0036 -->
-<!-- tag: TV Spot -->
-
-### 7:15 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
-The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
-> Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
-<!-- location: 40.7350, -74.0029 -->
-<!-- tag: TV Spot -->
-
-### 7:30 PM | 🌿 | Madison Square Park
-Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots at dusk. The original Shake Shack is right here if you need dessert.
-> Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from Greenwich Village
-<!-- location: 40.7425, -73.9878 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Park -->
-
-### 8:00 PM | 🧱 | The LEGO Store — Flatiron District
-Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
-> Tip: 🕐 Check hours before going · Less crowded than the 5th Ave Midtown store
-<!-- location: 40.7419, -73.9898 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Shopping -->
-
-### 8:30 PM | 🛍 | Union Square
-Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and night energy. The Greenmarket runs here on select days.
-> Tip: 10-min walk south from Madison Square Park
-<!-- location: 40.7359, -73.9911 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Evening -->
-
-### 9:30 PM | 🌙 | Tribeca at Night
-Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot.
-> Tip: Walk south from your hotel · 10-min from NoHo
-<!-- location: 40.7163, -74.0086 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Evening -->
 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO -->
+<!-- subtitle: Ghostbusters Firehouse · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Brooklyn Bridge · DUMBO · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -170,6 +116,25 @@ The most famous deli in New York — pastrami on rye, towering sandwiches, and a
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
+### 8:15 PM | 🚶 | Greenwich Village
+NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
+> Tip: No agenda needed. Just wander.
+<!-- location: 40.7336, -74.0027 -->
+<!-- suggestedBy: Suprabho, Srayana -->
+<!-- tag: Neighbourhood -->
+
+### 8:45 PM | 📺 | Friends Apartment — 90 Bedford St
+The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
+> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
+<!-- location: 40.7324, -74.0036 -->
+<!-- tag: TV Spot -->
+
+### 9:00 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
+> Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
+<!-- location: 40.7350, -74.0029 -->
+<!-- tag: TV Spot -->
+
 ### 9:30 PM | 🎤 | Comedy Cellar — Friday Night
 One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
@@ -180,13 +145,34 @@ One of NYC's most legendary comedy clubs, right in the Village. Friday nights ar
 
 ## Day 3: West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
+<!-- subtitle: Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Start on the West Side (High Line → Hudson Yards), move northeast through Midtown (5th Ave, Rockefeller, Empire State), then up to the museum mile on the Upper East Side, and finish back in Midtown at MoMA and Times Square.
+> **Cluster logic:** Start at Flatiron/Union Square, then west to the High Line → Hudson Yards, move northeast through Midtown (5th Ave, Rockefeller, Empire State), then up to the museum mile on the Upper East Side, and finish back in Midtown at MoMA and Times Square.
+
+### 8:30 AM | 🌿 | Madison Square Park
+Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here for a quick breakfast.
+> Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel
+<!-- location: 40.7425, -73.9878 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Park -->
+
+### 9:00 AM | 🧱 | The LEGO Store — Flatiron District
+Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
+> Tip: 🕐 Check hours before going · Less crowded than the 5th Ave Midtown store
+<!-- location: 40.7419, -73.9898 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Shopping -->
+
+### 9:30 AM | 🛍 | Union Square
+Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days.
+> Tip: 10-min walk south from Madison Square Park
+<!-- location: 40.7359, -73.9911 -->
+<!-- suggestedBy: Ritwik -->
+<!-- tag: Walk -->
 
 ### 10:00 AM | 🛤 | The High Line
 Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles.
@@ -304,12 +290,12 @@ NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be
 
 ## Day 4: Departure
 <!-- label: Day 4 · Departure -->
-<!-- subtitle: Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · JFK -->
+<!-- subtitle: Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · Joe's Pizza · Tribeca · Newark -->
 <!-- color: #666 -->
-<!-- center: 40.6449, -73.7807 -->
-<!-- zoom: 12 -->
+<!-- center: 40.724, -73.999 -->
+<!-- zoom: 13 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
-<!-- airport: JFK Airport | JFK | 40.6449,-73.7807 | Mar 15, 2026 | 3:45 PM | EY 2 -->
+<!-- airport: Newark Liberty Airport | EWR | 40.6895, -74.1745 | Mar 15, 2026 | 9:50 PM | LH 413 -->
 
 ### 9:00 AM | ☕ | Slow Brunch — NoHo / SoHo
 Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café.
@@ -335,7 +321,22 @@ The quietest, most charming corner of downtown Manhattan — tree-lined streets,
 <!-- location: 40.7337, -74.0070 -->
 <!-- suggestedBy: Suprabho -->
 
-### 12:30 PM | 🚕 | Head to JFK
-Allow ~1 hour to JFK from NoHo. For a 3:45 PM international flight, aim to be at the airport by 1:30–1:45 PM.
-> Tip: Uber recommended · ~$45–60 · Or AirTrain from Jamaica Station
-<!-- location: 40.6449, -73.7807 -->
+### 12:30 PM | 🍕 | Joe's Pizza, Carmine St
+The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza.
+> Tip: 💵 Cash only · ATM right outside · 5-min walk from West Village
+<!-- location: 40.7307, -74.0022 -->
+<!-- suggestedBy: Srayana -->
+<!-- tag: Food -->
+- [ ] Withdraw cash from ATM before going
+
+### 1:30 PM | 🌙 | Tribeca Walk
+Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot during golden afternoon light.
+> Tip: Walk south from the Village · 10-min from NoHo
+<!-- location: 40.7163, -74.0086 -->
+<!-- suggestedBy: Suprabho, Srayana -->
+<!-- tag: Neighbourhood -->
+
+### 7:00 PM | 🚕 | Head to Newark
+Allow ~1–1.5 hours to Newark Liberty Airport from NoHo. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM.
+> Tip: Uber recommended · ~$50–70 · Or NJ Transit from Penn Station
+<!-- location: 40.6895, -74.1745 -->
