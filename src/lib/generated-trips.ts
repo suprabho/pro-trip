@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -549,31 +549,9 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "1:30 PM",
-            "emoji": "🗽",
-            "name": "Statue of Liberty Ferry",
-            "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM",
-            "lat": 40.7014,
-            "lng": -74.0154,
-            "suggestedBy": "Suprabho, Ritwik",
-            "tag": "Icon",
-            "todos": [
-              {
-                "note": "Book ferry + pedestal tickets",
-                "done": false,
-                "link": "https://www.statuecruises.com"
-              },
-              {
-                "note": "Check ferry schedule",
-                "done": false
-              }
-            ],
-            "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
-          },
-          {
-            "time": "5:30 PM",
             "emoji": "🕊",
             "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from Battery Park",
             "lat": 40.7116,
             "lng": -74.0133,
             "suggestedBy": "Suprabho, Ritwik",
@@ -593,13 +571,13 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "6:30 PM",
-            "emoji": "📺",
-            "name": "Law & Order Courthouse — NY Supreme Court",
-            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner",
-            "lat": 40.7143,
-            "lng": -74.0018,
-            "tag": "TV Spot",
-            "desc": "The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. \"In the criminal justice system...\""
+            "emoji": "🏛",
+            "name": "Flatiron Building & Madison Square Park",
+            "tip": "Quick 10-min stop · Right next to Tappo · Great photo ops at sunset",
+            "lat": 40.7411,
+            "lng": -73.9897,
+            "tag": "Icon",
+            "desc": "The iconic triangular Flatiron Building at 175 5th Ave — one of NYC's most photographed landmarks. Stroll through Madison Square Park right next door before dinner."
           },
           {
             "time": "7:00 PM",
@@ -620,6 +598,16 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "8:15 PM",
+            "emoji": "🧱",
+            "name": "LEGO Store — Flatiron District",
+            "tip": "Open until 9 PM · 1-min walk from Tappo",
+            "lat": 40.7414,
+            "lng": -73.9894,
+            "tag": "Shopping",
+            "desc": "LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display."
+          },
+          {
+            "time": "9:15 PM",
             "emoji": "🚶",
             "name": "Greenwich Village",
             "tip": "No agenda needed. Just wander.",
@@ -630,7 +618,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
-            "time": "9:15 PM",
+            "time": "10:00 PM",
             "emoji": "📺",
             "name": "Friends Apartment — 90 Bedford St",
             "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
@@ -640,7 +628,7 @@ export const TRIPS: TripData[] = [
             "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
           },
           {
-            "time": "9:30 PM",
+            "time": "10:15 PM",
             "emoji": "📺",
             "name": "Carrie Bradshaw's Stoop — Sex and the City",
             "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
@@ -650,7 +638,7 @@ export const TRIPS: TripData[] = [
             "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
           },
           {
-            "time": "9:45 PM",
+            "time": "10:30 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar — Friday Night",
             "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",

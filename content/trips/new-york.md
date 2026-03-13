@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -57,29 +57,20 @@ Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coff
 <!-- location: 40.7271, -73.9974 -->
 <!-- tag: Work -->
 
-### 1:30 PM | 🗽 | Statue of Liberty Ferry
-Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
-> Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM
-<!-- location: 40.7014, -74.0154 -->
-<!-- suggestedBy: Suprabho, Ritwik -->
-<!-- tag: Icon -->
-- [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
-- [ ] Check ferry schedule
-
-### 5:30 PM | 🕊 | 9/11 Memorial & Museum
+### 1:30 PM | 🕊 | 9/11 Memorial & Museum
 Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools.
-> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal
+> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from Battery Park
 <!-- location: 40.7116, -74.0133 -->
 <!-- suggestedBy: Suprabho, Ritwik -->
 <!-- tag: Memorial -->
 - [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
 - [ ] Check if open on our travel day (closed Tuesdays)
 
-### 6:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
-The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
-> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner
-<!-- location: 40.7143, -74.0018 -->
-<!-- tag: TV Spot -->
+### 6:30 PM | 🏛 | Flatiron Building & Madison Square Park
+The iconic triangular Flatiron Building at 175 5th Ave — one of NYC's most photographed landmarks. Stroll through Madison Square Park right next door before dinner.
+> Tip: Quick 10-min stop · Right next to Tappo · Great photo ops at sunset
+<!-- location: 40.7411, -73.9897 -->
+<!-- tag: Icon -->
 
 ### 7:00 PM | 🍕 | Tappo — Thin Crust Pizza
 NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite.
@@ -88,26 +79,32 @@ NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, 
 <!-- tag: Food -->
 - [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
-### 8:15 PM | 🚶 | Greenwich Village
+### 8:15 PM | 🧱 | LEGO Store — Flatiron District
+LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display.
+> Tip: Open until 9 PM · 1-min walk from Tappo
+<!-- location: 40.7414, -73.9894 -->
+<!-- tag: Shopping -->
+
+### 9:15 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
 > Tip: No agenda needed. Just wander.
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 9:15 PM | 📺 | Friends Apartment — 90 Bedford St
+### 10:00 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 9:30 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+### 10:15 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
 The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
 > Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
 <!-- location: 40.7350, -74.0029 -->
 <!-- tag: TV Spot -->
 
-### 9:45 PM | 🎤 | Comedy Cellar — Friday Night
+### 10:30 PM | 🎤 | Comedy Cellar — Friday Night
 One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
 <!-- location: 40.7300, -74.0005 -->
