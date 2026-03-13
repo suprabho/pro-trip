@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 40
+      "stops": 41
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -598,6 +598,16 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "8:15 PM",
+            "emoji": "🧱",
+            "name": "LEGO Store — Rockefeller Center",
+            "tip": "Open until 9 PM · Subway from Flatiron to Rockefeller Center (6 train to 51st or N/R to 49th)",
+            "lat": 40.7587,
+            "lng": -73.9787,
+            "tag": "Shopping",
+            "desc": "The massive LEGO flagship at 636 5th Ave. Floor-to-ceiling builds, NYC-themed sets, and a pick-a-brick wall. Hard to leave empty-handed."
+          },
+          {
+            "time": "9:15 PM",
             "emoji": "🚶",
             "name": "Greenwich Village",
             "tip": "No agenda needed. Just wander.",
@@ -608,7 +618,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
           },
           {
-            "time": "9:15 PM",
+            "time": "10:00 PM",
             "emoji": "📺",
             "name": "Friends Apartment — 90 Bedford St",
             "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
@@ -618,7 +628,7 @@ export const TRIPS: TripData[] = [
             "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
           },
           {
-            "time": "9:30 PM",
+            "time": "10:15 PM",
             "emoji": "📺",
             "name": "Carrie Bradshaw's Stoop — Sex and the City",
             "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
@@ -628,7 +638,7 @@ export const TRIPS: TripData[] = [
             "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
           },
           {
-            "time": "9:45 PM",
+            "time": "10:30 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar — Friday Night",
             "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",

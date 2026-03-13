@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -79,26 +79,32 @@ NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, 
 <!-- tag: Food -->
 - [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
-### 8:15 PM | 🚶 | Greenwich Village
+### 8:15 PM | 🧱 | LEGO Store — Rockefeller Center
+The massive LEGO flagship at 636 5th Ave. Floor-to-ceiling builds, NYC-themed sets, and a pick-a-brick wall. Hard to leave empty-handed.
+> Tip: Open until 9 PM · Subway from Flatiron to Rockefeller Center (6 train to 51st or N/R to 49th)
+<!-- location: 40.7587, -73.9787 -->
+<!-- tag: Shopping -->
+
+### 9:15 PM | 🚶 | Greenwich Village
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
 > Tip: No agenda needed. Just wander.
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 9:15 PM | 📺 | Friends Apartment — 90 Bedford St
+### 10:00 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 9:30 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
+### 10:15 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
 The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
 > Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
 <!-- location: 40.7350, -74.0029 -->
 <!-- tag: TV Spot -->
 
-### 9:45 PM | 🎤 | Comedy Cellar — Friday Night
+### 10:30 PM | 🎤 | Comedy Cellar — Friday Night
 One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
 <!-- location: 40.7300, -74.0005 -->
