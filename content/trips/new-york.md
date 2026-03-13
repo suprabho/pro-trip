@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Statue of Liberty · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -57,7 +57,16 @@ Popular NoHo café at 248 Mercer St. Spacious seating, reliable WiFi, great coff
 <!-- location: 40.7271, -73.9974 -->
 <!-- tag: Work -->
 
-### 1:30 PM | 🗽 | Statue of Liberty Ferry
+### 1:30 PM | 🕊 | 9/11 Memorial & Museum
+Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools.
+> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from Battery Park
+<!-- location: 40.7116, -74.0133 -->
+<!-- suggestedBy: Suprabho, Ritwik -->
+<!-- tag: Memorial -->
+- [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
+- [ ] Check if open on our travel day (closed Tuesdays)
+
+### 5:30 PM | 🗽 | Statue of Liberty Ferry
 Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry.
 > Tip: 🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM
 <!-- location: 40.7014, -74.0154 -->
@@ -66,18 +75,9 @@ Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible 
 - [ ] Book ferry + pedestal tickets | https://www.statuecruises.com
 - [ ] Check ferry schedule
 
-### 5:30 PM | 🕊 | 9/11 Memorial & Museum
-Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools.
-> Tip: 🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal
-<!-- location: 40.7116, -74.0133 -->
-<!-- suggestedBy: Suprabho, Ritwik -->
-<!-- tag: Memorial -->
-- [ ] Book museum tickets online | https://www.911memorial.org/visit/museum/tickets
-- [ ] Check if open on our travel day (closed Tuesdays)
-
 ### 6:30 PM | 📺 | Law & Order Courthouse — NY Supreme Court
 The most filmed courthouse in television history — the exterior steps of 60 Centre St have appeared in every *Law & Order* series. "In the criminal justice system..."
-> Tip: Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner
+> Tip: Just the exterior · 5-min walk from the ferry terminal · Then subway to Flatiron for dinner
 <!-- location: 40.7143, -74.0018 -->
 <!-- tag: TV Spot -->
 

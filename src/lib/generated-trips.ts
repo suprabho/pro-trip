@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · Statue of Liberty · 9/11 Memorial · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Statue of Liberty · Law & Order Courthouse · Tappo · Greenwich Village · Friends Apartment · Carrie's Stoop",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -549,6 +549,28 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "1:30 PM",
+            "emoji": "🕊",
+            "name": "9/11 Memorial & Museum",
+            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from Battery Park",
+            "lat": 40.7116,
+            "lng": -74.0133,
+            "suggestedBy": "Suprabho, Ritwik",
+            "tag": "Memorial",
+            "todos": [
+              {
+                "note": "Book museum tickets online",
+                "done": false,
+                "link": "https://www.911memorial.org/visit/museum/tickets"
+              },
+              {
+                "note": "Check if open on our travel day (closed Tuesdays)",
+                "done": false
+              }
+            ],
+            "desc": "Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools."
+          },
+          {
+            "time": "5:30 PM",
             "emoji": "🗽",
             "name": "Statue of Liberty Ferry",
             "tip": "🎟 Book ferry + pedestal tickets in advance — sell out fast · Back on the mainland by ~5:30 PM",
@@ -570,32 +592,10 @@ export const TRIPS: TripData[] = [
             "desc": "Battery Park ferry to Liberty Island + Ellis Island. ~4 hours total. Incredible skyline views from the ferry."
           },
           {
-            "time": "5:30 PM",
-            "emoji": "🕊",
-            "name": "9/11 Memorial & Museum",
-            "tip": "🎟 Pre-book online · Closed Tuesdays · Short walk from the ferry terminal",
-            "lat": 40.7116,
-            "lng": -74.0133,
-            "suggestedBy": "Suprabho, Ritwik",
-            "tag": "Memorial",
-            "todos": [
-              {
-                "note": "Book museum tickets online",
-                "done": false,
-                "link": "https://www.911memorial.org/visit/museum/tickets"
-              },
-              {
-                "note": "Check if open on our travel day (closed Tuesdays)",
-                "done": false
-              }
-            ],
-            "desc": "Two massive reflecting pools where the towers stood. Walk through the memorial and take in the reflecting pools."
-          },
-          {
             "time": "6:30 PM",
             "emoji": "📺",
             "name": "Law & Order Courthouse — NY Supreme Court",
-            "tip": "Just the exterior · 5-min walk from the 9/11 Memorial · Then subway to Flatiron for dinner",
+            "tip": "Just the exterior · 5-min walk from the ferry terminal · Then subway to Flatiron for dinner",
             "lat": 40.7143,
             "lng": -74.0018,
             "tag": "TV Spot",
