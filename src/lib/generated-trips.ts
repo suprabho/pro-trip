@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 41
+      "stops": 39
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Empire State Building · Madison Square Garden",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -597,63 +597,25 @@ export const TRIPS: TripData[] = [
             "desc": "NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite."
           },
           {
-            "time": "8:15 PM",
-            "emoji": "🧱",
-            "name": "LEGO Store — Flatiron District",
-            "tip": "Open until 9 PM · 1-min walk from Tappo",
-            "lat": 40.7414,
-            "lng": -73.9894,
-            "tag": "Shopping",
-            "desc": "LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display."
+            "time": "8:30 PM",
+            "emoji": "🏛",
+            "name": "Empire State Building",
+            "tip": "🎟 Book skip-the-line tickets · 10-min walk from Tappo · Night views are the best",
+            "lat": 40.7484,
+            "lng": -73.9857,
+            "suggestedBy": "Ritwik",
+            "tag": "Viewpoint",
+            "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up. A short walk from Tappo."
           },
           {
-            "time": "9:15 PM",
-            "emoji": "🚶",
-            "name": "Greenwich Village",
-            "tip": "No agenda needed. Just wander.",
-            "lat": 40.7336,
-            "lng": -74.0027,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk."
-          },
-          {
-            "time": "10:00 PM",
-            "emoji": "📺",
-            "name": "Friends Apartment — 90 Bedford St",
-            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
-            "lat": 40.7324,
-            "lng": -74.0036,
-            "tag": "TV Spot",
-            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
-          },
-          {
-            "time": "10:15 PM",
-            "emoji": "📺",
-            "name": "Carrie Bradshaw's Stoop — Sex and the City",
-            "tip": "Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building",
-            "lat": 40.735,
-            "lng": -74.0029,
-            "tag": "TV Spot",
-            "desc": "The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable."
-          },
-          {
-            "time": "10:30 PM",
-            "emoji": "🎤",
-            "name": "Comedy Cellar — Friday Night",
-            "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show",
-            "lat": 40.73,
-            "lng": -74.0005,
-            "suggestedBy": "Suprabho",
-            "tag": "Entertainment",
-            "todos": [
-              {
-                "note": "Book Comedy Cellar tickets",
-                "done": false,
-                "link": "https://www.comedycellar.com"
-              }
-            ],
-            "desc": "One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast."
+            "time": "9:30 PM",
+            "emoji": "🏟",
+            "name": "Madison Square Garden",
+            "tip": "5-min walk from Empire State Building · Check if there's an event on",
+            "lat": 40.7505,
+            "lng": -73.9934,
+            "tag": "Landmark",
+            "desc": "The world's most famous arena — home of the Knicks and Rangers. Even if there's no game, the exterior and surrounding Penn Station area buzz with energy at night."
           }
         ],
         "stays": [
@@ -667,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Hamilton · Central Park · MET · Gossip Girl · Guggenheim · Times Square",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -785,7 +747,7 @@ export const TRIPS: TripData[] = [
             "time": "12:15 PM",
             "emoji": "📺",
             "name": "How I Met Your Mother — McGee's Pub",
-            "tip": "Quick drink or photo · 10-min walk to the Hamilton theatre · Great pre-show spot",
+            "tip": "Quick drink or photo · Right in Midtown",
             "lat": 40.7642,
             "lng": -73.9814,
             "tag": "TV Spot",
@@ -793,27 +755,9 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "1:00 PM",
-            "emoji": "🎭",
-            "name": "Hamilton — Broadway Matinée",
-            "tip": "🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early",
-            "lat": 40.759,
-            "lng": -73.9871,
-            "suggestedBy": "Suprabho",
-            "tag": "Entertainment",
-            "todos": [
-              {
-                "note": "Book Hamilton tickets",
-                "done": false,
-                "link": "https://hamiltonmusical.com/new-york/"
-              }
-            ],
-            "desc": "The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM."
-          },
-          {
-            "time": "4:00 PM",
             "emoji": "🛍",
             "name": "5th Avenue Shops",
-            "tip": "Window shopping is free · 2-min walk from the theatre",
+            "tip": "Window shopping is free · Short walk from McGee's",
             "lat": 40.7564,
             "lng": -73.9782,
             "suggestedBy": "Ritwik",
@@ -909,17 +853,6 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "7:30 PM",
-            "emoji": "🏛",
-            "name": "Empire State Building",
-            "tip": "🎟 Book skip-the-line tickets · 15-min subway ride from the Guggenheim",
-            "lat": 40.7484,
-            "lng": -73.9857,
-            "suggestedBy": "Ritwik",
-            "tag": "Viewpoint",
-            "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up."
-          },
-          {
-            "time": "9:00 PM",
             "emoji": "🎨",
             "name": "Museum of Modern Art (MoMA)",
             "tip": "Free on Friday evenings · Right next to Rockefeller Center",
@@ -938,7 +871,46 @@ export const TRIPS: TripData[] = [
             "lng": -73.9855,
             "suggestedBy": "Ritwik",
             "tag": "Evening",
-            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough. ## Bonus Suggestions"
+            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough."
+          },
+          {
+            "time": "10:00 PM",
+            "emoji": "🚶",
+            "name": "Greenwich Village Walk",
+            "tip": "Subway from Times Square to W 4th St · No agenda needed, just wander",
+            "lat": 40.7336,
+            "lng": -74.0027,
+            "suggestedBy": "Suprabho, Srayana",
+            "tag": "Neighbourhood",
+            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in."
+          },
+          {
+            "time": "10:30 PM",
+            "emoji": "📺",
+            "name": "Friends Apartment — 90 Bedford St",
+            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
+            "lat": 40.7324,
+            "lng": -74.0036,
+            "tag": "TV Spot",
+            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
+          },
+          {
+            "time": "11:00 PM",
+            "emoji": "🎤",
+            "name": "Comedy Cellar (Optional)",
+            "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability",
+            "lat": 40.73,
+            "lng": -74.0005,
+            "suggestedBy": "Suprabho",
+            "tag": "Entertainment",
+            "todos": [
+              {
+                "note": "Book Comedy Cellar tickets",
+                "done": false,
+                "link": "https://www.comedycellar.com"
+              }
+            ],
+            "desc": "One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast. ## Bonus Suggestions"
           }
         ],
         "stays": [
