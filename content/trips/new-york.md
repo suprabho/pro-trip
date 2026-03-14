@@ -94,13 +94,13 @@ The world's most famous arena — home of the Knicks and Rangers. Even if there'
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · 5th Ave · Rockefeller · LEGO Store · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then Flatiron/Union Square, west to the High Line → Hudson Yards, northeast through Midtown, up to museum mile, and finish in Midtown at MoMA and Times Square.
+> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then west to the High Line → Hudson Yards, northeast through Midtown with Rockefeller Center and the LEGO Store, up to museum mile, and finish in Midtown at MoMA and Times Square.
 
 ### 7:00 AM | 🌉 | Walk the Brooklyn Bridge
 Early morning walk across the bridge — peaceful before the crowds. Gothic towers and steel cables are incredible in the morning light.
@@ -130,28 +130,7 @@ The most famous deli in New York — pastrami on rye, towering sandwiches, and a
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Food -->
 
-### 10:00 AM | 🌿 | Madison Square Park
-Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here.
-> Tip: 📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel
-<!-- location: 40.7425, -73.9878 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Park -->
-
-### 10:15 AM | 🧱 | The LEGO Store — Flatiron District
-Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
-> Tip: 🕐 Check hours before going · Less crowded than the 5th Ave Midtown store
-<!-- location: 40.7419, -73.9898 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Shopping -->
-
-### 10:30 AM | 🛍 | Union Square
-Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days.
-> Tip: 10-min walk south from Madison Square Park
-<!-- location: 40.7359, -73.9911 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Walk -->
-
-### 10:45 AM | 🛤 | The High Line
+### 10:00 AM | 🛤 | The High Line
 Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles.
 > Tip: Open until 8 PM · Great coffee carts along the way
 <!-- location: 40.7480, -74.0048 -->
@@ -185,6 +164,13 @@ Art Deco complex with Top of the Rock observation deck. Ice skating rink in wint
 <!-- location: 40.7587, -73.9787 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Landmark -->
+
+### 4:45 PM | 🧱 | The LEGO Store — Rockefeller Center
+The flagship LEGO Store at 30 Rockefeller Plaza — massive space with floor-to-ceiling NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
+> Tip: Right inside Rockefeller Center · Great for souvenirs
+<!-- location: 40.7590, -73.9787 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Shopping -->
 
 ### 5:00 PM | 🚂 | Grand Central Terminal
 Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour.

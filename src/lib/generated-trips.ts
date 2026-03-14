@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 39
+      "stops": 37
     },
     "days": {
       "1": {
@@ -629,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · 5th Ave · Rockefeller · LEGO Store · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -683,39 +683,6 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "10:00 AM",
-            "emoji": "🌿",
-            "name": "Madison Square Park",
-            "tip": "📸 Best Flatiron angle from the park's south end · 15-min walk north from hotel",
-            "lat": 40.7425,
-            "lng": -73.9878,
-            "suggestedBy": "Suprabho",
-            "tag": "Park",
-            "desc": "Leafy park at the base of the Flatiron Building — one of NYC's most photogenic spots in the morning light. The original Shake Shack is right here."
-          },
-          {
-            "time": "10:15 AM",
-            "emoji": "🧱",
-            "name": "The LEGO Store — Flatiron District",
-            "tip": "🕐 Check hours before going · Less crowded than the 5th Ave Midtown store",
-            "lat": 40.7419,
-            "lng": -73.9898,
-            "suggestedBy": "Suprabho",
-            "tag": "Shopping",
-            "desc": "Right at 200 5th Ave, steps from the Flatiron. One of the best LEGO stores in NYC — less chaotic than the Midtown one. Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
-          },
-          {
-            "time": "10:30 AM",
-            "emoji": "🛍",
-            "name": "Union Square",
-            "tip": "10-min walk south from Madison Square Park",
-            "lat": 40.7359,
-            "lng": -73.9911,
-            "suggestedBy": "Ritwik",
-            "tag": "Walk",
-            "desc": "Buzzing plaza surrounded by great restaurants, bookshops (Strand is nearby), and morning energy. The Greenmarket runs here on select days."
-          },
-          {
-            "time": "10:45 AM",
             "emoji": "🛤",
             "name": "The High Line",
             "tip": "Open until 8 PM · Great coffee carts along the way",
@@ -774,6 +741,17 @@ export const TRIPS: TripData[] = [
             "suggestedBy": "Ritwik",
             "tag": "Landmark",
             "desc": "Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios."
+          },
+          {
+            "time": "4:45 PM",
+            "emoji": "🧱",
+            "name": "The LEGO Store — Rockefeller Center",
+            "tip": "Right inside Rockefeller Center · Great for souvenirs",
+            "lat": 40.759,
+            "lng": -73.9787,
+            "suggestedBy": "Suprabho",
+            "tag": "Shopping",
+            "desc": "The flagship LEGO Store at 30 Rockefeller Plaza — massive space with floor-to-ceiling NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
           },
           {
             "time": "5:00 PM",
