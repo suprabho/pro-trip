@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · LEGO Store · Greenwich Village · Friends Apartment · Carrie's Stoop -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -79,42 +79,9 @@ NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, 
 <!-- tag: Food -->
 - [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
 
-### 8:15 PM | 🧱 | LEGO Store — Flatiron District
-LEGO Store at 200 5th Ave in the Flatiron District. Right next to Tappo — no subway needed. Pick-a-brick wall, NYC-themed sets, and builds on display.
-> Tip: Open until 9 PM · 1-min walk from Tappo
-<!-- location: 40.7414, -73.9894 -->
-<!-- tag: Shopping -->
-
-### 9:15 PM | 🚶 | Greenwich Village
-NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk.
-> Tip: No agenda needed. Just wander.
-<!-- location: 40.7336, -74.0027 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Neighbourhood -->
-
-### 10:00 PM | 📺 | Friends Apartment — 90 Bedford St
-The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
-> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
-<!-- location: 40.7324, -74.0036 -->
-<!-- tag: TV Spot -->
-
-### 10:15 PM | 📺 | Carrie Bradshaw's Stoop — Sex and the City
-The brownstone stoop where Carrie sat in the opening credits. 66 Perry St in the West Village — instantly recognizable.
-> Tip: Quick photo stop · It's a private home, be respectful · 3-min walk from the Friends building
-<!-- location: 40.7350, -74.0029 -->
-<!-- tag: TV Spot -->
-
-### 10:30 PM | 🎤 | Comedy Cellar — Friday Night
-One of NYC's most legendary comedy clubs, right in the Village. Friday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
-> Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show
-<!-- location: 40.7300, -74.0005 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Entertainment -->
-- [ ] Book Comedy Cellar tickets | https://www.comedycellar.com
-
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Hamilton · Central Park · MET · Gossip Girl · Guggenheim · Times Square -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · Madison Square · LEGO Store · Union Square · High Line · The Edge · McGee's Pub (HIMYM) · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
@@ -188,21 +155,13 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 
 ### 12:15 PM | 📺 | How I Met Your Mother — McGee's Pub
 The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
-> Tip: Quick drink or photo · 10-min walk to the Hamilton theatre · Great pre-show spot
+> Tip: Quick drink or photo · Right in Midtown
 <!-- location: 40.7642, -73.9814 -->
 <!-- tag: TV Spot -->
 
-### 1:00 PM | 🎭 | Hamilton — Broadway Matinée
-The show. Richard Rodgers Theatre on 46th St. ~2h45m including intermission, ends around 3:45 PM.
-> Tip: 🎟 Book tickets in advance — sells out fast · 226 W 46th St · Arrive 30 min early
-<!-- location: 40.7590, -73.9871 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Entertainment -->
-- [ ] Book Hamilton tickets | https://hamiltonmusical.com/new-york/
-
-### 4:00 PM | 🛍 | 5th Avenue Shops
+### 1:00 PM | 🛍 | 5th Avenue Shops
 Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown.
-> Tip: Window shopping is free · 2-min walk from the theatre
+> Tip: Window shopping is free · Short walk from McGee's
 <!-- location: 40.7564, -73.9782 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Shopping -->
@@ -277,6 +236,27 @@ NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be
 <!-- location: 40.7580, -73.9855 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Evening -->
+
+### 10:00 PM | 🚶 | Greenwich Village Walk
+NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in.
+> Tip: Subway from Times Square to W 4th St · No agenda needed, just wander
+<!-- location: 40.7336, -74.0027 -->
+<!-- suggestedBy: Suprabho, Srayana -->
+<!-- tag: Neighbourhood -->
+
+### 10:30 PM | 📺 | Friends Apartment — 90 Bedford St
+The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
+> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
+<!-- location: 40.7324, -74.0036 -->
+<!-- tag: TV Spot -->
+
+### 11:00 PM | 🎤 | Comedy Cellar (Optional)
+One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
+> Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability
+<!-- location: 40.7300, -74.0005 -->
+<!-- suggestedBy: Suprabho -->
+<!-- tag: Entertainment -->
+- [ ] Book Comedy Cellar tickets | https://www.comedycellar.com
 
 ## Bonus Suggestions
 <!-- label: Bonus · Optional -->
