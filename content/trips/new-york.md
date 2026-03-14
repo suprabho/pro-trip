@@ -94,13 +94,13 @@ The world's most famous arena — home of the Knicks and Rangers. Even if there'
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · 5th Ave · Rockefeller · LEGO Store · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · McGee's Pub (HIMYM) · 5th Ave · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then west to the High Line → Hudson Yards, northeast through Midtown with Rockefeller Center and the LEGO Store, up to museum mile, and finish in Midtown at MoMA and Times Square.
+> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then west to the High Line → Hudson Yards. Midday: MoMA → Rockefeller/LEGO Store → Grand Central. Afternoon: Museum Mile (MET + Guggenheim). Evening: Central Park, Midtown, then Village.
 
 ### 7:00 AM | 🌉 | Walk the Brooklyn Bridge
 Early morning walk across the bridge — peaceful before the crowds. Gothic towers and steel cables are incredible in the morning light.
@@ -137,7 +137,7 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
 
-### 11:45 AM | ☁️ | The Edge, Hudson Yards
+### 10:30 AM | ☁️ | The Edge, Hudson Yards
 100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings.
 > Tip: 🎟 Book ahead · Midday light is excellent
 <!-- location: 40.7534, -74.0011 -->
@@ -145,48 +145,28 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 <!-- tag: Viewpoint -->
 - [ ] Book Edge tickets | https://www.edgenyc.com/en/tickets
 
-### 12:15 PM | 📺 | How I Met Your Mother — McGee's Pub
-The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
-> Tip: Quick drink or photo · Right in Midtown
-<!-- location: 40.7642, -73.9814 -->
-<!-- tag: TV Spot -->
-
-### 1:00 PM | 🛍 | 5th Avenue Shops
-Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown.
-> Tip: Window shopping is free · Short walk from McGee's
-<!-- location: 40.7564, -73.9782 -->
+### 11:00 AM | 🎨 | Museum of Modern Art (MoMA)
+Starry Night, Warhols, Picasso. One of the world's greatest modern art collections.
+> Tip: Free on Friday evenings · Right next to Rockefeller Center
+<!-- location: 40.7614, -73.9776 -->
 <!-- suggestedBy: Ritwik -->
-<!-- tag: Shopping -->
+<!-- tag: Museum -->
 
-### 4:30 PM | 🏙 | Rockefeller Center
-Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios.
-> Tip: Combine with 5th Ave — all walkable
+### 12:15 PM | 🏙 | Rockefeller Center & LEGO Store
+Art Deco complex with Top of the Rock observation deck. The flagship LEGO Store at 30 Rockefeller Plaza — massive NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and Mosaic Maker.
+> Tip: Great for souvenirs · All walkable from MoMA
 <!-- location: 40.7587, -73.9787 -->
-<!-- suggestedBy: Ritwik -->
+<!-- suggestedBy: Ritwik, Suprabho -->
 <!-- tag: Landmark -->
 
-### 4:45 PM | 🧱 | The LEGO Store — Rockefeller Center
-The flagship LEGO Store at 30 Rockefeller Plaza — massive space with floor-to-ceiling NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait.
-> Tip: Right inside Rockefeller Center · Great for souvenirs
-<!-- location: 40.7590, -73.9787 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Shopping -->
-
-### 5:00 PM | 🚂 | Grand Central Terminal
+### 1:15 PM | 🚂 | Grand Central Terminal
 Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour.
 > Tip: 📍 5-min walk from Rockefeller Center · Free to enter · Look up at the celestial ceiling mural
 <!-- location: 40.7527, -73.9772 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Landmark -->
 
-### 5:30 PM | 🌿 | Central Park
-843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields.
-> Tip: 👟 Enter at 59th St, walk north — naturally routes you toward the museums
-<!-- location: 40.7826, -73.9656 -->
-<!-- suggestedBy: Srayana, Ritwik -->
-<!-- tag: Park -->
-
-### 6:00 PM | 🎨 | The Metropolitan Museum of Art
+### 2:30 PM | 🎨 | The Metropolitan Museum of Art
 Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep.
 > Tip: 🗺 Grab a floor map · Closed Wednesdays
 <!-- location: 40.7794, -73.9632 -->
@@ -195,54 +175,67 @@ Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sec
 - [ ] Buy MET tickets | https://www.metmuseum.org/visit/tickets
 - [ ] Check if open on our day (closed Wednesdays)
 
-### 6:30 PM | 🖼 | Guggenheim Museum
+### 4:30 PM | 🖼 | Guggenheim Museum
 Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side.
 > Tip: Walk the spiral from top down · 5-min walk from MET
 <!-- location: 40.7830, -73.9590 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Museum -->
 
-### 6:45 PM | 📺 | Gossip Girl — Blair Waldorf's Building
+### 5:00 PM | 📺 | Gossip Girl — Blair Waldorf's Building
 The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO.
 > Tip: Just the exterior · Steps from the MET entrance · Photo op only
 <!-- location: 40.7838, -73.9613 -->
 <!-- tag: TV Spot -->
 
-### 7:00 PM | ☕ | Coffee — Upper East Side
+### 5:15 PM | ☕ | Coffee — Upper East Side
 Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown.
 > Tip: Lots of great spots nearby
 <!-- location: 40.7771, -73.9590 -->
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Break -->
 
-### 7:30 PM | 🎨 | Museum of Modern Art (MoMA)
-Starry Night, Warhols, Picasso. One of the world's greatest modern art collections.
-> Tip: Free on Friday evenings · Right next to Rockefeller Center
-<!-- location: 40.7614, -73.9776 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Museum -->
+### 5:45 PM | 🌿 | Central Park
+843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields.
+> Tip: 👟 Walk south through the park toward Midtown
+<!-- location: 40.7826, -73.9656 -->
+<!-- suggestedBy: Srayana, Ritwik -->
+<!-- tag: Park -->
 
-### 9:30 PM | 🌃 | Times Square at Night
+### 6:30 PM | 📺 | How I Met Your Mother — McGee's Pub
+The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
+> Tip: Quick drink or photo · Right in Midtown
+<!-- location: 40.7642, -73.9814 -->
+<!-- tag: TV Spot -->
+
+### 7:00 PM | 🛍 | 5th Avenue Shops
+Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk south through Midtown.
+> Tip: Window shopping is free · Beautiful at dusk
+<!-- location: 40.7564, -73.9782 -->
+<!-- suggestedBy: Ritwik -->
+<!-- tag: Shopping -->
+
+### 8:00 PM | 🌃 | Times Square at Night
 NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough.
-> Tip: 🌙 Night only — don't bother during the day · 5-min walk from MoMA · Don't linger too long
+> Tip: 🌙 Night only — don't bother during the day · Don't linger too long
 <!-- location: 40.7580, -73.9855 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Evening -->
 
-### 10:00 PM | 🚶 | Greenwich Village Walk
+### 9:00 PM | 🚶 | Greenwich Village Walk
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in.
 > Tip: Subway from Times Square to W 4th St · No agenda needed, just wander
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 10:30 PM | 📺 | Friends Apartment — 90 Bedford St
+### 9:30 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 11:00 PM | 🎤 | Comedy Cellar (Optional)
+### 10:00 PM | 🎤 | Comedy Cellar (Optional)
 One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability
 <!-- location: 40.7300, -74.0005 -->
