@@ -40,7 +40,7 @@ export const TRIP_SUMMARIES: TripSummary[] = [
     "highlights": "NoHo · Greenwich Village · Brooklyn Bridge · Central Park",
     "color": "#c94f2c",
     "days": 4,
-    "stops": 35,
+    "stops": 34,
     "startDate": "2026-03-12",
     "endDate": "2026-03-15",
     "mapCenter": [
@@ -57,5 +57,5 @@ export const MAP_BOUNDS: { sw: [number, number]; ne: [number, number] } | null =
 export const STATS = {
   totalTrips: 2,
   totalDays: 9,
-  totalStops: 52,
+  totalStops: 51,
 };

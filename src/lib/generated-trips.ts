@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 35
+      "stops": 34
     },
     "days": {
       "1": {
@@ -629,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -788,16 +788,6 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "5:00 PM",
-            "emoji": "📺",
-            "name": "Gossip Girl — Blair Waldorf's Building",
-            "tip": "Just the exterior · Steps from the MET entrance · Photo op only",
-            "lat": 40.7838,
-            "lng": -73.9613,
-            "tag": "TV Spot",
-            "desc": "The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO."
-          },
-          {
-            "time": "5:15 PM",
             "emoji": "☕",
             "name": "Coffee — Upper East Side",
             "tip": "Lots of great spots nearby",

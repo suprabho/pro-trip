@@ -94,7 +94,7 @@ The world's most famous arena — home of the Knicks and Rangers. Even if there'
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
@@ -188,13 +188,7 @@ Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Museum -->
 
-### 5:00 PM | 📺 | Gossip Girl — Blair Waldorf's Building
-The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO.
-> Tip: Just the exterior · Steps from the MET entrance · Photo op only
-<!-- location: 40.7838, -73.9613 -->
-<!-- tag: TV Spot -->
-
-### 5:15 PM | ☕ | Coffee — Upper East Side
+### 5:00 PM | ☕ | Coffee — Upper East Side
 Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown.
 > Tip: Lots of great spots nearby
 <!-- location: 40.7771, -73.9590 -->
