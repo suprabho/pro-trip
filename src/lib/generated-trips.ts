@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 38
+      "stops": 39
     },
     "days": {
       "1": {
@@ -519,7 +519,7 @@ export const TRIPS: TripData[] = [
       "2": {
         "label": "Day 2 · Full Day",
         "title": "Lower Manhattan & Brooklyn",
-        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo",
+        "subtitle": "Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Empire State Building · Madison Square Garden",
         "color": "#2c6bc9",
         "center": [
           40.706,
@@ -595,6 +595,27 @@ export const TRIPS: TripData[] = [
               }
             ],
             "desc": "NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, crispy crust — a local favourite."
+          },
+          {
+            "time": "8:30 PM",
+            "emoji": "🏛",
+            "name": "Empire State Building",
+            "tip": "🎟 Book skip-the-line tickets · 10-min walk from Tappo · Night views are the best",
+            "lat": 40.7484,
+            "lng": -73.9857,
+            "suggestedBy": "Ritwik",
+            "tag": "Viewpoint",
+            "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up. A short walk from Tappo."
+          },
+          {
+            "time": "9:30 PM",
+            "emoji": "🏟",
+            "name": "Madison Square Garden",
+            "tip": "5-min walk from Empire State Building · Check if there's an event on",
+            "lat": 40.7505,
+            "lng": -73.9934,
+            "tag": "Landmark",
+            "desc": "The world's most famous arena — home of the Knicks and Rangers. Even if there's no game, the exterior and surrounding Penn Station area buzz with energy at night."
           }
         ],
         "stays": [
@@ -832,17 +853,6 @@ export const TRIPS: TripData[] = [
           },
           {
             "time": "7:30 PM",
-            "emoji": "🏛",
-            "name": "Empire State Building",
-            "tip": "🎟 Book skip-the-line tickets · 15-min subway ride from the Guggenheim",
-            "lat": 40.7484,
-            "lng": -73.9857,
-            "suggestedBy": "Ritwik",
-            "tag": "Viewpoint",
-            "desc": "Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up."
-          },
-          {
-            "time": "9:00 PM",
             "emoji": "🎨",
             "name": "Museum of Modern Art (MoMA)",
             "tip": "Free on Friday evenings · Right next to Rockefeller Center",

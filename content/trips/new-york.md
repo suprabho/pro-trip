@@ -37,7 +37,7 @@ The iconic arch and fountain at the heart of NYU's campus. Golden hour hits the 
 
 ## Day 2: Lower Manhattan & Brooklyn
 <!-- label: Day 2 · Full Day -->
-<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo -->
+<!-- subtitle: Ghostbusters Firehouse · Think Coffee · 9/11 Memorial · Flatiron Building · Tappo · Empire State Building · Madison Square Garden -->
 <!-- color: #2c6bc9 -->
 <!-- center: 40.706, -74.006 -->
 <!-- zoom: 12 -->
@@ -78,6 +78,19 @@ NYC Thin Crust Pizza at 32 E 21st St in the Flatiron District. Impossibly thin, 
 <!-- location: 40.7398, -73.9884 -->
 <!-- tag: Food -->
 - [ ] Book Tappo reservation | https://resy.com/cities/new-york-ny/venues/tappo
+
+### 8:30 PM | 🏛 | Empire State Building
+Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up. A short walk from Tappo.
+> Tip: 🎟 Book skip-the-line tickets · 10-min walk from Tappo · Night views are the best
+<!-- location: 40.7484, -73.9857 -->
+<!-- suggestedBy: Ritwik -->
+<!-- tag: Viewpoint -->
+
+### 9:30 PM | 🏟 | Madison Square Garden
+The world's most famous arena — home of the Knicks and Rangers. Even if there's no game, the exterior and surrounding Penn Station area buzz with energy at night.
+> Tip: 5-min walk from Empire State Building · Check if there's an event on
+<!-- location: 40.7505, -73.9934 -->
+<!-- tag: Landmark -->
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
@@ -216,14 +229,7 @@ Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Break -->
 
-### 7:30 PM | 🏛 | Empire State Building
-Classic Art Deco skyscraper — 86th floor observatory for 360° views. Stunning at night when lit up.
-> Tip: 🎟 Book skip-the-line tickets · 15-min subway ride from the Guggenheim
-<!-- location: 40.7484, -73.9857 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Viewpoint -->
-
-### 9:00 PM | 🎨 | Museum of Modern Art (MoMA)
+### 7:30 PM | 🎨 | Museum of Modern Art (MoMA)
 Starry Night, Warhols, Picasso. One of the world's greatest modern art collections.
 > Tip: Free on Friday evenings · Right next to Rockefeller Center
 <!-- location: 40.7614, -73.9776 -->
