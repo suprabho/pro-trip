@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 36
+      "stops": 35
     },
     "days": {
       "1": {
@@ -629,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · McGee's Pub (HIMYM) · 5th Ave · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -693,7 +693,7 @@ export const TRIPS: TripData[] = [
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
-            "time": "10:30 AM",
+            "time": "10:20 AM",
             "emoji": "☁️",
             "name": "The Edge, Hudson Yards",
             "tip": "🎟 Book ahead · Midday light is excellent",
@@ -709,6 +709,16 @@ export const TRIPS: TripData[] = [
               }
             ],
             "desc": "100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings."
+          },
+          {
+            "time": "10:40 AM",
+            "emoji": "📺",
+            "name": "How I Met Your Mother — McGee's Pub",
+            "tip": "Quick drink or photo · Right in Midtown · Short walk to MoMA",
+            "lat": 40.7642,
+            "lng": -73.9814,
+            "tag": "TV Spot",
+            "desc": "The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails."
           },
           {
             "time": "11:00 AM",
@@ -809,28 +819,7 @@ export const TRIPS: TripData[] = [
             "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
           },
           {
-            "time": "6:30 PM",
-            "emoji": "📺",
-            "name": "How I Met Your Mother — McGee's Pub",
-            "tip": "Quick drink or photo · Right in Midtown",
-            "lat": 40.7642,
-            "lng": -73.9814,
-            "tag": "TV Spot",
-            "desc": "The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails."
-          },
-          {
             "time": "7:00 PM",
-            "emoji": "🛍",
-            "name": "5th Avenue Shops",
-            "tip": "Window shopping is free · Beautiful at dusk",
-            "lat": 40.7564,
-            "lng": -73.9782,
-            "suggestedBy": "Ritwik",
-            "tag": "Shopping",
-            "desc": "Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk south through Midtown."
-          },
-          {
-            "time": "8:00 PM",
             "emoji": "🌃",
             "name": "Times Square at Night",
             "tip": "🌙 Night only — don't bother during the day · Don't linger too long",
@@ -841,7 +830,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough."
           },
           {
-            "time": "9:00 PM",
+            "time": "8:00 PM",
             "emoji": "🚶",
             "name": "Greenwich Village Walk",
             "tip": "Subway from Times Square to W 4th St · No agenda needed, just wander",
@@ -852,7 +841,7 @@ export const TRIPS: TripData[] = [
             "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in."
           },
           {
-            "time": "9:30 PM",
+            "time": "8:30 PM",
             "emoji": "📺",
             "name": "Friends Apartment — 90 Bedford St",
             "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
@@ -862,7 +851,7 @@ export const TRIPS: TripData[] = [
             "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
           },
           {
-            "time": "10:00 PM",
+            "time": "9:00 PM",
             "emoji": "🎤",
             "name": "Comedy Cellar (Optional)",
             "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability",

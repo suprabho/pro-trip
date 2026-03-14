@@ -94,13 +94,13 @@ The world's most famous arena — home of the Knicks and Rangers. Even if there'
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · McGee's Pub (HIMYM) · 5th Ave · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Gossip Girl · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
 <!-- stay: Now Now NoHo | 40.7261, -73.9923 -->
 
-> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then west to the High Line → Hudson Yards. Midday: MoMA → Rockefeller/LEGO Store → Grand Central. Afternoon: Museum Mile (MET + Guggenheim). Evening: Central Park, Midtown, then Village.
+> **Cluster logic:** Early start — walk the Brooklyn Bridge and explore DUMBO before the crowds. Back to Manhattan for Katz's breakfast, then west to the High Line → Hudson Yards → McGee's → MoMA → Rockefeller/LEGO Store → Grand Central. Afternoon: Museum Mile (MET + Guggenheim). Evening: Central Park, Times Square, then Village.
 
 ### 7:00 AM | 🌉 | Walk the Brooklyn Bridge
 Early morning walk across the bridge — peaceful before the crowds. Gothic towers and steel cables are incredible in the morning light.
@@ -137,13 +137,19 @@ Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson 
 <!-- suggestedBy: Suprabho -->
 <!-- tag: Walk -->
 
-### 10:30 AM | ☁️ | The Edge, Hudson Yards
+### 10:20 AM | ☁️ | The Edge, Hudson Yards
 100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings.
 > Tip: 🎟 Book ahead · Midday light is excellent
 <!-- location: 40.7534, -74.0011 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Viewpoint -->
 - [ ] Book Edge tickets | https://www.edgenyc.com/en/tickets
+
+### 10:40 AM | 📺 | How I Met Your Mother — McGee's Pub
+The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
+> Tip: Quick drink or photo · Right in Midtown · Short walk to MoMA
+<!-- location: 40.7642, -73.9814 -->
+<!-- tag: TV Spot -->
 
 ### 11:00 AM | 🎨 | Museum of Modern Art (MoMA)
 Starry Night, Warhols, Picasso. One of the world's greatest modern art collections.
@@ -202,40 +208,27 @@ Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th
 <!-- suggestedBy: Srayana, Ritwik -->
 <!-- tag: Park -->
 
-### 6:30 PM | 📺 | How I Met Your Mother — McGee's Pub
-The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails.
-> Tip: Quick drink or photo · Right in Midtown
-<!-- location: 40.7642, -73.9814 -->
-<!-- tag: TV Spot -->
-
-### 7:00 PM | 🛍 | 5th Avenue Shops
-Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk south through Midtown.
-> Tip: Window shopping is free · Beautiful at dusk
-<!-- location: 40.7564, -73.9782 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Shopping -->
-
-### 8:00 PM | 🌃 | Times Square at Night
+### 7:00 PM | 🌃 | Times Square at Night
 NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough.
 > Tip: 🌙 Night only — don't bother during the day · Don't linger too long
 <!-- location: 40.7580, -73.9855 -->
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Evening -->
 
-### 9:00 PM | 🚶 | Greenwich Village Walk
+### 8:00 PM | 🚶 | Greenwich Village Walk
 NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in.
 > Tip: Subway from Times Square to W 4th St · No agenda needed, just wander
 <!-- location: 40.7336, -74.0027 -->
 <!-- suggestedBy: Suprabho, Srayana -->
 <!-- tag: Neighbourhood -->
 
-### 9:30 PM | 📺 | Friends Apartment — 90 Bedford St
+### 8:30 PM | 📺 | Friends Apartment — 90 Bedford St
 The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
 > Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
 <!-- location: 40.7324, -74.0036 -->
 <!-- tag: TV Spot -->
 
-### 10:00 PM | 🎤 | Comedy Cellar (Optional)
+### 9:00 PM | 🎤 | Comedy Cellar (Optional)
 One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
 > Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability
 <!-- location: 40.7300, -74.0005 -->
