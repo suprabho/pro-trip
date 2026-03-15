@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 29
+      "stops": 24
     },
     "days": {
       "1": {
@@ -809,90 +809,32 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · Departure",
         "title": "Departure",
-        "subtitle": "Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · Joe's Pizza · Tribeca · Newark",
+        "subtitle": "Lokesh-Anupriya's Place · Newark",
         "color": "#666",
         "center": [
-          40.724,
-          -73.999
+          40.7178,
+          -74.0387
         ],
         "zoom": 13,
         "stops": [
           {
-            "time": "9:00 AM",
-            "emoji": "☕",
-            "name": "Slow Brunch — NoHo / SoHo",
-            "tip": "No rush · Balthazar (80 Spring St) is a 10-min walk · Great people-watching on a Sunday morning",
-            "lat": 40.7228,
-            "lng": -73.9985,
-            "suggestedBy": "Suprabho",
-            "desc": "Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café."
-          },
-          {
-            "time": "10:00 AM",
-            "emoji": "📺",
-            "name": "Magnolia Bakery — Sex and the City",
-            "tip": "Try the banana pudding, not just cupcakes · Right in the West Village wander route",
-            "lat": 40.7359,
-            "lng": -74.0044,
-            "tag": "TV Spot",
-            "desc": "The bakery made famous by Carrie and Miranda's cupcake scene in *Sex and the City*. 401 Bleecker St in the West Village. The banana pudding is actually the must-try."
-          },
-          {
-            "time": "10:15 AM",
-            "emoji": "📺",
-            "name": "The Marvelous Mrs. Maisel — Gaslight Cafe",
-            "tip": "The Gaslight no longer exists, but the block is a comedy landmark · Grab a coffee at Café Reggio next door",
-            "lat": 40.7303,
-            "lng": -74.0003,
-            "tag": "TV Spot",
-            "desc": "The legendary Greenwich Village comedy club where Midge Maisel launched her stand-up career. The original Gaslight at 116 MacDougal St is gone, but the block still radiates that Village comedy-club energy — Café Wha? and Comedy Cellar are steps away."
-          },
-          {
-            "time": "10:30 AM",
-            "emoji": "🚶",
-            "name": "West Village Wander",
-            "tip": "Wander Hudson St and Jane St · No destination needed · Pick up any last-minute souvenirs",
-            "lat": 40.7337,
-            "lng": -74.007,
-            "suggestedBy": "Suprabho",
-            "desc": "The quietest, most charming corner of downtown Manhattan — tree-lined streets, old townhouses, great independent shops. Perfect for a last slow walk before flying out."
-          },
-          {
-            "time": "12:30 PM",
-            "emoji": "🍕",
-            "name": "Joe's Pizza, Carmine St",
-            "tip": "💵 Cash only · ATM right outside · 5-min walk from West Village",
-            "lat": 40.7307,
-            "lng": -74.0022,
-            "suggestedBy": "Srayana",
-            "tag": "Food",
-            "todos": [
-              {
-                "note": "Withdraw cash from ATM before going",
-                "done": false
-              }
-            ],
-            "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
-          },
-          {
-            "time": "1:30 PM",
-            "emoji": "🌙",
-            "name": "Tribeca Walk",
-            "tip": "Walk south from the Village · 10-min from NoHo",
-            "lat": 40.7163,
-            "lng": -74.0086,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot during golden afternoon light."
+            "time": "12:00 PM",
+            "emoji": "🏠",
+            "name": "Lokesh-Anupriya's Place",
+            "tip": "PATH train from Manhattan or Uber across the river",
+            "lat": 40.7178,
+            "lng": -74.0387,
+            "tag": "Visit",
+            "desc": "444 Washington Blvd, Apt 5341, Jersey City."
           },
           {
             "time": "7:00 PM",
             "emoji": "🚕",
             "name": "Head to Newark",
-            "tip": "Uber recommended · ~$50–70 · Or NJ Transit from Penn Station",
+            "tip": "Uber recommended · Short ride from Jersey City",
             "lat": 40.6895,
             "lng": -74.1745,
-            "desc": "Allow ~1–1.5 hours to Newark Liberty Airport from NoHo. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM."
+            "desc": "Allow ~1–1.5 hours to Newark Liberty Airport from Jersey City. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM."
           }
         ],
         "stays": [
