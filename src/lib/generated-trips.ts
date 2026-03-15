@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 37
+      "stops": 24
     },
     "days": {
       "1": {
@@ -629,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · 5th Ave · Rockefeller · LEGO Store · Grand Central · Central Park · MET · Gossip Girl · Guggenheim · Greenwich Village · Friends Apartment · Comedy Cellar · Times Square",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -693,7 +693,7 @@ export const TRIPS: TripData[] = [
             "desc": "Elevated rail converted to a linear park. Walk from Meatpacking north to Hudson Yards. ~1.5 miles."
           },
           {
-            "time": "11:45 AM",
+            "time": "10:20 AM",
             "emoji": "☁️",
             "name": "The Edge, Hudson Yards",
             "tip": "🎟 Book ahead · Midday light is excellent",
@@ -711,50 +711,39 @@ export const TRIPS: TripData[] = [
             "desc": "100 floors up, glass-floored outdoor deck. Better than One World Trade — you see all the iconic buildings."
           },
           {
-            "time": "12:15 PM",
+            "time": "10:40 AM",
             "emoji": "📺",
             "name": "How I Met Your Mother — McGee's Pub",
-            "tip": "Quick drink or photo · Right in Midtown",
+            "tip": "Quick drink or photo · Right in Midtown · Short walk to MoMA",
             "lat": 40.7642,
             "lng": -73.9814,
             "tag": "TV Spot",
             "desc": "The real-life bar that inspired MacLaren's Pub. 240 W 55th St in Midtown. The interior is decorated with HIMYM memorabilia — booth seating, show posters, and themed cocktails."
           },
           {
-            "time": "1:00 PM",
-            "emoji": "🛍",
-            "name": "5th Avenue Shops",
-            "tip": "Window shopping is free · Short walk from McGee's",
-            "lat": 40.7564,
-            "lng": -73.9782,
+            "time": "11:00 AM",
+            "emoji": "🎨",
+            "name": "Museum of Modern Art (MoMA)",
+            "tip": "Free on Friday evenings · Right next to Rockefeller Center",
+            "lat": 40.7614,
+            "lng": -73.9776,
             "suggestedBy": "Ritwik",
-            "tag": "Shopping",
-            "desc": "Iconic shopping strip — Saks, Tiffany's, Bergdorf Goodman, Apple Store. Walk north toward midtown."
+            "tag": "Museum",
+            "desc": "Starry Night, Warhols, Picasso. One of the world's greatest modern art collections."
           },
           {
-            "time": "4:30 PM",
+            "time": "12:15 PM",
             "emoji": "🏙",
-            "name": "Rockefeller Center",
-            "tip": "Combine with 5th Ave — all walkable",
+            "name": "Rockefeller Center & LEGO Store",
+            "tip": "Great for souvenirs · All walkable from MoMA",
             "lat": 40.7587,
             "lng": -73.9787,
-            "suggestedBy": "Ritwik",
+            "suggestedBy": "Ritwik, Suprabho",
             "tag": "Landmark",
-            "desc": "Art Deco complex with Top of the Rock observation deck. Ice skating rink in winter, NBC Studios."
+            "desc": "Art Deco complex with Top of the Rock observation deck. The flagship LEGO Store at 30 Rockefeller Plaza — massive NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and Mosaic Maker."
           },
           {
-            "time": "4:45 PM",
-            "emoji": "🧱",
-            "name": "The LEGO Store — Rockefeller Center",
-            "tip": "Right inside Rockefeller Center · Great for souvenirs",
-            "lat": 40.759,
-            "lng": -73.9787,
-            "suggestedBy": "Suprabho",
-            "tag": "Shopping",
-            "desc": "The flagship LEGO Store at 30 Rockefeller Plaza — massive space with floor-to-ceiling NYC-themed LEGO builds, Build-a-Minifigure, Pick-a-Brick wall, and a Mosaic Maker that turns your photo into a LEGO portrait."
-          },
-          {
-            "time": "5:00 PM",
+            "time": "1:15 PM",
             "emoji": "🚂",
             "name": "Grand Central Terminal",
             "tip": "📍 5-min walk from Rockefeller Center · Free to enter · Look up at the celestial ceiling mural",
@@ -765,18 +754,7 @@ export const TRIPS: TripData[] = [
             "desc": "Beaux-Arts masterpiece — the main concourse ceiling is one of NYC's great interiors. The Whispering Gallery and the Oyster Bar downstairs are worth a detour."
           },
           {
-            "time": "5:30 PM",
-            "emoji": "🌿",
-            "name": "Central Park",
-            "tip": "👟 Enter at 59th St, walk north — naturally routes you toward the museums",
-            "lat": 40.7826,
-            "lng": -73.9656,
-            "suggestedBy": "Srayana, Ritwik",
-            "tag": "Park",
-            "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
-          },
-          {
-            "time": "6:00 PM",
+            "time": "2:30 PM",
             "emoji": "🎨",
             "name": "The Metropolitan Museum of Art",
             "tip": "🗺 Grab a floor map · Closed Wednesdays",
@@ -798,7 +776,7 @@ export const TRIPS: TripData[] = [
             "desc": "Plan 2 hours. Egyptian wing, European paintings, Greek sculpture. Pick 2–3 sections and go deep."
           },
           {
-            "time": "6:30 PM",
+            "time": "4:30 PM",
             "emoji": "🖼",
             "name": "Guggenheim Museum",
             "tip": "Walk the spiral from top down · 5-min walk from MET",
@@ -809,86 +787,15 @@ export const TRIPS: TripData[] = [
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
-            "time": "6:45 PM",
-            "emoji": "📺",
-            "name": "Gossip Girl — Blair Waldorf's Building",
-            "tip": "Just the exterior · Steps from the MET entrance · Photo op only",
-            "lat": 40.7838,
-            "lng": -73.9613,
-            "tag": "TV Spot",
-            "desc": "The iconic Upper East Side building used as Blair Waldorf's residence in *Gossip Girl*. 1136 5th Ave, right by the MET. XOXO."
-          },
-          {
-            "time": "7:00 PM",
-            "emoji": "☕",
-            "name": "Coffee — Upper East Side",
-            "tip": "Lots of great spots nearby",
-            "lat": 40.7771,
-            "lng": -73.959,
-            "suggestedBy": "Suprabho",
-            "tag": "Break",
-            "desc": "Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown."
-          },
-          {
-            "time": "7:30 PM",
-            "emoji": "🎨",
-            "name": "Museum of Modern Art (MoMA)",
-            "tip": "Free on Friday evenings · Right next to Rockefeller Center",
-            "lat": 40.7614,
-            "lng": -73.9776,
-            "suggestedBy": "Ritwik",
-            "tag": "Museum",
-            "desc": "Starry Night, Warhols, Picasso. One of the world's greatest modern art collections."
-          },
-          {
-            "time": "9:30 PM",
-            "emoji": "🌃",
-            "name": "Times Square at Night",
-            "tip": "🌙 Night only — don't bother during the day · 5-min walk from MoMA · Don't linger too long",
-            "lat": 40.758,
-            "lng": -73.9855,
-            "suggestedBy": "Ritwik",
-            "tag": "Evening",
-            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough."
-          },
-          {
-            "time": "10:00 PM",
-            "emoji": "🚶",
-            "name": "Greenwich Village Walk",
-            "tip": "Subway from Times Square to W 4th St · No agenda needed, just wander",
-            "lat": 40.7336,
-            "lng": -74.0027,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in."
-          },
-          {
-            "time": "10:30 PM",
-            "emoji": "📺",
-            "name": "Friends Apartment — 90 Bedford St",
-            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
-            "lat": 40.7324,
-            "lng": -74.0036,
-            "tag": "TV Spot",
-            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
-          },
-          {
-            "time": "11:00 PM",
-            "emoji": "🎤",
-            "name": "Comedy Cellar (Optional)",
-            "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability",
-            "lat": 40.73,
-            "lng": -74.0005,
-            "suggestedBy": "Suprabho",
-            "tag": "Entertainment",
-            "todos": [
-              {
-                "note": "Book Comedy Cellar tickets",
-                "done": false,
-                "link": "https://www.comedycellar.com"
-              }
-            ],
-            "desc": "One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast. ## Bonus Suggestions"
+            "time": "5:30 PM",
+            "emoji": "🌿",
+            "name": "Central Park",
+            "tip": "👟 Walk south through the park toward Midtown",
+            "lat": 40.7826,
+            "lng": -73.9656,
+            "suggestedBy": "Srayana, Ritwik",
+            "tag": "Park",
+            "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields. ## Bonus Suggestions"
           }
         ],
         "stays": [
@@ -902,90 +809,32 @@ export const TRIPS: TripData[] = [
       "4": {
         "label": "Day 4 · Departure",
         "title": "Departure",
-        "subtitle": "Brunch · Magnolia Bakery (SATC) · Mrs. Maisel's Gaslight · West Village · Joe's Pizza · Tribeca · Newark",
+        "subtitle": "Lokesh-Anupriya's Place · Newark",
         "color": "#666",
         "center": [
-          40.724,
-          -73.999
+          40.7178,
+          -74.0387
         ],
         "zoom": 13,
         "stops": [
           {
-            "time": "9:00 AM",
-            "emoji": "☕",
-            "name": "Slow Brunch — NoHo / SoHo",
-            "tip": "No rush · Balthazar (80 Spring St) is a 10-min walk · Great people-watching on a Sunday morning",
-            "lat": 40.7228,
-            "lng": -73.9985,
-            "suggestedBy": "Suprabho",
-            "desc": "Take it easy on the last morning. The neighbourhood has great brunch spots — Balthazar on Spring St is a classic, or just grab a coffee and pastry from a local café."
-          },
-          {
-            "time": "10:00 AM",
-            "emoji": "📺",
-            "name": "Magnolia Bakery — Sex and the City",
-            "tip": "Try the banana pudding, not just cupcakes · Right in the West Village wander route",
-            "lat": 40.7359,
-            "lng": -74.0044,
-            "tag": "TV Spot",
-            "desc": "The bakery made famous by Carrie and Miranda's cupcake scene in *Sex and the City*. 401 Bleecker St in the West Village. The banana pudding is actually the must-try."
-          },
-          {
-            "time": "10:15 AM",
-            "emoji": "📺",
-            "name": "The Marvelous Mrs. Maisel — Gaslight Cafe",
-            "tip": "The Gaslight no longer exists, but the block is a comedy landmark · Grab a coffee at Café Reggio next door",
-            "lat": 40.7303,
-            "lng": -74.0003,
-            "tag": "TV Spot",
-            "desc": "The legendary Greenwich Village comedy club where Midge Maisel launched her stand-up career. The original Gaslight at 116 MacDougal St is gone, but the block still radiates that Village comedy-club energy — Café Wha? and Comedy Cellar are steps away."
-          },
-          {
-            "time": "10:30 AM",
-            "emoji": "🚶",
-            "name": "West Village Wander",
-            "tip": "Wander Hudson St and Jane St · No destination needed · Pick up any last-minute souvenirs",
-            "lat": 40.7337,
-            "lng": -74.007,
-            "suggestedBy": "Suprabho",
-            "desc": "The quietest, most charming corner of downtown Manhattan — tree-lined streets, old townhouses, great independent shops. Perfect for a last slow walk before flying out."
-          },
-          {
-            "time": "12:30 PM",
-            "emoji": "🍕",
-            "name": "Joe's Pizza, Carmine St",
-            "tip": "💵 Cash only · ATM right outside · 5-min walk from West Village",
-            "lat": 40.7307,
-            "lng": -74.0022,
-            "suggestedBy": "Srayana",
-            "tag": "Food",
-            "todos": [
-              {
-                "note": "Withdraw cash from ATM before going",
-                "done": false
-              }
-            ],
-            "desc": "The NYC slice. Thin, foldable, perfectly charred. Cash only. Alternates: Prince St, Bleecker St Pizza."
-          },
-          {
-            "time": "1:30 PM",
-            "emoji": "🌙",
-            "name": "Tribeca Walk",
-            "tip": "Walk south from the Village · 10-min from NoHo",
-            "lat": 40.7163,
-            "lng": -74.0086,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "Cobblestone streets, cast-iron warehouses, gallery fronts. Artsy, old-money downtown energy — a completely different vibe from Midtown. Best experienced on foot during golden afternoon light."
+            "time": "12:00 PM",
+            "emoji": "🏠",
+            "name": "Lokesh-Anupriya's Place",
+            "tip": "PATH train from Manhattan or Uber across the river",
+            "lat": 40.7178,
+            "lng": -74.0387,
+            "tag": "Visit",
+            "desc": "444 Washington Blvd, Apt 5341, Jersey City."
           },
           {
             "time": "7:00 PM",
             "emoji": "🚕",
             "name": "Head to Newark",
-            "tip": "Uber recommended · ~$50–70 · Or NJ Transit from Penn Station",
+            "tip": "Uber recommended · Short ride from Jersey City",
             "lat": 40.6895,
             "lng": -74.1745,
-            "desc": "Allow ~1–1.5 hours to Newark Liberty Airport from NoHo. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM."
+            "desc": "Allow ~1–1.5 hours to Newark Liberty Airport from Jersey City. For a 9:50 PM international flight, aim to be at the airport by 7:30–8:00 PM."
           }
         ],
         "stays": [
