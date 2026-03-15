@@ -451,7 +451,7 @@ export const TRIPS: TripData[] = [
       "endDate": "2026-03-15",
       "color": "#c94f2c",
       "days": 4,
-      "stops": 34
+      "stops": 29
     },
     "days": {
       "1": {
@@ -629,7 +629,7 @@ export const TRIPS: TripData[] = [
       "3": {
         "label": "Day 3 · Full Day",
         "title": "Brooklyn Morning → West Side Midtown → Uptown Museums",
-        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar",
+        "subtitle": "Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park",
         "color": "#2ca068",
         "center": [
           40.76,
@@ -787,18 +787,7 @@ export const TRIPS: TripData[] = [
             "desc": "Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East Side."
           },
           {
-            "time": "5:00 PM",
-            "emoji": "☕",
-            "name": "Coffee — Upper East Side",
-            "tip": "Lots of great spots nearby",
-            "lat": 40.7771,
-            "lng": -73.959,
-            "suggestedBy": "Suprabho",
-            "tag": "Break",
-            "desc": "Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown."
-          },
-          {
-            "time": "5:45 PM",
+            "time": "5:30 PM",
             "emoji": "🌿",
             "name": "Central Park",
             "tip": "👟 Walk south through the park toward Midtown",
@@ -806,57 +795,7 @@ export const TRIPS: TripData[] = [
             "lng": -73.9656,
             "suggestedBy": "Srayana, Ritwik",
             "tag": "Park",
-            "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields."
-          },
-          {
-            "time": "7:00 PM",
-            "emoji": "🌃",
-            "name": "Times Square at Night",
-            "tip": "🌙 Night only — don't bother during the day · Don't linger too long",
-            "lat": 40.758,
-            "lng": -73.9855,
-            "suggestedBy": "Ritwik",
-            "tag": "Evening",
-            "desc": "NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough."
-          },
-          {
-            "time": "8:00 PM",
-            "emoji": "🚶",
-            "name": "Greenwich Village Walk",
-            "tip": "Subway from Times Square to W 4th St · No agenda needed, just wander",
-            "lat": 40.7336,
-            "lng": -74.0027,
-            "suggestedBy": "Suprabho, Srayana",
-            "tag": "Neighbourhood",
-            "desc": "NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in."
-          },
-          {
-            "time": "8:30 PM",
-            "emoji": "📺",
-            "name": "Friends Apartment — 90 Bedford St",
-            "tip": "Just the exterior — it's a private residence · 5-min walk from Greenwich Village",
-            "lat": 40.7324,
-            "lng": -74.0036,
-            "tag": "TV Spot",
-            "desc": "The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does."
-          },
-          {
-            "time": "9:00 PM",
-            "emoji": "🎤",
-            "name": "Comedy Cellar (Optional)",
-            "tip": "🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability",
-            "lat": 40.73,
-            "lng": -74.0005,
-            "suggestedBy": "Suprabho",
-            "tag": "Entertainment",
-            "todos": [
-              {
-                "note": "Book Comedy Cellar tickets",
-                "done": false,
-                "link": "https://www.comedycellar.com"
-              }
-            ],
-            "desc": "One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast. ## Bonus Suggestions"
+            "desc": "843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields. ## Bonus Suggestions"
           }
         ],
         "stays": [

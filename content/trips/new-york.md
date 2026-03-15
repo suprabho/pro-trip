@@ -94,7 +94,7 @@ The world's most famous arena — home of the Knicks and Rangers. Even if there'
 
 ## Day 3: Brooklyn Morning → West Side Midtown → Uptown Museums
 <!-- label: Day 3 · Full Day -->
-<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park · Times Square · Greenwich Village · Friends Apartment · Comedy Cellar -->
+<!-- subtitle: Brooklyn Bridge · DUMBO · Gleasons Gym · Katz's Deli · High Line · The Edge · McGee's Pub (HIMYM) · MoMA · Rockefeller · LEGO Store · Grand Central · MET · Guggenheim · Central Park -->
 <!-- color: #2ca068 -->
 <!-- center: 40.760, -73.982 -->
 <!-- zoom: 12 -->
@@ -188,47 +188,12 @@ Frank Lloyd Wright's spiral masterpiece. Right next to the MET on the Upper East
 <!-- suggestedBy: Ritwik -->
 <!-- tag: Museum -->
 
-### 5:00 PM | ☕ | Coffee — Upper East Side
-Rest your feet after the museums. Great cafés on Madison Ave around 82nd–86th before heading downtown.
-> Tip: Lots of great spots nearby
-<!-- location: 40.7771, -73.9590 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Break -->
-
-### 5:45 PM | 🌿 | Central Park
+### 5:30 PM | 🌿 | Central Park
 843 acres of green in the most vertical city. Bethesda Terrace, the Reservoir, Strawberry Fields.
 > Tip: 👟 Walk south through the park toward Midtown
 <!-- location: 40.7826, -73.9656 -->
 <!-- suggestedBy: Srayana, Ritwik -->
 <!-- tag: Park -->
-
-### 7:00 PM | 🌃 | Times Square at Night
-NYC's most iconic intersection — bright lights, billboards, pure chaos. Can be overwhelming, but at night the energy is genuinely something. Quick walk-through is enough.
-> Tip: 🌙 Night only — don't bother during the day · Don't linger too long
-<!-- location: 40.7580, -73.9855 -->
-<!-- suggestedBy: Ritwik -->
-<!-- tag: Evening -->
-
-### 8:00 PM | 🚶 | Greenwich Village Walk
-NYC's most human-scaled neighbourhood — brownstones, indie bookshops, jazz bars. Just walk and soak it in.
-> Tip: Subway from Times Square to W 4th St · No agenda needed, just wander
-<!-- location: 40.7336, -74.0027 -->
-<!-- suggestedBy: Suprabho, Srayana -->
-<!-- tag: Neighbourhood -->
-
-### 8:30 PM | 📺 | Friends Apartment — 90 Bedford St
-The exterior of Monica and Rachel's apartment from *Friends*. The iconic building at 90 Bedford St, corner of Grove St in the West Village. Snap a photo — everyone does.
-> Tip: Just the exterior — it's a private residence · 5-min walk from Greenwich Village
-<!-- location: 40.7324, -74.0036 -->
-<!-- tag: TV Spot -->
-
-### 9:00 PM | 🎤 | Comedy Cellar (Optional)
-One of NYC's most legendary comedy clubs, right in the Village. Saturday nights are prime — regulars and surprise drop-ins from big names. Book ahead, it fills fast.
-> Tip: 🎟 Reserve online in advance · 117 MacDougal St · Drinks required (2-item min) · ~90 min show · Check late show availability
-<!-- location: 40.7300, -74.0005 -->
-<!-- suggestedBy: Suprabho -->
-<!-- tag: Entertainment -->
-- [ ] Book Comedy Cellar tickets | https://www.comedycellar.com
 
 ## Bonus Suggestions
 <!-- label: Bonus · Optional -->
